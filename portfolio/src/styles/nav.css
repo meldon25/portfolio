@@ -1,0 +1,50 @@
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 66em;
+}
+
+.nav .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.nav .nav-list li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 38px;
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav .nav-list li p {
+  color: #31C5E8;
+  font-weight: bold;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  margin-right: 5px;
+}
+
+.nav .resume-button {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 30px;
+  border-color: #393939;
+  background-color: white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  width: 5em;
+  height: 2.6em;
+  border-width: 2px;
+}
+/*# sourceMappingURL=nav.css.map */
