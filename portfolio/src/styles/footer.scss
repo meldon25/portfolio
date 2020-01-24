@@ -1,0 +1,28 @@
+.footer-cont {
+    position: fixed;
+    display: inline;
+    bottom: 0;
+}
+.icons {
+    display: inline-flex;
+    flex-direction: column;
+}
+.icons img {
+    margin-bottom: 20px;
+    margin-left: 32px;
+    width: 30px;
+    height: 28px;
+}
+.vl {
+    border-left: 4px solid black;
+    height: 200px;
+    position: relative;
+    left: 3.5%;
+    margin-left: 43px;
+    bottom: 0;
+}
+.bottom-text {
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    margin-left: 40%;
+}

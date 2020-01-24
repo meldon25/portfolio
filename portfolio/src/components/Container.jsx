@@ -1,7 +1,12 @@
 import React from 'react'
 import Nav from '../shared/Nav'
 import Hero from '../shared/Hero'
+import Work from '../shared/Work'
 import About from '../shared/About'
+import Languages from '../shared/Languages'
+import Contact from '../shared/Contact'
+import Footer from '../shared/Footer'
+
 
 class Container extends React.Component {
     constructor() {
@@ -12,7 +17,11 @@ class Container extends React.Component {
             <>
             <Nav />
             <Hero />
+            <Work />
             <About />
+            <Languages />
+            <Contact />
+            <Footer />
             </>
         )
     }

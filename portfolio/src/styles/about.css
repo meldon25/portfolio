@@ -1,78 +1,75 @@
 .about-container {
   font-family: 'Open Sans', sans-serif;
-  margin-left: 140px;
+  margin-left: 80px;
   margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.about-container .about-tab {
-  color: #31C5E8;
+.about-tab {
+  color: #DF1016;
+  margin-left: 80px;
+  margin-top: 70px;
 }
 
 .about-container .about-desc {
-  padding-right: 22em;
   font-size: 18px;
   line-height: 30px;
 }
 
-.about-container .skills {
-  font-size: 18px;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.about-container .skill-bar {
-  font-size: 18px;
-}
-
-.about-container .left-skills {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  list-style-type: none;
-  -webkit-padding-start: 0;
-          padding-inline-start: 0;
-}
-
-.about-container .right-skills {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  list-style-type: none;
-  margin-left: 80px;
-}
-
 .about-container .photo-box img {
-  height: 18em;
-  width: 26em;
+  height: 26em;
+  width: 20em;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 55px;
 }
 
-.about-container .photo-box .box {
-  border-color: red;
-  width: 30em;
-  height: 18em;
+.about-container .right-side .box {
+  margin-top: 30px;
+  margin-left: 25px;
+  background-color: #DF1016;
+  opacity: 75%;
+  height: 26em;
+  width: 20em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: absolute;
 }
 
-.about-container .arrow {
-  width: 0;
-  height: 0;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #31C5E8;
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  margin-right: 15px;
+.line-2 {
+  background-color: black;
+  width: 75%;
+  height: 3px;
+  margin-left: 165px;
+  margin-top: -20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about-container .left-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+}
+
+.about-container .left-side .about-desc {
+  margin-left: 80px;
+  padding-top: 140px;
+  line-height: 30px;
+}
+
+.about-container .right-side {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 55%;
+  margin-left: 300px;
 }
 /*# sourceMappingURL=about.css.map */

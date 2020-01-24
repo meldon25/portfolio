@@ -2,14 +2,32 @@ import React from 'react'
 import '../styles/hero.css'
 
 function Hero() {
-    return (
-        <div className ='hero'>
-        <h3 className='hero-title'>Hi, my name is</h3>
-        <h1 className='hero-name'>Melissa Donegan.</h1>
-        <h1 className='hero-intro'>I build things for the web.</h1>
-        <p className='description-hero'>I am a NYC-based software engineer specializing in building and designing exceptional and efficient websites. </p>
-        <button className="contact-button">Get In Touch</button> 
+  return (
+    <div className="hero-hero">
+      <div className="name-cont">
+        <p className="name-intro">Hello I am<p className="name">Melissa Donegan</p></p>
+      </div>
+      <div className='hero'>
+        <div className="hero-container">
+          <p className="hero-container-text">
+            I'm also...
+        </p>
+          <ul className="hero-container-list">
+            <li class="hero-container-list-item">a full-stack developer</li>
+            <li class="hero-container-list-item">a CSS whiz</li>
+            <li class="hero-container-list-item">ready for the job!</li>
+          </ul>
         </div>
-    )
+      </div>
+      <div className="contact-button-cont">
+        <button className="contact-button">Get In Touch</button>
+      </div>
+      <div class="scroll-downs">
+        <div class="mousey">
+          <div class="scroller"></div>
+        </div>
+      </div>
+    </div>
+  )
 }
 export default Hero

@@ -2,15 +2,26 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 66em;
+  font-family: 'Open Sans', sans-serif;
+  -webkit-box-shadow: 1px;
+          box-shadow: 1px;
+  background-color: white;
+  border: 1px solid lightgrey;
+  position: fixed;
+  top: 0;
 }
 
 .nav .nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  list-style-type: none;
-  text-decoration: none;
+}
+
+.nav .nav-name {
+  display: inline;
+  padding-top: 10px;
+  margin-left: 40px;
+  margin-right: 31em;
 }
 
 .nav .nav-list li {
@@ -24,8 +35,20 @@
   font-family: 'Open Sans', sans-serif;
 }
 
+.nav .nav-list a {
+  color: #393939;
+  text-decoration: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  cursor: pointer;
+}
+
 .nav .nav-list li p {
-  color: #31C5E8;
+  color: #DF1016;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   font-weight: bold;
   -webkit-margin-before: 0;
           margin-block-start: 0;
@@ -37,6 +60,7 @@
   display: -ms-flexbox;
   display: flex;
   margin-left: 40px;
+  margin-right: 80px;
   margin-top: 30px;
   border-color: #393939;
   background-color: white;
@@ -46,5 +70,13 @@
   width: 5em;
   height: 2.6em;
   border-width: 2px;
+  -webkit-box-shadow: 1px 1px 1px 0px;
+          box-shadow: 1px 1px 1px 0px;
+}
+
+.nav .resume-button a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
 }
 /*# sourceMappingURL=nav.css.map */
