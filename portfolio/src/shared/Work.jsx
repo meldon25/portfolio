@@ -17,7 +17,7 @@ class Work extends Component {
         <div class="card">
             <input type="checkbox" id="card1" class="more" aria-hidden="true" />
             <div class="content">
-                <div class="front" src='https://i.imgur.com/fwn5XA0.mp4'>
+                <div class="front">
                     <div class="inner">
                         <h2>Rouge</h2>
                         <label for="card1" class="button" aria-hidden="true">
