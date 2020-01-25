@@ -4,6 +4,7 @@ import '../styles/hero.css'
 function Hero() {
   return (
     <div className="hero-hero">
+      <img src="" />
       <div className="name-cont">
         <p className="name-intro">Hello I am<p className="name">Melissa Donegan</p></p>
       </div>

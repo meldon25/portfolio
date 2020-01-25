@@ -4,6 +4,14 @@ $accent-color: #355cc9;
 	box-sizing: border-box;
 }
 
+.line-1 {
+	background-color: black;
+    width: 75%;
+    height: 3px;
+    margin-left: 80px;
+    margin-top: 16px;
+    display: flex;
+}
 .cont-cont {
 	margin: 0;
 	display: flex;

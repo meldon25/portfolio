@@ -12,6 +12,7 @@
 }
 .nav .nav-name {
     display: inline;
+    color: #DF1016;
     padding-top: 10px;
     margin-left: 40px;
     margin-right: 31em;
@@ -35,7 +36,7 @@
     display: flex;
     font-weight: bold;
     margin-block-start: 0; 
-    margin-right: 5px;
+    margin-right: 10px;
 }
 .nav .resume-button {
     display: flex;
@@ -50,7 +51,7 @@
     width: 5em;
     height: 2.6em;
     border-width: 2px;
-    box-shadow: 1px 1px 1px 0px;
+    box-shadow: 1px 1px 0px 0px;
 }
 .nav .resume-button a {
     text-decoration: none;

@@ -10,6 +10,9 @@
   font-size: 30px;
   font-weight: bold;
   margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .contact-cont .contact-git {
@@ -41,10 +44,16 @@
   background-color: black;
   width: 75%;
   height: 3px;
-  margin-left: 165px;
-  margin-top: -20px;
+  margin-left: 90px;
+  margin-top: 16px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.contnum {
+  color: black;
+  margin-right: 15px;
+  margin-top: 0;
 }
 /*# sourceMappingURL=contact.css.map */

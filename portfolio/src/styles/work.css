@@ -3,6 +3,17 @@
           box-sizing: border-box;
 }
 
+.line-1 {
+  background-color: black;
+  width: 75%;
+  height: 3px;
+  margin-left: 80px;
+  margin-top: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .cont-cont {
   margin: 0;
   display: -webkit-box;

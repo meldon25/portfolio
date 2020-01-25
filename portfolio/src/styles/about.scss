@@ -8,6 +8,7 @@
     color: #DF1016;
     margin-left: 80px;
     margin-top: 70px;
+    display: flex;
 }
 .about-container .about-desc {
     // padding-right: 7em;
@@ -26,7 +27,6 @@
 }
 
 .about-container .right-side .box {
-    // margin-right: 140px;
     margin-top: 30px;
     margin-left: 25px;
     background-color: #DF1016;
@@ -40,8 +40,8 @@
     background-color: black;
     width: 75%;
     height: 3px;
-    margin-left: 165px;
-    margin-top: -20px;
+    margin-left: 90px;
+    margin-top: 15px;
     display: flex;
 }
 .about-container .left-side {
@@ -57,5 +57,10 @@
     display: flex;
     width: 55%;
     margin-left: 300px;
+}
+.contnum {
+    color: black;
+    margin-right: 15px;
+    margin-top: 0;
 }
 

@@ -11,6 +11,9 @@
   color: #DF1016;
   margin-left: 80px;
   margin-top: 70px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .about-container .about-desc {
@@ -45,8 +48,8 @@
   background-color: black;
   width: 75%;
   height: 3px;
-  margin-left: 165px;
-  margin-top: -20px;
+  margin-left: 90px;
+  margin-top: 15px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -71,5 +74,11 @@
   display: flex;
   width: 55%;
   margin-left: 300px;
+}
+
+.contnum {
+  color: black;
+  margin-right: 15px;
+  margin-top: 0;
 }
 /*# sourceMappingURL=about.css.map */
