@@ -11,13 +11,20 @@
 }
 
 .hero-hero .header-img {
+  position: absolute;
   width: 100%;
   background-size: cover;
-  height: 875px;
+  height: 725px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .name-cont {
-  margin-top: 245px;
+  margin-top: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .name-intro {
@@ -26,7 +33,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 70px;
+  margin-top: 175px;
 }
 
 .name-intro .name {
@@ -181,10 +188,11 @@
   border-width: 3px;
   -webkit-box-shadow: 1px 0px 1px 0px;
           box-shadow: 1px 0px 1px 0px;
-  background-color: white;
+  background-color: transparent;
   color: #DF1016;
   font-size: 22px;
   font-weight: bold;
+  position: relative;
   height: 60px;
   width: 180px;
   margin-bottom: 90px;
