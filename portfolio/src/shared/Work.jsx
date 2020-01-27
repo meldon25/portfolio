@@ -22,8 +22,9 @@ class Work extends Component {
 							<h1>Rouge</h1>
 							<p>Rouge is a women's e-commerce based store that is built with React and Ruby on Rails.</p>
 							<p>Languages used:</p>
-							<p>React</p>
-							<p>Ruby on Rails</p>
+							<img src="https://i.imgur.com/WO07Gq3.png" />
+							<img src="https://i.imgur.com/BgrE303.png" />
+							<img src="https://i.imgur.com/a9y93DK.png" />
 							<div className="button-cont">
 							<button className="link-button" disabled='disabled'>Stay Tuned</button>
 							<form action="https://github.com/meldon25/project-5">
@@ -37,8 +38,8 @@ class Work extends Component {
 							<h1>In A Pinch</h1>
 							<p>In A Pinch is a React app that was a collaboration with UX designers. We adhered to a Zeplin design and built out functionality for the app.</p>
 							<p>Languages used:</p>
-							<p>React</p>
-							<p>CSS</p>
+							<img src="https://i.imgur.com/WO07Gq3.png" />
+							<img src="https://i.imgur.com/a9y93DK.png" />
 							<div className="button-cont">
 							<form action="https://inapinch.surge.sh">
 							<button className="link-button">Live Link</button>
@@ -61,6 +62,8 @@ class Work extends Component {
 							<p>Etoile is a React app that is based off of an e-commerce website.</p>
 							<p>Languages used:</p>
 							<p>React</p>
+							<img src="https://i.imgur.com/WO07Gq3.png" />
+							<img src="https://i.imgur.com/a9y93DK.png" />
 							<p>API</p>
 							<div className="button-cont">
 							<form action="https://etoile.surge.sh">
