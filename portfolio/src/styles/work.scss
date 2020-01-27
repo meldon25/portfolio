@@ -1,4 +1,6 @@
-
+* {
+	font-family: 'Open Sans', sans-serif;
+}
 .line-1 {
 	background-color: black;
     width: 75%;
@@ -15,13 +17,13 @@
 .cont-cont .project-1 {
 	display: flex;
 	width: 90%;
-	height: 550px;
+	height: 450px;
 	margin-left: 80px;
 }
 .cont-cont .project-2 {
 	display: flex;
 	width: 90%;
-	height: 600px;
+	height: 550px;
 	margin-left: 80px;
 }
 
@@ -57,6 +59,10 @@
 }
 .cont-cont .project-3 .project-3-desc {
 	margin-left: 50px;
+}
+
+.button-cont {
+	display: flex;
 }
 .github-button {
 	border: 3px solid red;
