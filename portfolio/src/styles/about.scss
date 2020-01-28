@@ -6,7 +6,7 @@
 .about-tab {
     color: #DF1016;
     margin-left: 80px;
-    margin-top: 70px;
+    margin-block-start: 0;
     display: flex;
 }
 .about-container .about-desc {
@@ -29,7 +29,7 @@
     margin-top: 30px;
     margin-left: 25px;
     background-color: #DF1016;
-    opacity: 90%;
+    opacity: 95%;
     height: 26em;
     width: 20em;
     display: flex;

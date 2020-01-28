@@ -66,9 +66,10 @@ class Work extends Component {
             </div>
             <div className="project-3-desc">
               <h1 className="etoile-title">Etoile</h1>
-              <p>Etoile is an e-commerce website built with React.</p>
-              <p></p>
-              <p className="languages-bar">Languages used:</p>
+              <p>Etoile is my first e-commerce website built with React.</p>
+              <p>It contains mock API data and a Google API on the 'Shop' page for store locations.</p>
+              <p>It also contains hand-rolled authentication.</p>
+              <p className="languages-bar">Languages & Frameworks used:</p>
               <div className="icon-cont">
                 <p><img src="https://i.imgur.com/WO07Gq3.png" /></p>
                 <img className='css-icon' src="https://i.imgur.com/a9y93DK.png" />
