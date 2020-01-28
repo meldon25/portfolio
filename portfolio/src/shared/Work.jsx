@@ -67,8 +67,7 @@ class Work extends Component {
 							<p>Languages used:</p>
 							<div className="icon-cont">
 							<p><img src="https://i.imgur.com/WO07Gq3.png" /></p>
-							<img src="https://i.imgur.com/a9y93DK.png" />
-							<p>API</p>
+							<img className='css-icon' src="https://i.imgur.com/a9y93DK.png" />
 							</div>
 							<div className="button-cont">
 							<form action="https://etoile.surge.sh">
