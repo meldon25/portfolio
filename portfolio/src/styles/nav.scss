@@ -5,7 +5,9 @@
     border: 1px solid lightgrey; 
     position: fixed;
     top: 0;
+    height: 115px;
     width: 100%;
+    z-index: 1;
 }
 .nav .nav-list {
     display: flex;
@@ -14,16 +16,16 @@
     display: inline;
     color: #DF1016;
     font-weight: 200;
-    font-size: 40px;
+    font-size: 45px;
     font-family: 'Monoton', cursive;
     margin-left: 40px;
-    margin-right: 24em;
+    margin-right: 22em;
 }
 .nav .nav-list li {
     display: flex;
     margin-left: 38px;
-    margin-top: 25px;
-    font-size: 18px;
+    margin-top: 27px;
+    font-size: 20px;
     font-weight: 600;
     font-family: 'Open Sans', sans-serif;
 }
