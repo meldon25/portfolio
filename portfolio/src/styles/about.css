@@ -9,6 +9,7 @@
 .about-tab {
   color: #DF1016;
   margin-left: 80px;
+  margin-top: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

@@ -21,7 +21,7 @@
 }
 
 .name-cont {
-  margin-top: 100px;
+  margin-top: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,7 +180,8 @@
 
 .tact-button-cont {
   margin-left: 44.3em;
-  margin-top: 12em;
+  margin-top: 13em;
+  margin-bottom: 9.2em;
 }
 
 .tact-button {

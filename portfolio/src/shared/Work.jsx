@@ -23,7 +23,7 @@ class Work extends Component {
               <p>Rouge is an e-commerce store that is built with React and Ruby on Rails.</p>
               <p>Rouge has full CRUD capabilities with a built-out wishlist.</p>
               <p>Also includes authorization built with Rails.</p>
-              <p className="languages-bar">Languages & Frameworks used:</p>
+              <p className="languages-bar">Languages & Frameworks:</p>
               <div className="icon-cont">
                 <img src="https://i.imgur.com/WO07Gq3.png" />
                 <img src="https://i.imgur.com/BgrE303.png" />
@@ -42,7 +42,7 @@ class Work extends Component {
               <h1 className="pinch-title">In A Pinch</h1>
               <p>In A Pinch is a React app that was built during a collaboration with UX designers.</p>
               <p>The website adhered to a Zeplin design and went through various usability tests.</p>
-              <p className="languages-bar">Languages & Frameworks used:</p>
+              <p className="languages-bar">Languages & Frameworks:</p>
               <div className="icon-cont">
                 <img src="https://i.imgur.com/WO07Gq3.png" />
                 <img src="https://i.imgur.com/a9y93DK.png" />
@@ -69,7 +69,7 @@ class Work extends Component {
               <p>Etoile is my first e-commerce website built with React.</p>
               <p>It contains mock API data and a Google API on the 'Shop' page for store locations.</p>
               <p>It also contains hand-rolled authentication.</p>
-              <p className="languages-bar">Languages & Frameworks used:</p>
+              <p className="languages-bar">Languages & Frameworks:</p>
               <div className="icon-cont">
                 <p><img src="https://i.imgur.com/WO07Gq3.png" /></p>
                 <img className='css-icon' src="https://i.imgur.com/a9y93DK.png" />
