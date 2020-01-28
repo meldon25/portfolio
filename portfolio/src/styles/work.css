@@ -28,7 +28,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  height: 450px;
+  height: 440px;
   margin-left: 80px;
 }
 
@@ -37,7 +37,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  height: 550px;
+  height: 540px;
   margin-left: 80px;
 }
 
@@ -66,13 +66,25 @@
 }
 
 .cont-cont .project-3 .project-3-img img {
-  width: 925px;
-  height: 600px;
+  width: 800px;
+  height: 500px;
   border: 2px solid black;
 }
 
 .cont-cont .project-1 .project-1-desc {
   margin-left: 50px;
+}
+
+.cont-cont .project-1 .project-1-desc .rouge-title {
+  margin-top: 60px;
+}
+
+.cont-cont .project-2 .project-2-desc .pinch-title {
+  margin-top: 130px;
+}
+
+.cont-cont .project-3 .project-3-desc .etoile-title {
+  margin-top: 130px;
 }
 
 .icon-cont {
@@ -84,7 +96,7 @@
 .icon-cont img {
   width: 35px;
   margin-right: 15px;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
 }
 
 .css-icon {

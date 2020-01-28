@@ -19,7 +19,7 @@ class Work extends Component {
               <img src="https://i.imgur.com/LfVlM1L.png" />
             </div>
             <div className="project-1-desc">
-              <h1>Rouge</h1>
+              <h1 className="rouge-title">Rouge</h1>
               <p>Rouge is a women's e-commerce based store that is built with React and Ruby on Rails.</p>
               <p>Languages used:</p>
               <div className="icon-cont">
@@ -37,7 +37,7 @@ class Work extends Component {
           </div>
           <div className="project-2">
             <div className="project-2-desc">
-              <h1>In A Pinch</h1>
+              <h1 className="pinch-title">In A Pinch</h1>
               <p>In A Pinch is a React app that was a collaboration with UX designers. We adhered to a Zeplin design and built out functionality for the app.</p>
               <p>Languages used:</p>
               <div className="icon-cont">
@@ -62,7 +62,7 @@ class Work extends Component {
               <img src="https://i.imgur.com/wtIWIkL.png" />
             </div>
             <div className="project-3-desc">
-              <h1>Etoile</h1>
+              <h1 className="etoile-title">Etoile</h1>
               <p>Etoile is a React app that is based off of an e-commerce website.</p>
               <p>Languages used:</p>
               <div className="icon-cont">
