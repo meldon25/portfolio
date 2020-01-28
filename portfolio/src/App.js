@@ -1,5 +1,5 @@
-import React from 'react';
-import Hero from './shared/Hero'
+import React, {Route} from 'react';
+import ContactForm from './shared/ContactForm'
 import Container from './components/Container'
 
 function App() {
