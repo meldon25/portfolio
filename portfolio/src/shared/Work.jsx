@@ -40,8 +40,9 @@ class Work extends Component {
           <div className="project-2">
             <div className="project-2-desc">
               <h1 className="pinch-title">In A Pinch</h1>
-              <p>In A Pinch is a React app that was a collaboration with UX designers. We adhered to a Zeplin design and built out functionality for the app.</p>
-              <p>Languages used:</p>
+              <p>In A Pinch is a React app that was built during a collaboration with UX designers.</p>
+              <p>The website adhered to a Zeplin design and went through various usability tests.</p>
+              <p className="languages-bar">Languages & Frameworks used:</p>
               <div className="icon-cont">
                 <img src="https://i.imgur.com/WO07Gq3.png" />
                 <img src="https://i.imgur.com/a9y93DK.png" />
@@ -67,7 +68,7 @@ class Work extends Component {
               <h1 className="etoile-title">Etoile</h1>
               <p>Etoile is an e-commerce website built with React.</p>
               <p></p>
-              <p>Languages used:</p>
+              <p className="languages-bar">Languages used:</p>
               <div className="icon-cont">
                 <p><img src="https://i.imgur.com/WO07Gq3.png" /></p>
                 <img className='css-icon' src="https://i.imgur.com/a9y93DK.png" />
