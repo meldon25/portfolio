@@ -4,10 +4,10 @@
 
 .line-1 {
   background-color: black;
-  width: 75%;
+  width: 83%;
   height: 3px;
-  margin-left: 80px;
-  margin-top: 16px;
+  margin-left: 50px;
+  margin-top: 23px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
