@@ -6,6 +6,7 @@
     border: 1px solid lightgrey;
     position: fixed;
     top: 0;
+    width: 100%;
 }
 .nav .nav-list {
     display: flex;
@@ -13,9 +14,11 @@
 .nav .nav-name {
     display: inline;
     color: #DF1016;
-    padding-top: 10px;
+    font-weight: 200;
+    font-size: 40px;
+    font-family: 'Monoton', cursive;
     margin-left: 40px;
-    margin-right: 31em;
+    margin-right: 24em;
 }
 .nav .nav-list li {
     display: flex;
@@ -51,7 +54,8 @@
     width: 5em;
     height: 2.6em;
     border-width: 2px;
-    box-shadow: 0px .7px .7px 0px;
+    box-shadow: 0px 0px .9px 0px;
+    cursor: pointer;
 }
 .nav .resume-button a {
     text-decoration: none;

@@ -23,11 +23,6 @@ function Hero() {
       <div className="contact-button-cont">
         <button className="contact-button">Get In Touch</button>
       </div>
-      <div class="scroll-downs">
-        <div class="mousey">
-          <div class="scroller"></div>
-        </div>
-      </div>
     </div>
   )
 }
