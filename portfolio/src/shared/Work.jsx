@@ -62,7 +62,7 @@ class Work extends Component {
           </div>
           <div className="project-3">
             <div className="project-3-img">
-              <img src="https://i.imgur.com/wtIWIkL.png" />
+              <img src="https://i.imgur.com/MxDShFM.png?1" />
             </div>
             <div className="project-3-desc">
               <h1 className="etoile-title">Etoile</h1>
