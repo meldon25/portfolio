@@ -20,8 +20,8 @@ function Hero() {
           </ul>
         </div>
       </div>
-      <div className="contact-button-cont">
-        <button className="contact-button">Get In Touch</button>
+      <div className="tact-button-cont">
+        <button className="tact-button">Get In Touch</button>
       </div>
     </div>
   )

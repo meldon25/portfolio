@@ -42,7 +42,7 @@ class ContactForm extends Component {
             </label>
           </p>
           <p>
-            <button className="contact-button" type="submit">Send</button>
+            <button className ="contact-button" type="submit" disabled='disabled'>BRB!</button>
           </p>
         </form>
       );
