@@ -6,7 +6,7 @@ function Hero() {
     <div className="hero-hero">
       {/* <img className="header-img" src="https://i.imgur.com/D714FCg.jpg" /> */}
       <div className="name-cont">
-        <p className="name-intro">Hello I am<p className="name">Melissa Donegan</p></p>
+        <p className="name-intro">Hello I'm<p className="name">Melissa Donegan</p></p>
       </div>
       <div className='hero'>
         <div className="hero-container">

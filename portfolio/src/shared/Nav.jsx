@@ -4,7 +4,6 @@ import '../styles/nav.css'
 function Nav() {
     return (
         <>
-        
         <div className='nav'>
         <h1 className="nav-name">M</h1>
             <ul className='nav-list'>
