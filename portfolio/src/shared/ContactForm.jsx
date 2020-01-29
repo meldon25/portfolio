@@ -45,6 +45,7 @@ class ContactForm extends Component {
             <button className ="contact-button" type="submit" disabled='disabled'>BRB!</button>
           </p>
         </form>
+        
       );
     }
   }

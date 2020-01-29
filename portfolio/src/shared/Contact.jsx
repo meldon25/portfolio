@@ -13,7 +13,7 @@ class Contact extends Component {
             <div className="cont-contain">
             <div className="contact-info">
                 <h1 className='contact-git'>Get In Touch</h1>
-                <p className="contact-desc">I am currently looking for new opportunities! <br />If you are interested in working together or just want to say hello,<br /> I will get to your email right away!</p>  
+                <p className="contact-desc">I am currently looking for new opportunities! <br /> If you are interested in working together or just want to say<br/> hello, send me a message and I will get to your email right away!</p>  
                 </div>
             <div className="contact-box">
                 <ContactForm />

@@ -1,14 +1,16 @@
 input {
-  width: 50%;
+  width: 57%;
   border: 1px solid black;
   margin-left: 20px;
-  height: 18px;
+  height: 22px;
+  margin-bottom: 10px;
+  border: 2px solid black;
 }
 
 textarea {
-  width: 49.7%;
+  width: 57%;
   margin-left: 34px;
   height: 80px;
-  border: 1px solid black;
+  border: 2px solid black;
 }
 /*# sourceMappingURL=contactform.css.map */
