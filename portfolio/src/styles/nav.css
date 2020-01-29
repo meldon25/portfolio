@@ -13,49 +13,77 @@
 }
 
 .nav .nav-list {
+  margin: 43px auto 0px;
+  padding: 0;
+  width: 225px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
 .nav .nav-name {
-  display: inline;
   color: #DF1016;
-  font-weight: 200;
-  font-size: 45px;
+  font-weight: 400;
+  font-size: 50px;
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  margin-top: 20px;
   font-family: 'Monoton', cursive;
   margin-left: 40px;
-  margin-right: 21.5em;
+  margin-right: 15.5em;
 }
 
 .nav .nav-list li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-left: 28px;
-  margin-top: 27px;
+  display: table-cell;
+  position: relative;
   font-size: 20px;
   font-weight: 600;
   font-family: 'Open Sans', sans-serif;
 }
 
-.nav .nav-list a {
-  color: #393939;
+.resume-tab {
+  color: black;
+  display: inline-block;
+  position: relative;
   text-decoration: none;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   cursor: pointer;
+  margin-right: 45px;
 }
 
-.nav .nav-list li p {
+.resume-tab:after {
+  background: none repeat scroll 0 0 transparent;
+  bottom: 0;
+  content: "";
+  display: block;
+  height: 3px;
+  left: 50%;
+  position: absolute;
+  background: #DF1016;
+  -webkit-transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+
+.resume-tab:hover:after {
+  width: 100%;
+  left: 0;
+}
+
+.nav .nav-list p {
   color: #DF1016;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  font-size: 20px;
   font-weight: bold;
   -webkit-margin-before: 0;
           margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
   margin-right: 10px;
 }
 
@@ -63,7 +91,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-left: 40px;
   margin-right: 80px;
   margin-top: 30px;
   border-color: #393939;
@@ -82,6 +109,6 @@
 .nav .resume-button a {
   text-decoration: none;
   color: black;
-  cursor: pointer;
+  margin-left: 2px;
 }
 /*# sourceMappingURL=nav.css.map */

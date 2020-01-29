@@ -187,8 +187,6 @@
 .tact-button {
   border-color: #DF1016;
   border-width: 3px;
-  -webkit-box-shadow: 1px 0px 1px 0px;
-          box-shadow: 1px 0px 1px 0px;
   background-color: transparent;
   color: #DF1016;
   font-size: 22px;
@@ -197,5 +195,11 @@
   height: 60px;
   width: 180px;
   margin-bottom: 80px;
+}
+
+.tact-button .git-button {
+  text-decoration: none;
+  color: #DF1016;
+  cursor: pointer;
 }
 /*# sourceMappingURL=hero.css.map */

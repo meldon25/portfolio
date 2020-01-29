@@ -1,5 +1,4 @@
-import React, {Route} from 'react';
-import ContactForm from './shared/ContactForm'
+import React from 'react';
 import Container from './components/Container'
 
 function App() {
