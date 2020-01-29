@@ -20,10 +20,10 @@ class Work extends Component {
             </div>
             <div className="project-1-desc">
               <h1 className="rouge-title">Rouge</h1>
-              <p>Rouge is an e-commerce store that is built with React and Ruby on Rails.</p>
-              <p>Rouge has full CRUD capabilities with a built-out wishlist.</p>
-              <p>Also includes authorization built with Rails.</p>
-              <p className="languages-bar">Languages & Frameworks:</p>
+              <p>Rouge is an e-commerce store that is built with <p className="bold-skills">React</p> and <p className="bold-skills">Ruby on Rails</p>.</p>
+              <p>Rouge has full <p className="bold-skills">CRUD</p> capabilities with a built-out wishlist.</p>
+              <p>Also includes <p className="bold-skills">authorization</p> built with <p className="bold-skills">Rails</p>.</p>
+              <p className="languages-bar">Languages & Frameworks</p>
               <div className="icon-cont">
                 <img src="https://i.imgur.com/WO07Gq3.png" />
                 <img src="https://i.imgur.com/BgrE303.png" />
@@ -40,9 +40,9 @@ class Work extends Component {
           <div className="project-2">
             <div className="project-2-desc">
               <h1 className="pinch-title">In A Pinch</h1>
-              <p>In A Pinch is a React app that was built during a collaboration with UX designers.</p>
-              <p>The website adhered to a Zeplin design and went through various usability tests.</p>
-              <p className="languages-bar">Languages & Frameworks:</p>
+              <p>In A Pinch is a <p className="bold-skills">React</p> app that was built during a collaboration with UX designers.</p>
+              <p>The website adhered to a <p className="bold-skills">Zeplin</p> design and went through various usability tests.</p>
+              <p className="languages-bar">Languages & Frameworks</p>
               <div className="icon-cont">
                 <img src="https://i.imgur.com/WO07Gq3.png" />
                 <img src="https://i.imgur.com/a9y93DK.png" />
@@ -66,10 +66,10 @@ class Work extends Component {
             </div>
             <div className="project-3-desc">
               <h1 className="etoile-title">Etoile</h1>
-              <p>Etoile is my first e-commerce website built with React.</p>
-              <p>It contains mock API data and a Google API on the 'Shop' page for store locations.</p>
-              <p>It also contains hand-rolled authentication.</p>
-              <p className="languages-bar">Languages & Frameworks:</p>
+              <p>Etoile is my first e-commerce website built with <p className="bold-skills">React</p>.</p>
+              <p>It contains mock <p className="bold-skills">API</p> data and a <p className="bold-skills">Google API</p> on the 'Shop' page for store locations.</p>
+              <p>It also contains <p className="bold-skills">hand-rolled authentication</p>.</p>
+              <p className="languages-bar">Languages & Frameworks</p>
               <div className="icon-cont">
                 <p><img src="https://i.imgur.com/WO07Gq3.png" /></p>
                 <img className='css-icon' src="https://i.imgur.com/a9y93DK.png" />

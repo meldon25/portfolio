@@ -6,6 +6,9 @@ function Footer() {
         <>
             <div className="footer-cont">
                 <div className="icons">
+                    <a href='#Contact'>
+                    <img src="https://i.imgur.com/r6fAgnG.png" />
+                    </a>
                     <a href="https://github.com/meldon25">
                     <img src="https://i.imgur.com/FRFJoTu.png" />
                     </a>
