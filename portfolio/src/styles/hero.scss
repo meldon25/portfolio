@@ -8,15 +8,6 @@
     font-size: 35px;
     line-height: 40px;
 }
-
-.hero-hero .header-img {
-  position: absolute;
-  width: 100%;
-  background-size: cover;
-  height: 725px;
-  display: flex;
-
-}
 .name-cont {
   margin-top: 120px;
   display: flex;
@@ -27,7 +18,7 @@
   display: flex;
   margin-top: 175px;
 }
-.name-intro .name {
+.name-cont .name {
   display: flex;
   color: #DF1016;
   font-weight: 600;
@@ -37,8 +28,8 @@
 
 .hero .hero-container {
     font-weight: 400;
-    height: 40px;
-    padding: 0 40px;
+    // height: 25px;
+    padding: 0 45px;
 }
 .hero .hero-container:before {
     content: '[';
@@ -74,9 +65,9 @@
 
   //text animation
   .hero .hero-container .hero-container-list .hero-container-list-item {
-    margin-top: -90px;
+    margin-top: -91px;
     margin-bottom: 2px;
-    padding-left: 185px;
+    padding-left: 145px;
     font-weight: 500;
     text-align: left;
     list-style-type: none;
@@ -112,7 +103,6 @@
     color: #DF1016;
     font-size: 22px;
     font-weight: bold;
-    // margin-top: 55px;
     position: relative;
     height: 60px;
     width: 180px;
@@ -122,6 +112,54 @@
   text-decoration: none;
   color: #DF1016;
   cursor: pointer;
+}
+
+@media only screen and (max-width: 375px) {
+  .hero-hero {
+    width: 150%;
+    margin-top: 400px;
+    display: flex;
+    flex-direction: column;
+  }
+  .hero-hero .name-cont {
+    width: 150%;
+    flex-direction: row;
+    display: flex;
+    margin-left: 48%;
+  }
+  .name-cont .name-intro {
+      display: flex;
+      flex-direction: row;
+      margin: 0;
+      margin-left: 110px;
+  }
+  .name-cont .name {
+    font-size: 35px;
+    margin-left: 15px;
+    flex-direction: column;
+    display: flex;
+  }
+  .tact-button-cont {
+    margin-left: 32em;
+  }
+  .hero {
+    margin-top: 300px;
+    margin-left: 48%;
+    width: 165%;
+  }
+  .hero-container {
+      width: 100%;
+  }
+  .hero-container .hero-container-text {
+    display: inline;
+  }
+  .hero .hero-container .hero-container-text {
+    display: flex;
+  }
+  .hero .hero-container .hero-container-list .hero-container-list-item {
+      display: flex;
+      flex-direction: row;
+  }
 }
 
 

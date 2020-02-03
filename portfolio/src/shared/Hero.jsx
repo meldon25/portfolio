@@ -1,5 +1,4 @@
 import React, {Component} from 'react'
-import { Link } from 'react-router-dom'
 import '../styles/hero.css'
 
 class Hero extends Component {
@@ -7,7 +6,7 @@ class Hero extends Component {
     return (
       <div className="hero-hero">
         <div className="name-cont">
-          <p className="name-intro">Hello I'm<p className="name">Melissa Donegan</p></p>
+          <p className="name-intro">Hello I'm</p><p className="name">Melissa Donegan</p>
         </div>
         <div className='hero'>
           <div className="hero-container">

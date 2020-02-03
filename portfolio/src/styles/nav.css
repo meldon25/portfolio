@@ -111,4 +111,76 @@
   color: black;
   margin-left: 2px;
 }
+
+@media only screen and (max-width: 375px) {
+  .nav {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    height: 80px;
+  }
+  .nav .nav-name {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin-right: 0;
+    margin-left: 48.2%;
+    margin-top: 0px;
+    margin-bottom: 0;
+  }
+  .nav .nav-list {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-margin-before: 0;
+            margin-block-start: 0;
+    width: 100%;
+  }
+  .nav .nav-list li {
+    width: 100%;
+    height: 80px;
+    background-color: #DF1016;
+    border: 1px solid white;
+  }
+  .nav .nav-list p {
+    display: none;
+  }
+  .nav .resume-tab {
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-right: 0;
+  }
+  .nav .resume-button {
+    margin-left: 29.5em;
+    height: 80px;
+    width: 140px;
+    border-left: 3px solid white;
+    border-right: 3px solid white;
+    border-top: none;
+    border-bottom: none;
+    margin-top: 0px;
+    background-color: #DF1016;
+  }
+  .nav .resume-button a {
+    color: white;
+    font-size: 30px;
+  }
+  .res-button-cont {
+    background-color: #DF1016;
+  }
+}
 /*# sourceMappingURL=nav.css.map */

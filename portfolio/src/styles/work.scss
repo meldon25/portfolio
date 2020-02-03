@@ -9,10 +9,17 @@
     margin-top: 23px;
 	display: flex;
 } 
+.work-tab {
+	color: #DF1016;
+	margin-left: 80px;
+	margin-top: 320px;
+    display: flex;
+}
 
 .cont-cont {
 	display: flex;
 	flex-direction: column;
+	height: 180vh;
 }
 
 .cont-cont .project-1 {
@@ -157,6 +164,11 @@
 .bold-skills {
 	font-weight: 700;
 	display: inline-flex;
+}
+@media only screen and (max-width: 375px) {
+	.work-tab {
+		margin-top: 0;
+	}
 }
 
 
