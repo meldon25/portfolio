@@ -210,8 +210,58 @@
 }
 
 @media only screen and (max-width: 375px) {
+  .work-cont {
+    width: 150%;
+  }
   .work-tab {
     margin-top: 0;
+    width: 200%;
+    margin-left: 40px;
+  }
+  .cont-cont {
+    margin-bottom: 100px;
+  }
+  .work-tab .line-1 {
+    width: 800px;
+  }
+  .cont-cont .project-1 {
+    margin-left: 40px;
+  }
+  .project-1-desc .languages-bar {
+    text-decoration: underline;
+    padding-top: 10px;
+    font-weight: 600;
+    padding-bottom: 15px;
+  }
+  .cont-cont .project-1 .project-1-desc p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .cont-cont .project-1 .project-1-desc .rouge-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+  .cont-cont .project-2 {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .cont-cont .project-2 .project-2-desc .pinch-title {
+    margin-top: 45px;
+  }
+  .cont-cont .project-2 .project-2-desc p {
+    margin-top: 3px;
+    margin-bottom: 3px;
+  }
+  .cont-cont .project-3 {
+    margin-top: 40px;
+    margin-left: 40px;
+  }
+  .cont-cont .project-3 .project-3-desc .etoile-title {
+    margin-top: 35px;
+  }
+  .cont-cont .project-3 .project-3-desc p {
+    margin-top: 3px;
+    margin-bottom: 3px;
   }
 }
 /*# sourceMappingURL=work.css.map */

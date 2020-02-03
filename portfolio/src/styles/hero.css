@@ -31,10 +31,12 @@
   display: -ms-flexbox;
   display: flex;
   color: #DF1016;
+  font-size: 35px;
   font-weight: 600;
-  margin-left: 8px;
+  margin-left: 10px;
   -webkit-margin-before: 0;
           margin-block-start: 0;
+  margin-top: 175px;
 }
 
 .hero .hero-container {
@@ -195,7 +197,7 @@
 @media only screen and (max-width: 375px) {
   .hero-hero {
     width: 150%;
-    margin-top: 400px;
+    margin-top: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -225,6 +227,7 @@
             flex-direction: row;
     margin: 0;
     margin-left: 110px;
+    margin-top: 175px;
   }
   .name-cont .name {
     font-size: 35px;
@@ -241,7 +244,7 @@
     margin-left: 32em;
   }
   .hero {
-    margin-top: 300px;
+    margin-top: 350px;
     margin-left: 48%;
     width: 165%;
   }
@@ -264,6 +267,9 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+  }
+  .tact-button {
+    margin-bottom: 20px;
   }
 }
 /*# sourceMappingURL=hero.css.map */
