@@ -4,6 +4,7 @@ import '../styles/about.css'
 function About() {
     return (
         <div id="About">
+            <div className="about-cont">
             <h1 className='about-tab'><p className="contnum">2.</p>About<div className="line-2"></div></h1>
             <div className='about-container'>
                 <div className="left-side">
@@ -16,6 +17,7 @@ function About() {
                         <img className="photo-box2" src="https://i.imgur.com/QVCDuvl.jpg" />
                     </div>
                 </div>
+            </div>
             </div>
         </div>
 
