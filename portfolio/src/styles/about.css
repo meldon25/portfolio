@@ -59,21 +59,12 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
-}
-
-.about-container .left-side .about-desc {
-  margin-left: 80px;
-  padding-top: 70px;
-  line-height: 30px;
 }
 
 .about-container .right-side {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 55%;
-  margin-left: 300px;
 }
 
 .contnum {
@@ -91,7 +82,23 @@
     width: 800px;
   }
   .about-container .left-side .about-desc {
+    margin-left: 0px;
+    padding-top: 30px;
+  }
+  .about-container .right-side {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: 500px;
+  }
+  .about-container {
     margin-left: 40px;
+    height: 70vh;
+    display: block;
+  }
+  .about-container .left-side {
+    width: 90%;
+    display: inline-block;
   }
 }
 /*# sourceMappingURL=about.css.map */

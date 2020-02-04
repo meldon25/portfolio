@@ -92,7 +92,7 @@
     .nav {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: auto;
         height: 80px;
     }
     .nav .nav-name {
@@ -125,11 +125,11 @@
         margin-right: 0;
     }
     .nav .resume-button {
-        margin-left: 29.5em;
+        margin-left: 38em;
         height: 80px;
-        width: 140px;
-        border-left: 3px solid white;
-        border-right: 3px solid white;
+        width: 0px;
+        border-left: 1px solid #DF1016;
+        border-right: 1px solid #DF1016;
         border-top: none;
         border-bottom: none;
         margin-top: 0px;
