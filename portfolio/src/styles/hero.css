@@ -196,7 +196,7 @@
 
 @media only screen and (max-width: 375px) {
   .hero-hero {
-    width: 150%;
+    width: 100%;
     margin-top: 300px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -207,7 +207,7 @@
             flex-direction: column;
   }
   .hero-hero .name-cont {
-    width: 150%;
+    width: 100%;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -226,7 +226,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
     margin: 0;
-    margin-left: 110px;
+    margin-left: 250px;
     margin-top: 175px;
   }
   .name-cont .name {
