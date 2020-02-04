@@ -13,4 +13,18 @@ textarea {
   height: 80px;
   border: 2px solid black;
 }
+
+@media only screen and (max-width: 375px) {
+  input {
+    width: 100%;
+    margin-left: 60px;
+  }
+  textarea {
+    width: 100%;
+    margin-left: 60px;
+  }
+  label {
+    margin-left: 60px;
+  }
+}
 /*# sourceMappingURL=contactform.css.map */
