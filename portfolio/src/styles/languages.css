@@ -44,15 +44,16 @@
 
 @media only screen and (max-width: 375px) {
     .lang-cont {
-        margin-top: 350px;
+        margin-top: 400px;
+        width: fit-content;
     }
     .skills {
-        font-size: 18px;
+        font-size: 16px;
         display: flex;
         margin-top: 20px;
     }
     .skill-bar {
-        font-size: 25px;
+        font-size: 20px;
         font-weight: bold;
         margin-left: 10%;
     }
@@ -65,7 +66,7 @@
     }
     .arrow {
         padding: 3px;
-        margin-right: 20px;
+        margin-right: 10px;
     }
     .lang-icon {
         margin-left: 5px;

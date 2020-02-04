@@ -236,7 +236,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 30px;
+    margin-left: 20px;
   }
   .project-1-desc .languages-bar {
     text-decoration: underline;
@@ -269,15 +269,22 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin-top: 150px;
-    margin-left: 30px;
+    margin-top: 260px;
+    margin-left: 20px;
   }
   .cont-cont .project-3 {
-    margin-top: 150px;
-    margin-left: 30px;
+    margin-top: 60px;
+    margin-left: 20px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .icon-cont .css-icon {
+    margin-top: 5px;
   }
   .cont-cont .project-2 .project-2-desc .pinch-title {
     margin-top: 25px;
@@ -292,17 +299,6 @@
     margin-top: 3px;
     margin-bottom: 3px;
     text-align: center;
-  }
-  .cont-cont .project-3 {
-    margin-top: 40px;
-    margin-left: 30px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
   .cont-cont .project-3 .project-3-desc .etoile-title {
     margin-top: 25px;
@@ -319,24 +315,24 @@
     text-align: center;
   }
   .cont-cont .project-1 .project-1-img img {
-    width: 320px;
-    height: 180px;
+    width: 330px;
+    height: 200px;
     margin-left: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
   .cont-cont .project-2 .project-2-img img {
-    width: 320px;
-    height: 150px;
+    width: 330px;
+    height: 200px;
     margin-left: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
   .cont-cont .project-3 .project-3-img img {
-    width: 320px;
-    height: 150px;
+    width: 330px;
+    height: 200px;
     margin-left: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -355,6 +351,9 @@
   }
   .cont-cont .project-3 .project-3-desc {
     margin-left: 0px;
+  }
+  .cont-cont .project-2 .project-2-desc {
+    padding-right: 0px;
   }
   .button-cont {
     margin-left: 30px;
