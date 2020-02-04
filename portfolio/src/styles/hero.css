@@ -225,12 +225,13 @@
         -ms-flex-direction: row;
             flex-direction: row;
     margin: 0;
-    margin-left: 350px;
+    font-size: 25px;
+    margin-left: 40px;
     margin-top: 175px;
   }
   .name-cont .name {
-    font-size: 35px;
-    margin-left: 15px;
+    font-size: 25px;
+    margin-left: 10px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;

@@ -42,3 +42,9 @@
     margin-left: 8px;
 }
 
+@media only screen and (max-width: 375px) {
+    .skill-bar {
+        /* margin-left: 0; */
+    }
+}
+

@@ -75,15 +75,16 @@
 
 @media only screen and (max-width: 375px) {
   .about-tab {
-    width: 300%;
-    margin-left: 40px;
+    width: 100%;
+    margin-left: 10px;
+    margin-bottom: 0;
   }
   .about-tab .line-2 {
-    width: 800px;
+    width: 150px;
   }
   .about-container .left-side .about-desc {
     margin-left: 0px;
-    padding-top: 30px;
+    padding-top: 0px;
   }
   .about-container .right-side {
     display: -webkit-box;
