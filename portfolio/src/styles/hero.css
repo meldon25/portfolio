@@ -241,7 +241,7 @@
     display: flex;
   }
   .tact-button-cont {
-    margin-left: 5em;
+    margin-left: 6.5em;
   }
   .tact-button {
     width: 70%;
@@ -277,6 +277,9 @@
   }
   .tact-button {
     margin-bottom: 20px;
+    height: 40px;
+    width: 140px;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=hero.css.map */
