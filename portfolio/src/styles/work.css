@@ -215,16 +215,26 @@
   }
   .work-tab {
     margin-top: 0;
-    width: 200%;
-    margin-left: 40px;
+    width: 100%;
+    font-size: 20px;
+    margin-left: 20px;
   }
   .cont-cont {
     margin-bottom: 100px;
   }
   .work-tab .line-1 {
-    width: 800px;
+    width: 225px;
+    margin-top: 13px;
+    margin-left: 30px;
   }
   .cont-cont .project-1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     margin-left: 40px;
   }
   .project-1-desc .languages-bar {
@@ -242,6 +252,13 @@
     margin-bottom: 15px;
   }
   .cont-cont .project-2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
     margin-top: 40px;
     margin-left: 40px;
   }
@@ -255,6 +272,13 @@
   .cont-cont .project-3 {
     margin-top: 40px;
     margin-left: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
   .cont-cont .project-3 .project-3-desc .etoile-title {
     margin-top: 35px;
@@ -262,6 +286,33 @@
   .cont-cont .project-3 .project-3-desc p {
     margin-top: 3px;
     margin-bottom: 3px;
+  }
+  .cont-cont .project-1 .project-1-img img {
+    width: 300px;
+    height: 125px;
+    margin-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .cont-cont .project-2 .project-2-img img {
+    width: 300px;
+    height: 125px;
+    margin-left: 0px;
+  }
+  .cont-cont .project-3 .project-3-img img {
+    width: 300px;
+    height: 125px;
+    margin-left: 0px;
+  }
+  .cont-cont .project-1 .project-1-desc {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 /*# sourceMappingURL=work.css.map */
