@@ -122,7 +122,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 100%;
-    height: 80px;
+    height: 100px;
   }
   .nav .nav-name {
     -webkit-box-orient: vertical;
@@ -130,8 +130,8 @@
         -ms-flex-direction: column;
             flex-direction: column;
     margin-right: 0;
-    margin-left: 48.2%;
-    margin-top: 0px;
+    margin-left: 48%;
+    margin-top: 20px;
     margin-bottom: 0;
   }
   .nav .nav-list {
@@ -148,7 +148,7 @@
   }
   .nav .nav-list li {
     width: 100%;
-    height: 80px;
+    height: 120px;
     background-color: #DF1016;
     border: 1px solid white;
   }
@@ -165,7 +165,7 @@
     margin-right: 0;
   }
   .nav .resume-button {
-    margin-left: 38em;
+    margin-left: 28.7em;
     height: 80px;
     width: 0px;
     border-left: 1px solid #DF1016;
