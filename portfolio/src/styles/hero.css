@@ -197,7 +197,7 @@
 @media only screen and (max-width: 375px) {
   .hero-hero {
     width: 100%;
-    margin-top: 200px;
+    margin-top: 100px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -226,7 +226,7 @@
             flex-direction: row;
     margin: 0;
     font-size: 22px;
-    margin-left: 50px;
+    margin-left: 35px;
     margin-top: 175px;
   }
   .name-cont .name {
@@ -246,7 +246,7 @@
     width: 70%;
   }
   .hero {
-    margin-top: 425px;
+    margin-top: 290px;
     left: 0;
     margin-left: 5px;
     font-size: 20px;
