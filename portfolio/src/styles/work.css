@@ -221,6 +221,7 @@
   }
   .cont-cont {
     margin-bottom: 100px;
+    height: 245vh;
   }
   .work-tab .line-1 {
     width: 225px;
@@ -235,7 +236,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin-left: 40px;
+    margin-left: 30px;
   }
   .project-1-desc .languages-bar {
     text-decoration: underline;
@@ -243,13 +244,25 @@
     font-weight: 600;
     padding-bottom: 15px;
   }
+  .cont-cont .project-1 .project-1-desc {
+    margin-left: 0;
+  }
   .cont-cont .project-1 .project-1-desc p {
     margin-top: 3px;
     margin-bottom: 3px;
+    text-align: center;
   }
   .cont-cont .project-1 .project-1-desc .rouge-title {
     margin-top: 10px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     margin-bottom: 15px;
+  }
+  .icon-cont {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .cont-cont .project-2 {
     display: -webkit-box;
@@ -259,19 +272,33 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
-    margin-top: 40px;
-    margin-left: 40px;
+    margin-top: 150px;
+    margin-left: 30px;
+  }
+  .cont-cont .project-3 {
+    margin-top: 150px;
+    margin-left: 30px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .cont-cont .project-2 .project-2-desc .pinch-title {
-    margin-top: 45px;
+    margin-top: 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   .cont-cont .project-2 .project-2-desc p {
     margin-top: 3px;
     margin-bottom: 3px;
+    text-align: center;
   }
   .cont-cont .project-3 {
     margin-top: 40px;
-    margin-left: 40px;
+    margin-left: 30px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -281,29 +308,42 @@
             flex-direction: column;
   }
   .cont-cont .project-3 .project-3-desc .etoile-title {
-    margin-top: 35px;
+    margin-top: 25px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .cont-cont .project-3 .project-3-desc p {
     margin-top: 3px;
     margin-bottom: 3px;
+    text-align: center;
   }
   .cont-cont .project-1 .project-1-img img {
-    width: 300px;
-    height: 125px;
+    width: 320px;
+    height: 150px;
     margin-left: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
   }
   .cont-cont .project-2 .project-2-img img {
-    width: 300px;
-    height: 125px;
+    width: 320px;
+    height: 150px;
     margin-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .cont-cont .project-3 .project-3-img img {
-    width: 300px;
-    height: 125px;
+    width: 320px;
+    height: 150px;
     margin-left: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
   .cont-cont .project-1 .project-1-desc {
     display: -webkit-box;
@@ -313,6 +353,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+  }
+  .cont-cont .project-3 .project-3-desc {
+    margin-left: 0px;
+  }
+  .button-cont {
+    margin-left: 30px;
   }
 }
 /*# sourceMappingURL=work.css.map */
