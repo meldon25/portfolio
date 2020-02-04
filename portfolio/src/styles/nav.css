@@ -123,6 +123,7 @@
             flex-direction: column;
     width: 100%;
     height: 100px;
+    position: relative;
   }
   .nav .nav-name {
     -webkit-box-orient: vertical;
