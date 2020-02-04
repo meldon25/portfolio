@@ -217,7 +217,7 @@
     margin-top: 0;
     width: 100%;
     font-size: 20px;
-    margin-left: 20px;
+    margin-left: 30px;
   }
   .cont-cont {
     margin-bottom: 100px;
@@ -226,7 +226,7 @@
   .work-tab .line-1 {
     width: 225px;
     margin-top: 13px;
-    margin-left: 30px;
+    margin-left: 15px;
   }
   .cont-cont .project-1 {
     display: -webkit-box;
@@ -244,9 +244,6 @@
     font-weight: 600;
     padding-bottom: 15px;
   }
-  .cont-cont .project-1 .project-1-desc {
-    margin-left: 0;
-  }
   .cont-cont .project-1 .project-1-desc p {
     margin-top: 3px;
     margin-bottom: 3px;
@@ -257,7 +254,7 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 45px;
   }
   .icon-cont {
     -webkit-box-pack: center;
@@ -323,7 +320,7 @@
   }
   .cont-cont .project-1 .project-1-img img {
     width: 320px;
-    height: 150px;
+    height: 180px;
     margin-left: 0px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -353,6 +350,8 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    margin-left: 0;
+    margin-right: 10px;
   }
   .cont-cont .project-3 .project-3-desc {
     margin-left: 0px;
