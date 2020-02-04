@@ -44,4 +44,17 @@
   display: flex;
   margin-left: 740px;
 }
+
+@media only screen and (max-width: 375px) {
+  .vl {
+    display: none;
+  }
+  .icons {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-left: 80px;
+  }
+}
 /*# sourceMappingURL=footer.css.map */
