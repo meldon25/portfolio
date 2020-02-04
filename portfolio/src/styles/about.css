@@ -19,6 +19,8 @@
 .about-container .about-desc {
   font-size: 18px;
   line-height: 30px;
+  width: 60%;
+  margin-top: 80px;
 }
 
 .about-container .photo-box img {
@@ -29,6 +31,10 @@
   display: -ms-flexbox;
   display: flex;
   margin-top: 55px;
+}
+
+.about-container .right-side {
+  margin-right: 175px;
 }
 
 .about-container .right-side .box {
