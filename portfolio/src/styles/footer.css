@@ -56,5 +56,8 @@
             flex-direction: row;
     margin-left: 80px;
   }
+  .bottom-cont {
+    display: none;
+  }
 }
 /*# sourceMappingURL=footer.css.map */

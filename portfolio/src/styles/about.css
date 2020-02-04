@@ -76,11 +76,9 @@
 @media only screen and (max-width: 375px) {
   .about-tab {
     width: 100%;
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 0;
-  }
-  .about-tab .line-2 {
-    width: 100px;
+    font-size: 20px;
   }
   .about-container .left-side .about-desc {
     margin-left: 10px;
@@ -119,8 +117,8 @@
   }
   .about-tab .line-2 {
     width: 225px;
-    margin-top: 20px;
-    margin-left: 30px;
+    margin-top: 13px;
+    margin-left: 22px;
   }
   .about-container .photo-box img {
     height: 18em;

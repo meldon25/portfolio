@@ -61,7 +61,7 @@
 
 @media only screen and (max-width: 375px) {
     .contact-cont {
-        margin-left: 30px;
+        margin-left: 20px;
         width: 100%;
     }
     .contact-cont .contact-title {
@@ -83,17 +83,15 @@
         margin-left: 62.3%;
     }
     .line-3 {
-        width: 82%;
-        height: 3px;
-        margin-left: 30px;
-        margin-top: 12px;
-        display: flex;
+        width: 225px;
+		margin-top: 13px;
+		margin-left: 15px;
     }
     
     .cont-contain {
         display: flex;
         flex-direction: column;
-        height: 160vh;
+        height: 130vh;
     }
     .cont-contain .contact-info {
         margin-left: 30px;
