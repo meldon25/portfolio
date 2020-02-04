@@ -123,8 +123,8 @@
     margin-left: 30px;
   }
   .about-container .photo-box img {
-    height: 16em;
-    width: 10em;
+    height: 18em;
+    width: 13em;
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -133,15 +133,15 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-top: 55px;
+    margin-top: 80px;
   }
   .about-container .right-side .box {
-    margin-top: 30px;
+    margin-top: 60px;
     margin-left: 25px;
     background-color: #DF1016;
     opacity: 95%;
-    height: 16em;
-    width: 10em;
+    height: 18em;
+    width: 13em;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
