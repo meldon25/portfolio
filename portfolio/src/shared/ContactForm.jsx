@@ -14,7 +14,7 @@ class ContactForm extends Component {
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: ({ "form-name": "contact", ...this.state })
       })
-        .then(() => alert("Success!"))
+        .then(() => alert("Success! Talk soon!"))
         .catch(error => alert(error));
 
       e.preventDefault();
@@ -42,7 +42,7 @@ class ContactForm extends Component {
             </label>
           </p>
           <p>
-            <button className ="contact-button" type="submit" disabled='disabled'>BRB!</button>
+            <button className ="contact-button" type="submit">Send</button>
           </p>
         </form>
         
