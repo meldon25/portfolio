@@ -2,15 +2,13 @@
     font-family: 'Open Sans', sans-serif;
     margin-left: 80px;
     display: flex;
-    height: 50vh;
 }
 .about-cont {
-    margin-top: 70vh;
+    margin-top: 80vh;
 }
 .about-tab {
     color: #DF1016;
     margin-left: 80px;
-    // margin-top: 60px;
     display: flex;
 }
 .about-container .about-desc {
@@ -70,6 +68,10 @@
         margin-bottom: 0;
         font-size: 20px;
     }
+
+    .about-cont {
+        margin-top: 200vh;
+    }
     
     .about-container .left-side .about-desc {
         margin-left: 10px;
@@ -82,7 +84,6 @@
     }
     .about-container {
         margin-left: 40px;
-        height: 70vh;
         display: flex;
         flex-direction: column;
     }
