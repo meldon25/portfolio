@@ -9,6 +9,9 @@
     margin-top: 23px;
 	display: flex;
 } 
+.work-cont {
+	width: 100%;
+}
 .work-tab {
 	color: #DF1016;
 	margin-left: 80px;
@@ -27,7 +30,7 @@
 	width: 90%;
 	height: 470px;
 	margin-left: 80px;
-	margin-bottom: 30px;
+	margin-bottom: 20px;
 }
 
 .cont-cont .project-2 {
@@ -37,7 +40,6 @@
 	margin-left: 80px;
 	margin-bottom: 20px;
 }
-
 .cont-cont .project-3 {
 	display: flex;
 	width: 90%;
@@ -168,6 +170,11 @@
 	display: inline-flex;
 }
 @media only screen and (max-width: 375px) {
+	.line-1 {
+		width: 63%;
+		margin-top: 13px;
+		margin-left: 15px;
+	}
 	.work-cont {
 		width: 100%;
 	}
@@ -175,18 +182,27 @@
 		margin-top: 0;
 		width: 100%;
 		font-size: 20px;
+		margin-top: 0;
 		margin-left: 20px;
 	}
-	.work-tab .line-1 {
-		width: 235px;
-		margin-top: 13px;
-		margin-left: 15px;
+	.cont-cont {
+		height: 100vh;
 	}
 	.cont-cont .project-1 {
-		display: flex;
 		flex-direction: column;
 		margin-left: 20px;
 	}
+	.cont-cont .project-2 {
+		display: flex;
+		flex-direction: column-reverse;
+		margin-top: 225px;
+		margin-left: 20px;
+	}
+	.cont-cont .project-3 {
+		margin-top: 60px;
+		margin-left: 20px;
+		flex-direction: column;
+	} 
 	.project-1-desc .languages-bar {
 		text-decoration: underline;
 		padding-top: 10px;
@@ -206,18 +222,7 @@
 	.icon-cont {
 		justify-content: center;
 	}
-	.cont-cont .project-2 {
-		display: flex;
-		flex-direction: column-reverse;
-		margin-top: 225px;
-		margin-left: 20px;
-	}
-	.cont-cont .project-3 {
-		margin-top: 60px;
-		margin-left: 20px;
-		display: flex;
-		flex-direction: column;
-	} 
+	
 	.icon-cont .css-icon {
 		margin-top: 5px;
 	}
