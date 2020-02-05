@@ -1,6 +1,11 @@
 import React, {Component} from 'react'
 import '../styles/contactform.css'
 
+const encode = (data) => {
+  return Object.keys(data)
+      .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
+      .join("&");
+}
 
 class ContactForm extends Component {
         constructor(props) {
@@ -26,7 +31,7 @@ class ContactForm extends Component {
           const { name, email, message } = this.state;
           return (
             <>
-            <input type="hidden" name="form-name" value="contact-form" />
+            <input type="hidden" name="form-name" value="contact" />
             <form netlify-honeypot="bot-field" method="POST" netlify onSubmit={this.handleSubmit}>
               <p>
                 <label>
