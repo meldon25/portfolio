@@ -70,6 +70,12 @@
 .cont-cont .project-1 .project-1-desc {
 	margin-left: 50px;
 }
+.cont-cont .project-2 .project-2-desc {
+	padding-right: 40px;
+}
+.cont-cont .project-3 .project-3-desc {
+	margin-left: 50px;
+}
 .cont-cont .project-1 .project-1-desc p {
 	margin-block-start: 0;
 	margin-block-end:0;
@@ -89,10 +95,18 @@
 	margin-bottom: 5px;
 }
 .cont-cont .project-1 .project-1-desc .rouge-title {
-	// margin-top: 15px;
 	display: inline-flex;
 	margin-block-end: 0;
 }
+.cont-cont .project-2 .project-2-desc .pinch-title {
+	margin-top: 80px;
+	margin-bottom: 30px;
+}
+.cont-cont .project-3 .project-3-desc .etoile-title {
+	margin-top: 50px;
+}
+
+//lang bar
 .project-1-desc .languages-bar {
 	text-decoration: underline;
 	padding-top: 20px;
@@ -113,18 +127,6 @@
 	padding-bottom: 15px;
 }
 
-.cont-cont .project-2 .project-2-desc .pinch-title {
-	margin-top: 80px;
-	margin-bottom: 30px;
-}
-
-.cont-cont .project-3 .project-3-desc .etoile-title {
-	margin-top: 50px;
-}
-
-.cont-cont .project-2 .project-2-desc {
-	padding-right: 40px;
-}
 
 .icon-cont {
 	display: flex;
@@ -138,9 +140,6 @@
 .icon-cont .css-icon {
 	margin-top: 13px;
 	height: 32px;
-}
-.cont-cont .project-3 .project-3-desc {
-	margin-left: 50px;
 }
 
 .button-cont {
@@ -203,79 +202,75 @@
 		margin-left: 20px;
 		flex-direction: column;
 	} 
-	.project-1-desc .languages-bar {
-		text-decoration: underline;
-		padding-top: 10px;
-		font-weight: 600;
-		padding-bottom: 25px;
-	}
-	.cont-cont .project-1 .project-1-desc p{
-		margin-top: 3px;
-		margin-bottom: 3px;
-		text-align: center;
-	}
-	.cont-cont .project-1 .project-1-desc .rouge-title {
-		margin-top: 10px;
-		justify-content: center;
-		margin-bottom: 45px;
-	}
-	.icon-cont {
-		justify-content: center;
-	}
-	
-	.icon-cont .css-icon {
-		margin-top: 5px;
-	}
-	.cont-cont .project-2 .project-2-desc .pinch-title {
-		margin-top: 25px;
-		display: flex;
-		justify-content: center;
-	}
-	.cont-cont .project-2 .project-2-desc p{
-		margin-top: 3px;
-		margin-bottom: 3px;
-		text-align: center;
-	}
-	.cont-cont .project-3 .project-3-desc .etoile-title {
-		margin-top: 25px;
-		justify-content: center;
-		display: flex;
-	}
-	.cont-cont .project-3 .project-3-desc p{
-		margin-top: 3px;
-		margin-bottom: 3px;
-		text-align: center;
-	}
+
+	//images
 	.cont-cont .project-1 .project-1-img img {
 		width: 330px;
 		height: 200px;
-		margin-left: 0px;
-		display: flex;
 	}
 	.cont-cont .project-2 .project-2-img img {
 		width: 330px;
 		height: 200px;
-		margin-left: 0px;
-		display: flex;
 	}
 	.cont-cont .project-3 .project-3-img img {
 		width: 330px;
 		height: 200px;
-		margin-left: 0px;
-		display: flex;
 	}
+
+	//desc 
 	.cont-cont .project-1 .project-1-desc {
 		display: flex;
 		flex-direction: column;
 		margin-left: 0;
 		margin-right: 10px;
 	}
-	.cont-cont .project-3 .project-3-desc {
-		margin-left: 0px;
-	}
 	.cont-cont .project-2 .project-2-desc {
 		padding-right: 0px;
 	}
+	.cont-cont .project-3 .project-3-desc {
+		margin-left: 0px;
+	}
+	.cont-cont .project-1 .project-1-desc p{
+		margin-top: 0px;
+		margin-bottom: 3px;
+		text-align: center;
+	}
+	.cont-cont .project-2 .project-2-desc p{
+		margin-top: 0px;
+		margin-bottom: 3px;
+		text-align: center;
+	}
+	.cont-cont .project-3 .project-3-desc p{
+		margin-top: 0px;
+		margin-bottom: 3px;
+		text-align: center;
+	}
+	.cont-cont .project-1 .project-1-desc .rouge-title {
+		margin-top: 15px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 25px;
+	}
+	.cont-cont .project-2 .project-2-desc .pinch-title {
+		margin-top: 15px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 25px;
+	}
+	.cont-cont .project-3 .project-3-desc .etoile-title {
+		margin-top: 25px;
+		justify-content: center;
+		display: flex;
+	}
+
+	.icon-cont {
+		justify-content: center;
+	}
+	
+	.icon-cont .css-icon {
+		margin-top: 2px;
+	}
+	
 	.button-cont {
 		margin-left: 30px;
 	}
