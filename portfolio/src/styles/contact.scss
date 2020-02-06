@@ -7,17 +7,24 @@
     color: #DF1016;
     font-size: 30px;
     font-weight: bold;
-    margin-top: 100px;
+    margin-top: 90px;
     display: flex;
 }
+.cont-contain .contact-info .contact-email {
+    font-size: 28px;
+    color:#DF1016;
+    font-weight: 500;
+}
 .contact-git {
-    color: #DF1016;
+    color: black;
+    // text-decoration: underline;
     font-size: 34px;
-    margin-top: 60px;
+    margin-bottom: 25px;
+    // margin-top: 60px;
 }
 .contact-desc {
-    line-height: 38px;
-    margin-top: 30px;
+    line-height: 34px;
+    // margin-top: 10px;
     font-size: 18px;
     padding-right: 20px;
 }
@@ -54,7 +61,7 @@
     margin-right: 200px;
 }
 .cont-contain .contact-box {
-    padding-top: 60px;
+    padding-top: 90px;
     width: 50%;
 }
 
@@ -105,7 +112,7 @@
     }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 475px) {
     .contact-cont {
         margin-left: 20px;
         width: 100%;

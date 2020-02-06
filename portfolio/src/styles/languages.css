@@ -76,7 +76,7 @@
    
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 475px) {
     .lang-cont {
         margin-top: 80px;
         width: fit-content;

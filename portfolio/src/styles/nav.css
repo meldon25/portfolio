@@ -183,7 +183,7 @@
   }
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 475px) {
   .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
