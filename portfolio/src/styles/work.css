@@ -35,7 +35,7 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  height: 100vh;
+  height: 80vh;
 }
 
 .cont-cont .project-1 {
@@ -43,6 +43,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 90%;
+  height: 70vh;
   margin-left: 80px;
   margin-bottom: 40px;
 }
@@ -52,6 +53,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 90%;
+  height: 70vh;
   margin-left: 80px;
   margin-bottom: 40px;
 }
@@ -61,6 +63,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 90%;
+  height: 70vh;
   margin-left: 80px;
 }
 
@@ -238,6 +241,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 100vh;
     margin-left: 20px;
   }
   .cont-cont .project-2 {
@@ -246,11 +250,13 @@
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    height: 100vh;
     margin-top: 60px;
     margin-left: 20px;
   }
   .cont-cont .project-3 {
     position: relative;
+    height: 100vh;
     margin-top: 60px;
     margin-left: 20px;
     -webkit-box-orient: vertical;

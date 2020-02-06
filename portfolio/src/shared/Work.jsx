@@ -39,7 +39,7 @@ class Work extends Component {
               </div>
             </div>
           </div>
-          {/* <div className="project-2">
+          <div className="project-2">
             <div className="project-2-desc">
               <h1 className="pinch-title">In A Pinch</h1>
               <p>In A Pinch is a <p className="bold-skills">React</p> app that was built during a collaboration with UX designers.</p>
@@ -61,7 +61,7 @@ class Work extends Component {
             <div className="project-2-img">
               <img src="https://i.imgur.com/4d4lqWo.png" />
             </div>
-          </div> */}
+          </div>
           <div className="project-3">
             <div className="project-3-img">
               <img src="https://i.imgur.com/MxDShFM.png?1" />
@@ -87,7 +87,7 @@ class Work extends Component {
             </div>
           </div>
         </div>
-      </div>
+        </div>
 
     )
   }
