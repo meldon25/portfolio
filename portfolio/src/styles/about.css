@@ -90,9 +90,6 @@
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .about-cont {
-    margin-top: 1350px;
-  }
   .about-tab {
     width: 100%;
     margin-left: 20px;
