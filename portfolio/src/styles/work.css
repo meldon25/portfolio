@@ -233,6 +233,7 @@
     height: 100vh;
   }
   .cont-cont .project-1 {
+    position: relative;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -249,6 +250,7 @@
     margin-left: 20px;
   }
   .cont-cont .project-3 {
+    position: relative;
     margin-top: 60px;
     margin-left: 20px;
     -webkit-box-orient: vertical;
