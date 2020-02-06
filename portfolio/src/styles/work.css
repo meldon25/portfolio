@@ -415,17 +415,14 @@
   .cont-cont .project-1 .project-1-img img {
     width: 330px;
     height: 200px;
-    margin-left: 15px;
   }
   .cont-cont .project-2 .project-2-img img {
     width: 330px;
     height: 200px;
-    margin-left: 15px;
   }
   .cont-cont .project-3 .project-3-img img {
     width: 330px;
     height: 200px;
-    margin-left: 15px;
   }
   .cont-cont .project-1 .project-1-desc {
     display: -webkit-box;
@@ -512,7 +509,7 @@
     margin-bottom: 28px;
   }
   .button-cont {
-    margin-left: 45px;
+    margin-left: 25px;
   }
 }
 /*# sourceMappingURL=work.css.map */
