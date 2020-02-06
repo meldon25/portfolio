@@ -185,9 +185,10 @@
 		margin-left: 20px;
 	}
 	.cont-cont {
-		height: 100vh;
+		height: auto;
+		display: table-cell;
 	}
-	.cont-cont .project-1 {
+	.cont-cont .project-1 { 
 		position: relative;
 		flex-direction: column;
 		height: auto;
@@ -203,6 +204,7 @@
 	.cont-cont .project-3 {
 		position: relative;
 		height: auto;
+		display: block;
 		margin-top: 60px;
 		margin-left: 20px;
 		flex-direction: column;

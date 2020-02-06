@@ -152,6 +152,7 @@
     height: 70px;
     background-color: #DF1016;
     border: 1px solid white;
+    border-left: none;
   }
   .nav .nav-list p {
     display: none;
