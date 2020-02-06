@@ -30,20 +30,18 @@
 	display: flex;
 	width: 90%;
 	margin-left: 80px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 
 .cont-cont .project-2 {
 	display: flex;
 	width: 90%;
-	// height: 520px;
 	margin-left: 80px;
-	margin-bottom: 20px;
+	margin-bottom: 40px;
 }
 .cont-cont .project-3 {
 	display: flex;
 	width: 90%;
-	// height: 600px;
 	margin-left: 80px;	
 }
 
@@ -191,9 +189,9 @@
 		margin-left: 20px;
 	}
 	.cont-cont .project-2 {
-		display: flex;
+		position: relative;
 		flex-direction: column-reverse;
-		margin-top: 225px;
+		margin-top: 60px;
 		margin-left: 20px;
 	}
 	.cont-cont .project-3 {
