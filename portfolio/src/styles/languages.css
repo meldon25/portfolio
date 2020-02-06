@@ -48,21 +48,23 @@
         width: fit-content;
     }
     .skills {
-        font-size: 16px;
         display: flex;
         margin-top: 20px;
+        margin-right: 20px;
     }
     .skill-bar {
         font-size: 20px;
         font-weight: bold;
-        margin-left: 10%;
+        margin-left: 16%;
     }
     .skills .left-skills {
         padding-inline-start: 0;
-        margin-left: 30px;
+        margin-left: 20px;
+        font-size: 16px;
     }
     .skills .right-skills {
-        margin-left: 30px;
+        margin-left: 15px;
+        font-size: 16px;
     }
     .arrow {
         padding: 3px;
