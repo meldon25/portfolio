@@ -15,6 +15,7 @@
 
 .work-cont {
   width: 100%;
+  height: 15vh;
 }
 
 .work-tab {
@@ -42,7 +43,6 @@
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  height: 470px;
   margin-left: 80px;
   margin-bottom: 20px;
 }
@@ -52,7 +52,6 @@
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  height: 520px;
   margin-left: 80px;
   margin-bottom: 20px;
 }
@@ -62,7 +61,6 @@
   display: -ms-flexbox;
   display: flex;
   width: 90%;
-  height: 600px;
   margin-left: 80px;
 }
 

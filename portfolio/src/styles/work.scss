@@ -11,6 +11,7 @@
 } 
 .work-cont {
 	width: 100%;
+	height: 15vh;
 }
 .work-tab {
 	color: #DF1016;
@@ -28,7 +29,6 @@
 .cont-cont .project-1 {
 	display: flex;
 	width: 90%;
-	height: 470px;
 	margin-left: 80px;
 	margin-bottom: 20px;
 }
@@ -36,14 +36,14 @@
 .cont-cont .project-2 {
 	display: flex;
 	width: 90%;
-	height: 520px;
+	// height: 520px;
 	margin-left: 80px;
 	margin-bottom: 20px;
 }
 .cont-cont .project-3 {
 	display: flex;
 	width: 90%;
-	height: 600px;
+	// height: 600px;
 	margin-left: 80px;	
 }
 
@@ -126,7 +126,6 @@
 	font-weight: 600;
 	padding-bottom: 15px;
 }
-
 
 .icon-cont {
 	display: flex;
