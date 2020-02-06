@@ -115,7 +115,60 @@
 		margin-top: 13px;
 		margin-left: 15px;
     }
-     
+}
+@media only screen and (max-width: 414px) {
+    .about-container {
+        margin-left: 40px;
+        flex-direction: column;
+    }
+    .about-tab {
+        width: 100%;
+        margin-left: 20px;
+        margin-bottom: 0;
+        font-size: 20px;
+    }
+    .about-container .about-desc {
+        margin-top: 20px;
+        width: 90%;
+    }
+    //bio text/img
+    .about-container .photo-box img {
+        height: 18em;
+        width: 13em;
+        flex-direction: row;
+        margin-top: 60px;
+    }
+    .about-container .right-side .box {
+        margin-top: 40px;
+        height: 18em;
+        width: 13em;
+        flex-direction: row;
+    }
+
+    .about-container .left-side {
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .about-container .right-side {
+        display: flex;
+        flex-direction: column;
+        margin-left: 30px;
+        margin-right: 0;
+    }
+
+
+    .about-container .left-side .about-desc {
+        margin-left: 10px;
+        padding-top: 0px;
+    }
+    
+    .line-2 {
+        width: 63%;
+		margin-top: 13px;
+		margin-left: 15px;
+    }
+
 }
 
 

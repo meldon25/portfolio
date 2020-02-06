@@ -76,3 +76,37 @@
    
 }
 
+@media only screen and (max-width: 414px) {
+    .lang-cont {
+        margin-top: 80px;
+        width: fit-content;
+    }
+    .skills {
+        display: flex;
+        margin-top: 20px;
+        margin-right: 20px;
+    }
+    .skill-bar {
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: 16%;
+    }
+    .skills .left-skills {
+        padding-inline-start: 0;
+        margin-left: 30px;
+        font-size: 16px;
+    }
+    .skills .right-skills {
+        margin-left: 15px;
+        font-size: 16px;
+    }
+    .arrow {
+        padding: 3px;
+        margin-right: 10px;
+    }
+    .lang-icon {
+        margin-left: 5px;
+    }
+
+}
+
