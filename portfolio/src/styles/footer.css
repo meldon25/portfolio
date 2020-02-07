@@ -45,7 +45,7 @@
   margin-left: 740px;
 }
 
-@media only screen and (min-widthmax-width: 375px) {
+@media only screen and (min-width: 375px) {
   .vl {
     display: none;
   }
@@ -54,9 +54,12 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    margin-left: 85px;
+    margin-left: 75px;
   }
   .bottom-cont {
+    display: none;
+  }
+  .bottom-cont .copyright {
     display: none;
   }
 }
