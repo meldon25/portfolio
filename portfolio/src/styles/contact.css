@@ -73,6 +73,11 @@
   margin-right: 200px;
 }
 
+.cont-contain .contact-info .contact-email {
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .cont-contain .contact-box {
   padding-top: 90px;
   width: 50%;
