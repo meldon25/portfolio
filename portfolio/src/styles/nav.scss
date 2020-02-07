@@ -155,70 +155,45 @@
 
   }
 
-  @media only screen and (max-width: 640px) {
-    .nav {
-        flex-direction: column;
-        height: 80px;
-        position: relative;
-    }
-    .nav .nav-name {
-        flex-direction: column;
-        margin-right: 0;
-        margin-left: 45%;
-        margin-top: 5px;
-        margin-bottom: -5px;
-    }
+  @media only screen and (min-width: 414px) {
     .nav .nav-list {
-        flex-direction: column;
+        flex-direction: row;
         display: flex;
         margin-block-start: 0;
-        width: 100%;
-        // height: 100px;
-    }
-    .nav .nav-list li {
-        width: 100%;
-        // height: 70px;
-        padding-bottom: 10px;
-        background-color: #DF1016;
-        border: 1px solid white;
-        border-left: none;
-    }
-    .nav .nav-list p {
-        display: none;
+        margin-top: 43px;
     }
     .nav .resume-tab {
-        color: white;
-        margin-top: 10px;
-        font-size: 25px;
         justify-content: center;
-        margin-right: 0;
+        margin-right: 40px;
     }
     .nav .resume-button {
-        display: none;
-        margin-left: 7em;
-        height: 80px;
-        width: 0px;
-        border-left: 1px solid #DF1016;
-        border-right: 1px solid #DF1016;
-        border-top: none;
-        border-bottom: none;
-        margin-top: 0px;
-        background-color: #DF1016;
+    display: flex;
+    margin-right: 80px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-color: #393939;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 5em;
+    height: 2.6em;
+    border-width: 2px;
+    box-shadow: 0px 0px .9px 0px;
+    cursor: pointer;
+        
     }
     .nav .resume-button a {
-        color: white;
-        font-size: 30px;
+        color: black;
+        font-size: 18px;
     }
 
   }
-  @media only screen and (max-width: 1440px) {
-      .nav {
-          display: block;
-      }
-      .nav .nav-name {
-        margin-right: 10em;
-      }
-      .nav .resume-button {
-          margin-right: 50px;
-      }
-  }
+//   @media only screen and (min-device-width: 500px) {
+//       .nav .nav-name {
+//         margin-right: 14em;
+//       }
+//       .nav .resume-button {
+//           margin-right: 50px;
+//       }
+//   }

@@ -194,83 +194,47 @@
   }
 }
 
-@media only screen and (max-width: 640px) {
-  .nav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 80px;
-    position: relative;
-  }
-  .nav .nav-name {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    margin-right: 0;
-    margin-left: 45%;
-    margin-top: 5px;
-    margin-bottom: -5px;
-  }
+@media only screen and (min-width: 414px) {
   .nav .nav-list {
-    -webkit-box-orient: vertical;
+    -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+        -ms-flex-direction: row;
+            flex-direction: row;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-margin-before: 0;
             margin-block-start: 0;
-    width: 100%;
-  }
-  .nav .nav-list li {
-    width: 100%;
-    padding-bottom: 10px;
-    background-color: #DF1016;
-    border: 1px solid white;
-    border-left: none;
-  }
-  .nav .nav-list p {
-    display: none;
+    margin-top: 43px;
   }
   .nav .resume-tab {
-    color: white;
-    margin-top: 10px;
-    font-size: 25px;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    margin-right: 0;
+    margin-right: 40px;
   }
   .nav .resume-button {
-    display: none;
-    margin-left: 7em;
-    height: 80px;
-    width: 0px;
-    border-left: 1px solid #DF1016;
-    border-right: 1px solid #DF1016;
-    border-top: none;
-    border-bottom: none;
-    margin-top: 0px;
-    background-color: #DF1016;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 80px;
+    margin-left: 70px;
+    margin-top: 30px;
+    border-color: #393939;
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    width: 5em;
+    height: 2.6em;
+    border-width: 2px;
+    -webkit-box-shadow: 0px 0px .9px 0px;
+            box-shadow: 0px 0px .9px 0px;
+    cursor: pointer;
   }
   .nav .resume-button a {
-    color: white;
-    font-size: 30px;
-  }
-}
-
-@media only screen and (max-width: 1440px) {
-  .nav {
-    display: block;
-  }
-  .nav .nav-name {
-    margin-right: 10em;
-  }
-  .nav .resume-button {
-    margin-right: 50px;
+    color: black;
+    font-size: 18px;
   }
 }
 /*# sourceMappingURL=nav.css.map */
