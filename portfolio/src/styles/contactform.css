@@ -28,7 +28,7 @@ textarea {
   }
 }
 
-@media only screen and (max-width: 475px) {
+@media only screen and (max-width: 640px) {
   input {
     width: 100%;
     margin-left: 60px;
