@@ -37,7 +37,7 @@
     }
     .icons {
         flex-direction: row;
-        margin-left: 80px;
+        margin-left: 85px;
     }
     .bottom-cont {
        display: none;
@@ -47,10 +47,6 @@
 @media only screen and (max-width: 475px) {
     .vl {
         display: none;
-    }
-    .icons {
-        flex-direction: row;
-        margin-left: 100px;
     }
     .bottom-cont {
        display: none;
