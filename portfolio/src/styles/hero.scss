@@ -126,15 +126,12 @@
     width: 100%;
     flex-direction: row;
     display: flex;
-    margin-top: 80px;
-    margin-left: 5px;
+    margin-top: 60px;
   }
-  .name-cont .name-intro {
-      display: flex;
-      flex-direction: row;
+  .name-intro {
       margin: 0;
       font-size: 22px;
-      margin-left: 38px;
+      margin-left: 0px;
       margin-top: 35px;
   }
   .name-cont .name {
@@ -208,7 +205,7 @@
     display: flex;
   }
   .tact-button-cont {
-    margin-left: 7em;
+    margin-left: 6.6em;
   }
   .tact-button {
     width: 100%;

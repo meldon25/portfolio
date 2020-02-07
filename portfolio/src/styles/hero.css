@@ -214,20 +214,12 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    margin-top: 80px;
-    margin-left: 5px;
+    margin-top: 60px;
   }
-  .name-cont .name-intro {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+  .name-intro {
     margin: 0;
     font-size: 22px;
-    margin-left: 38px;
+    margin-left: 0px;
     margin-top: 35px;
   }
   .name-cont .name {
@@ -331,7 +323,7 @@
     display: flex;
   }
   .tact-button-cont {
-    margin-left: 7em;
+    margin-left: 6.6em;
   }
   .tact-button {
     width: 100%;
