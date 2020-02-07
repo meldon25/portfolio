@@ -31,7 +31,7 @@
     margin-left: 740px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (min-width: 375px and max-width: 375px) {
     .vl {
         display: none;
     }
@@ -44,12 +44,3 @@
     }
 }
 
-@media only screen and (max-width: 475px) {
-    .vl {
-        display: none;
-    }
-    .bottom-cont {
-       display: none;
-    }
-
-}

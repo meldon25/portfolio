@@ -155,7 +155,7 @@
 
   }
 
-  @media only screen and (max-width: 475px) {
+  @media only screen and (max-width: 640px) {
     .nav {
         flex-direction: column;
         height: 80px;
@@ -212,10 +212,13 @@
 
   }
   @media only screen and (max-width: 1440px) {
+      .nav {
+          display: block;
+      }
       .nav .nav-name {
-        margin-right: 7em;
+        margin-right: 10em;
       }
       .nav .resume-button {
-          margin-right: 250px;
+          margin-right: 50px;
       }
   }
