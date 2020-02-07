@@ -14,7 +14,7 @@ function Nav() {
             <div className="res-button-cont">
             <button className="resume-button"><a href="https://drive.google.com/open?id=1Ll-kWTNCWYUqM-cNBL50-qxoF767UEcU">Resume</a></button>
             </div>
-        </div>
+            </div>
         </>
     )
 }

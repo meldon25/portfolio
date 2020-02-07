@@ -10,12 +10,17 @@
     z-index: 1;
 }
 .nav .nav-list {
-    margin: 43px auto 0px;
+    margin-top: 43px;
+    margin-right: 120px;
     padding: 0;
     width: 225px;
     display: flex;
     flex-direction: row;
 }
+.nav .nav-cont-cont .res-button-cont {
+    display: inline-flex;
+}
+
 .nav .nav-name {
     color: #DF1016;
     font-weight: 400;
@@ -24,7 +29,8 @@
     margin-top: 20px;
     font-family: 'Monoton', cursive;
     margin-left: 40px;
-    margin-right: 15.5em;
+    display: flex;
+    margin-right: 19.5em; 
 }
 
 .nav .nav-list li {
@@ -71,6 +77,7 @@
 .nav .resume-button {
     display: flex;
     margin-right: 80px;
+    margin-left: 70px;
     margin-top: 30px;
     border-color: #393939;
     background-color: white;
@@ -203,4 +210,12 @@
         font-size: 30px;
     }
 
+  }
+  @media only screen and (max-width: 1440px) {
+      .nav .nav-name {
+        margin-right: 7em;
+      }
+      .nav .resume-button {
+          margin-right: 250px;
+      }
   }
