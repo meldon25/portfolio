@@ -234,6 +234,9 @@
     display: -ms-flexbox;
     display: flex;
   }
+  .tact-button-cont {
+    margin-left: 6.5em;
+  }
   .tact-button {
     width: 100%;
   }
