@@ -215,7 +215,7 @@
     display: -ms-flexbox;
     display: flex;
     margin-top: 220px;
-    margin-left: 16%;
+    margin-left: 14%;
   }
   .name-intro {
     margin: 0;
@@ -233,9 +233,6 @@
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-  }
-  .tact-button-cont {
-    margin-left: 6.5em;
   }
   .tact-button {
     width: 100%;
@@ -282,7 +279,7 @@
     margin-top: 190px;
   }
   .tact-button-cont {
-    margin-left: 40em;
+    margin-left: 6.5em;
   }
 }
 /*# sourceMappingURL=hero.css.map */
