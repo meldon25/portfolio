@@ -237,4 +237,10 @@
     font-size: 18px;
   }
 }
+
+@media only screen and (max-width: 500px) {
+  .nav .nav-name {
+    margin-right: 14em;
+  }
+}
 /*# sourceMappingURL=nav.css.map */

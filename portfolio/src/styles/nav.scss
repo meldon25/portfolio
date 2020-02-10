@@ -189,11 +189,8 @@
     }
 
   }
-//   @media only screen and (min-device-width: 500px) {
-//       .nav .nav-name {
-//         margin-right: 14em;
-//       }
-//       .nav .resume-button {
-//           margin-right: 50px;
-//       }
-//   }
+  @media only screen and (max-width: 500px) {
+      .nav .nav-name {
+        margin-right: 14em;
+      }
+  }
