@@ -63,4 +63,10 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 1445px) {
+  .bottom-cont .copyright {
+    margin-left: 625px;
+  }
+}
 /*# sourceMappingURL=footer.css.map */
