@@ -116,7 +116,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .hero-hero {
     width: 100%;
     display: flex;
@@ -127,7 +127,7 @@
     flex-direction: row;
     display: flex;
     margin-top: 220px;
-    margin-left: 14%;
+    margin-left: 16%;
   }
   .name-intro {
       margin: 0;
@@ -177,71 +177,4 @@
     font-size: 15px;
   }
 }
-
-// @media only screen and (min-device-width: 1440px) {
-//   .hero-hero {
-//     width: 100%;
-//     margin-top: 170px;
-//     display: flex;
-//     flex-direction: column;
-//   }
-//   .hero-hero .name-cont {
-//     width: 100%;
-//     flex-direction: row;
-//     display: flex;
-//   }
-//   .name-cont .name-intro {
-//       display: flex;
-//       flex-direction: row;
-//       margin: 0;
-//       font-size: 22px;
-//       margin-left: 42px;
-//       margin-top: 35px;
-//   }
-//   .name-cont .name {
-//     font-size: 22px;
-//     margin-top: 35px;
-//     // margin-left: 10px;
-//     flex-direction: column;
-//     display: flex;
-//   }
-//   .tact-button-cont {
-//     margin-left: 6.6em;
-//   }
-//   .tact-button {
-//     width: 100%;
-//   }
-//   .hero {
-//     margin-top: 190px;
-//     left: 0;
-//     margin-left: 10px;
-//     font-size: 20px;
-//     width: 95%;
-//   }
-//   .hero .hero-container {
-//       width: 100%;
-//       padding-left: 20px;
-//   }
-//   .hero-container .hero-container-text {
-//     display: inline;
-//   }
-//   .hero .hero-container .hero-container-text {
-//     display: flex;
-//   }
-//   .hero .hero-container .hero-container-list .hero-container-list-item {
-//       display: flex;
-//       flex-direction: row;
-//       padding-left: 65px;
-//   }
-//   .tact-button {
-//     margin-bottom: 20px;
-//     height: 40px;
-//     width: 160px;
-//     font-size: 15px;
-//   }
-
-// }
-
-
-
 

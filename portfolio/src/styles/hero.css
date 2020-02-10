@@ -194,7 +194,7 @@
   cursor: pointer;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .hero-hero {
     width: 100%;
     display: -webkit-box;
@@ -215,7 +215,7 @@
     display: -ms-flexbox;
     display: flex;
     margin-top: 220px;
-    margin-left: 14%;
+    margin-left: 16%;
   }
   .name-intro {
     margin: 0;

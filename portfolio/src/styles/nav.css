@@ -14,9 +14,8 @@
 
 .nav .nav-list {
   margin-top: 43px;
-  margin-right: 120px;
+  margin-right: 3.75em;
   padding: 0;
-  width: 225px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,11 +39,11 @@
           margin-block-start: 0;
   margin-top: 20px;
   font-family: 'Monoton', cursive;
-  margin-left: 40px;
+  margin-left: 1.2em;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 19.5em;
+  margin-right: 18.5em;
 }
 
 .nav .nav-list li {
@@ -101,8 +100,6 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 80px;
-  margin-left: 70px;
   margin-top: 30px;
   border-color: #393939;
   background-color: white;
@@ -123,7 +120,7 @@
   margin-left: 2px;
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
   .nav {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -131,6 +128,7 @@
             flex-direction: column;
     height: 80px;
     position: relative;
+    width: 100%;
   }
   .nav .nav-name {
     -webkit-box-orient: vertical;
@@ -175,15 +173,6 @@
   }
   .nav .resume-button {
     display: none;
-    margin-left: 7em;
-    height: 80px;
-    width: 0px;
-    border-left: 1px solid #DF1016;
-    border-right: 1px solid #DF1016;
-    border-top: none;
-    border-bottom: none;
-    margin-top: 0px;
-    background-color: #DF1016;
   }
   .nav .resume-button a {
     color: white;
@@ -194,53 +183,12 @@
   }
 }
 
-@media only screen and (min-width: 414px) {
-  .nav .nav-list {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-margin-before: 0;
-            margin-block-start: 0;
-    margin-top: 43px;
+@media only screen and (max-width: 1445px) {
+  .nav {
+    width: 100%;
   }
-  .nav .resume-tab {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-right: 40px;
-  }
-  .nav .resume-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    margin-right: 80px;
-    margin-left: 70px;
-    margin-top: 30px;
-    border-color: #393939;
-    background-color: white;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    width: 5em;
-    height: 2.6em;
-    border-width: 2px;
-    -webkit-box-shadow: 0px 0px .9px 0px;
-            box-shadow: 0px 0px .9px 0px;
-    cursor: pointer;
-  }
-  .nav .resume-button a {
-    color: black;
-    font-size: 18px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
   .nav .nav-name {
-    margin-right: 14em;
+    margin-right: 14.5em;
   }
 }
 /*# sourceMappingURL=nav.css.map */
