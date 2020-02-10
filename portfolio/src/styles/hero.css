@@ -276,4 +276,13 @@
     font-size: 15px;
   }
 }
+
+@media only screen and (max-width: 1445px) {
+  .hero {
+    margin-top: 190px;
+  }
+  .tact-button-cont {
+    margin-left: 40em;
+  }
+}
 /*# sourceMappingURL=hero.css.map */
