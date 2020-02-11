@@ -33,8 +33,12 @@ class ContactForm extends Component {
           const { name, email, message } = this.state;
           return (
             <>
+            <form name="contact"
+                  method="POST"
+                  data-netlify="true"
+                  netlify-honeypot="bot-field"
+                  onSubmit={this.handleSubmit}>
             <input type="hidden" name="form-name" value="contact" />
-            <form onSubmit={this.handleSubmit}>
               <p>
                 <label>
                   Your Name:<input type="text" name="name" value={name} onChange={this.handleChange} />

@@ -17,6 +17,7 @@ class Contact extends Component {
                 <p className="contact-desc">I am currently looking for new opportunities! <br /> If you are interested in working together or just want to say<br/> hello, send me a message and I will get to your email right away!</p>  
                 </div>
             <div className="contact-box">
+            <input type="hidden" name="form-name" value="contact" />
                 <ContactForm />
                 </div>
                 </div>
