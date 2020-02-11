@@ -32,7 +32,9 @@ class Work extends Component {
                 <img src="https://i.imgur.com/a9y93DK.png" />
               </div>
               <div className="button-cont">
-                <button className="link-button" disabled='disabled'>Website</button>
+                <form action="https://rouge.surge.sh">
+                <button className="link-button">Website</button>
+                </form>
                 <form action="https://github.com/meldon25/project-5">
                   <button className="github-button" type="submit">Github</button>
                 </form>
