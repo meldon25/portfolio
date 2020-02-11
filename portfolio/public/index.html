@@ -45,7 +45,7 @@
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
-    <form name="contact" method="POST" data-netlify="true" >
+    <form name="contact" netlify netlify-honeypot="bot-field" hidden>
       <input type="text" name="name" />
       <input type="email" name="email" />
       <textarea name="message"></textarea>
@@ -61,6 +61,5 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
-    <!-- netlify netlify-honeypot="bot-field" hidden -->
   </body>
 </html>
