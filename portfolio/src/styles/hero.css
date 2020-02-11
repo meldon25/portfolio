@@ -237,9 +237,6 @@
   .tact-button-cont {
     margin-left: 6.5em;
   }
-  .tact-button {
-    width: 100%;
-  }
   .hero {
     margin-top: 190px;
     left: 0;
@@ -272,14 +269,17 @@
   .tact-button {
     margin-bottom: 20px;
     height: 40px;
-    width: 160px;
+    width: 100%;
     font-size: 15px;
   }
 }
 
 @media only screen and (max-width: 1445px) {
   .hero {
-    margin-top: 190px;
+    margin-top: 40px;
+  }
+  .tact-button-cont {
+    margin-left: 40em;
   }
 }
 /*# sourceMappingURL=hero.css.map */
