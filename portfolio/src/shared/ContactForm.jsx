@@ -1,6 +1,8 @@
 import React, {Component} from 'react'
 import '../styles/contactform.css'
 
+
+
 const encode = (data) => {
   return Object.keys(data)
       .map(key => encodeURIComponent(key) + "=" + encodeURIComponent(data[key]))
@@ -32,7 +34,7 @@ class ContactForm extends Component {
           return (
             <>
             <input type="hidden" name="form-name" value="contact" />
-            <form netlify-honeypot="bot-field" method="POST" netlify onSubmit={this.handleSubmit}>
+            <form onSubmit={this.handleSubmit}>
               <p>
                 <label>
                   Your Name:<input type="text" name="name" value={name} onChange={this.handleChange} />
@@ -49,11 +51,10 @@ class ContactForm extends Component {
                 </label>
               </p>
               <p>
-                <button className ="contact-button" type="submit" disabled="disabled">Send</button>
+                <button className ="contact-button" type="submit">Send</button>
               </p>
             </form>
             </>
-            
           )
         }
       }
