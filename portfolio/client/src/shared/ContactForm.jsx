@@ -18,7 +18,7 @@ class ContactForm extends Component {
         handleSubmit = async e => {
           e.preventDefault();
           console.log(this.state)
-          fetch('http://localhost:3001/', {
+          fetch('https://mel-portfolio-server.herokuapp.com/', {
             method: "POST",
             headers: {"Content-Type" : "application/json"},
             body: JSON.stringify(this.state)

@@ -12,6 +12,11 @@ class Container extends React.Component {
     constructor() {
     super()
     }
+
+    componentDidMount(){
+        fetch('https://mel-portfolio-server.herokuapp.com/')
+    }
+    
     render() {
         return (
             <>
