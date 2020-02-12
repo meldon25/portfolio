@@ -15,16 +15,18 @@ class ContactForm extends Component {
           this.state = { name: "", email: "", message: "" };
         }
     
-        handleSubmit = e => {
-          fetch("/", {
+        handleSubmit = async e => {
+          e.preventDefault();
+          console.log(this.state)
+          fetch('http://localhost:3001/', {
             method: "POST",
-            headers: { "Content-Type": "application/x-www-form-urlencoded" },
-            body: ({ "form-name": "contact", ...this.state })
+            headers: {"Content-Type" : "application/json"},
+            body: JSON.stringify(this.state)
           })
             .then(() => alert("Success! Talk soon!"))
             .catch(error => alert(error));
     
-          e.preventDefault();
+          
         };
     
         handleChange = e => this.setState({ [e.target.name]: e.target.value });
@@ -34,9 +36,9 @@ class ContactForm extends Component {
           return (
             <>
             <form name="contact"
-                  method="POST"
-                  data-netlify="true"
-                  netlify-honeypot="bot-field"
+                  // method="POST"
+                  // data-netlify="true"
+                  // netlify-honeypot="bot-field"
                   onSubmit={this.handleSubmit}>
             <input type="hidden" name="form-name" value="contact" />
               <p>
@@ -55,7 +57,7 @@ class ContactForm extends Component {
                 </label>
               </p>
               <p>
-                <button className ="contact-button" type="submit" disabled="disabled">Send</button>
+                <button className ="contact-button" type="submit">Send</button>
               </p>
             </form>
             </>
