@@ -41,7 +41,7 @@ const main = async (req, res) => {
     });
     res.json({msg: "Message Sent"})
 }
-
+App.get('/', (req,res) => res.json({message: 'Connected'}))
 App.post('/', main)
 
 App.listen(PORT, ()=> console.log(`App listening ${PORT}`))
