@@ -14,7 +14,7 @@
 
 .nav .nav-list {
   margin-top: 43px;
-  margin-right: 3.75em;
+  margin-right: 2em;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -43,7 +43,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 18.5em;
+  margin-right: 19em;
 }
 
 .nav .nav-list li {
