@@ -22,9 +22,9 @@ class Container extends React.Component {
             <>
             <Nav />
             <Hero />
-            <Work />
             <About />
             <Languages />
+            <Work />
             <Contact />
             <Footer />
             </>

@@ -2,6 +2,7 @@
 	font-family: 'Open Sans', sans-serif;
 	scroll-behavior: smooth;
 }
+
 .line-1 {
 	background-color: black;
     width: 83%;
@@ -10,14 +11,16 @@
     margin-top: 23px;
 	display: flex;
 } 
+
 .work-cont {
 	width: 100%;
 	height: auto;
+	// position: relative;
 }
 .work-tab {
 	color: #DF1016;
 	margin-left: 80px;
-	margin-top: 320px;
+	margin-top: 220px;
     display: flex;
 }
 
@@ -169,6 +172,133 @@
 	font-weight: 700;
 	display: inline-flex;
 }
+
+@media only screen and (max-width: 500px) {
+	.line-1 {
+		width: 63%;
+		margin-top: 13px;
+		margin-left: 15px;
+	}
+	.work-cont {
+		width: 100%;
+	}
+	.work-tab {
+		margin-top: 0;
+		width: 100%;
+		font-size: 20px;
+		margin-top: 0;
+		margin-left: 20px;
+	}
+	.cont-cont {
+		height: auto;
+		display: table-cell;
+	}
+	.cont-cont .project-1 { 
+		position: relative;
+		flex-direction: column;
+		height: auto;
+		margin-left: 20px;
+	}
+	.cont-cont .project-2 {
+		position: relative;
+		flex-direction: column-reverse;
+		height: auto;
+		margin-top: 60px;
+		margin-left: 20px;
+	}
+	.cont-cont .project-3 {
+		position: relative;
+		height: auto;
+		display: block;
+		margin-top: 60px;
+		margin-left: 20px;
+		flex-direction: column;
+	} 
+
+	//images
+	.cont-cont .project-1 .project-1-img img {
+		width: 330px;
+		height: 200px;
+	}
+	.cont-cont .project-2 .project-2-img img {
+		width: 330px;
+		height: 200px;
+	}
+	.cont-cont .project-3 .project-3-img img {
+		width: 330px;
+		height: 200px;
+	}
+
+	//desc 
+	.cont-cont .project-1 .project-1-desc {
+		display: flex;
+		flex-direction: column;
+		margin-left: 0;
+		margin-right: 10px;
+	}
+	.cont-cont .project-2 .project-2-desc {
+		padding-right: 0px;
+	}
+	.cont-cont .project-3 .project-3-desc {
+		margin-left: 0px;
+	}
+	.cont-cont .project-1 .project-1-desc p{
+		margin-top: 0px;
+		margin-bottom: 3px;
+		text-align: center;
+	}
+	.cont-cont .project-2 .project-2-desc p{
+		margin-top: 0px;
+		margin-bottom: 3px;
+		text-align: center;
+	}
+	.cont-cont .project-3 .project-3-desc p{
+		margin-top: 0px;
+		margin-bottom: 3px;
+		text-align: center;
+	}
+	.cont-cont .project-1 .project-1-desc .rouge-title {
+		margin-top: 15px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 25px;
+	}
+	.cont-cont .project-2 .project-2-desc .pinch-title {
+		margin-top: 15px;
+		display: flex;
+		justify-content: center;
+		margin-bottom: 25px;
+	}
+	.cont-cont .project-3 .project-3-desc .etoile-title {
+		margin-top: 25px;
+		justify-content: center;
+		display: flex;
+	}
+
+	.icon-cont {
+		justify-content: center;
+		width: auto;
+		height: auto;
+	}
+	
+	.icon-cont .css-icon {
+		margin-top: 0px;
+		width: 32px;
+		height: 32px;
+	}
+
+.icon-cont img {
+	width: 30px;
+	height: 32px;
+	margin-right: 15px;
+	margin-bottom: 28px;
+}
+.button-cont {
+	margin-left: 30px;
+}
+}
+
+
 @media only screen and (max-width: 500px) {
 	.line-1 {
 		width: 63%;

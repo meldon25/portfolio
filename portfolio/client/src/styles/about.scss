@@ -6,7 +6,8 @@
 }
 .about-cont {
     width: 100%;
-    margin-top: 140px;
+    margin-top: 185px;
+    position: relative;
 }
 .about-tab {
     color: #DF1016;
@@ -42,10 +43,11 @@
 }
 .about-container .left-side {
     display: flex;
+    margin-left: 80px;
 }
 
 .about-container .right-side {
-    margin-right: 175px;
+    margin-right: 205px;
 }
 .line-2 {
     background-color: black;

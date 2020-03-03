@@ -7,9 +7,9 @@ function Nav() {
         <>
         <div className='nav'>
         <h1 className="nav-name">M</h1>
-            <ul className='nav-list'>
-                <p>1.</p><li><a className="resume-tab" href="#Work">Work</a></li> 
-                <p>2.</p><li><a className="resume-tab" href="#About">About</a></li>
+            <ul className='nav-list'> 
+                <p>1.</p><li><a className="resume-tab" href="#About">About</a></li>
+                <p>2.</p><li><a className="resume-tab" href="#Work">Work</a></li>
                 <p>3.</p><li><a className="resume-tab" href="#Contact">Contact</a></li>
             </ul>
             <div className="res-button-cont">
