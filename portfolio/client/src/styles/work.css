@@ -22,7 +22,7 @@
 .work-tab {
   color: #DF1016;
   margin-left: 80px;
-  margin-top: 220px;
+  margin-top: 160px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,6 +37,7 @@
       -ms-flex-direction: column;
           flex-direction: column;
   height: auto;
+  margin-top: 100px;
 }
 
 .cont-cont .project-1 {
@@ -46,7 +47,7 @@
   width: 90%;
   height: auto;
   margin-left: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 
 .cont-cont .project-2 {
@@ -56,7 +57,7 @@
   width: 90%;
   height: auto;
   margin-left: 80px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
 
 .cont-cont .project-3 {
@@ -66,6 +67,7 @@
   width: 90%;
   height: auto;
   margin-left: 80px;
+  margin-bottom: 80px;
 }
 
 .cont-cont .project-1 .project-1-img img {

@@ -16,7 +16,7 @@ class Work extends Component {
           <h1 className='work-tab'><p className="contnum">2.</p>Work<div className="line-1"></div></h1>
       </div>
         <div className="cont-cont">
-          <div className="project-1">
+          {/* <div className="project-1">
             <div className="project-1-img">
               <img src="https://i.imgur.com/LfVlM1L.png" />
             </div>
@@ -40,7 +40,7 @@ class Work extends Component {
                 </form>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="project-2">
             <div className="project-2-desc">
               <h1 className="pinch-title">In A Pinch</h1>

@@ -1,6 +1,7 @@
 .about-container {
   font-family: 'Open Sans', sans-serif;
   margin-left: 80px;
+  margin-top: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
