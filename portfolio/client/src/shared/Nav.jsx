@@ -1,10 +1,8 @@
 import React from 'react'
-// import {Link} from 'react-router-dom'
 import '../styles/nav.css'
 
 function Nav() {
     return (
-        <>
         <div className='nav'>
         <h1 className="nav-name">M</h1>
             <ul className='nav-list'> 
@@ -16,7 +14,6 @@ function Nav() {
             <button className="resume-button"><a href="https://drive.google.com/open?id=11IHTQ5RSksXnq9gB0FXhuHxPdVgxU94F">Resume</a></button>
             </div>
             </div>
-        </>
     )
 }
 export default Nav
