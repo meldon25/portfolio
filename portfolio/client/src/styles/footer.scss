@@ -24,7 +24,8 @@
 }
 .bottom-cont {
     display: flex;
-    margin-left: 40%;
+    justify-content: flex-end;
+    margin-right: 30px;
 }
 .bottom-cont .copyright {
     display: flex;
