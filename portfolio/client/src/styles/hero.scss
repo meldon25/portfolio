@@ -1,21 +1,21 @@
 .hero {
     position: absolute;
     top: 45%;
-    left: 30%;
+    left: 28%;
+    display: flex;
     transform: transform(-50%,-50%);
     height: 40px;
     overflow: hidden;
-    font-size: 35px;
     line-height: 40px;
 }
 .name-cont {
-  margin-top: 120px;
   display: flex;
+  justify-content: center;
+  margin-top: 120px;
 }
 .name-intro {
-  margin-left: 36%;
-  font-size: 35px;
   display: flex;
+  font-size: 35px;
   margin-top: 175px;
 }
 .name-cont .name {
@@ -31,6 +31,8 @@
 .hero .hero-container {
     font-weight: 400;
     // height: 25px;
+    // align-items: center;
+    // justify-content: center;
     padding: 0 45px;
 }
 .hero .hero-container:before {
@@ -57,25 +59,24 @@
 
   .hero .hero-container .hero-container-text {
     display: inline;
-    margin: 0;
+    font-size: 30px;
   }
 
   .hero .hero-container .hero-container-list {
-    margin-block-start: 0;
-    margin-top: 4px;
+    font-size: 30px;
+    margin-top: 1px;
   }
 
   //text animation
   .hero .hero-container .hero-container-list .hero-container-list-item {
     margin-top: -91px;
-    margin-bottom: 2px;
-    padding-left: 145px;
+    margin-bottom: 3px;
+    padding-left: 36px;
     font-weight: 500;
-    text-align: left;
     list-style-type: none;
     color: black;
     animation-name: change;
-    animation-duration: 12s;
+    animation-duration: 14s;
     animation-iteration-count: infinite;
     line-height: 128px;
 }
@@ -93,23 +94,25 @@
 }
 
 //button 
-.tact-button-cont {
-  margin-left: 44em;
+#tact-button-cont {
+  display: flex;
+  justify-content: center;
+  // margin-left: 47em;
   margin-top: 13em;
   margin-bottom: 9.2em;
 }
-.tact-button {
+#tact-button {
     border-color: #DF1016;
     border-width: 3px;
     background-color: transparent;
     color: #DF1016;
     font-size: 22px;
     font-weight: bold;
-    height: 60px;
-    width: 180px;
+    height: 8vh;
+    width: 14vw;
     margin-bottom: 80px;
 }
-.tact-button .git-button {
+#tact-button .git-button {
   text-decoration: none;
   color: #DF1016;
   cursor: pointer;
@@ -141,7 +144,7 @@
     flex-direction: column;
     display: flex;
   }
-  .tact-button-cont {
+  #tact-button-cont {
     margin-left: 6.5em;
   }
   .hero {
@@ -176,9 +179,6 @@
 @media only screen and (max-width: 1445px) {
   .hero {
     margin-top: 40px;
-  }
-  .tact-button-cont {
-    margin-left: 40em;
   }
   
 }

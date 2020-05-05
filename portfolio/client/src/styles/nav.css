@@ -1,53 +1,50 @@
 * {
   text-decoration: none;
   scroll-behavior: smooth;
+  font-family: 'Open Sans', sans-serif;
 }
 
 .nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  font-family: 'Open Sans', sans-serif;
-  background-color: white;
-  border: 1px solid lightgrey;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  background-color: transparent;
+  border-bottom: 1px solid lightgrey;
   position: fixed;
   top: 0;
-  height: 15vh;
+  right: 0;
+  left: 0;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  height: auto;
   max-width: 100%;
   z-index: 1;
 }
 
-.nav .nav-list {
-  margin-top: 40px;
-  padding: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+.nav-list {
+  margin-top: 30px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
 }
 
-.nav .nav-cont-cont .res-button-cont {
-  display: -webkit-inline-box;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-.nav .nav-name {
+.nav-name {
   color: #DF1016;
   font-weight: 400;
   font-size: 50px;
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
-  margin-top: 20px;
   font-family: 'Monoton', cursive;
-  margin-left: 0.7em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: 19em;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  position: fixed;
+  top: 0;
+  margin-top: 10px;
+  margin-left: 20px;
 }
 
 .nav .nav-list li {
@@ -55,17 +52,12 @@
   position: relative;
   font-size: 20px;
   font-weight: 600;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .resume-tab {
   color: black;
-  display: inline-block;
   position: relative;
   text-decoration: none;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   cursor: pointer;
   margin-right: 45px;
 }
@@ -104,7 +96,9 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-top: 30px;
+  margin-right: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   border-color: #393939;
   background-color: white;
   font-family: 'Open Sans', sans-serif;
@@ -126,13 +120,7 @@
 
 @media only screen and (max-width: 500px) {
   .nav {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    height: 80px;
-    position: relative;
-    width: 100%;
+    max-width: 100%;
   }
   .nav .nav-name {
     -webkit-box-orient: vertical;
@@ -184,15 +172,6 @@
   }
   .res-button-cont {
     background-color: #DF1016;
-  }
-}
-
-@media only screen and (max-width: 1445px) {
-  .nav {
-    width: 100%;
-  }
-  .nav .nav-name {
-    margin-right: 14.5em;
   }
 }
 /*# sourceMappingURL=nav.css.map */

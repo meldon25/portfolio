@@ -1,28 +1,32 @@
 .hero {
   position: absolute;
   top: 45%;
-  left: 30%;
+  left: 28%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-transform: transform(-50%, -50%);
           transform: transform(-50%, -50%);
   height: 40px;
   overflow: hidden;
-  font-size: 35px;
   line-height: 40px;
 }
 
 .name-cont {
-  margin-top: 120px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 120px;
 }
 
 .name-intro {
-  margin-left: 36%;
-  font-size: 35px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 35px;
   margin-top: 175px;
 }
 
@@ -71,27 +75,25 @@
 
 .hero .hero-container .hero-container-text {
   display: inline;
-  margin: 0;
+  font-size: 30px;
 }
 
 .hero .hero-container .hero-container-list {
-  -webkit-margin-before: 0;
-          margin-block-start: 0;
-  margin-top: 4px;
+  font-size: 30px;
+  margin-top: 1px;
 }
 
 .hero .hero-container .hero-container-list .hero-container-list-item {
   margin-top: -91px;
-  margin-bottom: 2px;
-  padding-left: 145px;
+  margin-bottom: 3px;
+  padding-left: 36px;
   font-weight: 500;
-  text-align: left;
   list-style-type: none;
   color: black;
   -webkit-animation-name: change;
           animation-name: change;
-  -webkit-animation-duration: 12s;
-          animation-duration: 12s;
+  -webkit-animation-duration: 14s;
+          animation-duration: 14s;
   -webkit-animation-iteration-count: infinite;
           animation-iteration-count: infinite;
   line-height: 128px;
@@ -169,25 +171,30 @@
   }
 }
 
-.tact-button-cont {
-  margin-left: 44em;
+#tact-button-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 13em;
   margin-bottom: 9.2em;
 }
 
-.tact-button {
+#tact-button {
   border-color: #DF1016;
   border-width: 3px;
   background-color: transparent;
   color: #DF1016;
   font-size: 22px;
   font-weight: bold;
-  height: 60px;
-  width: 180px;
+  height: 8vh;
+  width: 14vw;
   margin-bottom: 80px;
 }
 
-.tact-button .git-button {
+#tact-button .git-button {
   text-decoration: none;
   color: #DF1016;
   cursor: pointer;
@@ -233,7 +240,7 @@
     display: -ms-flexbox;
     display: flex;
   }
-  .tact-button-cont {
+  #tact-button-cont {
     margin-left: 6.5em;
   }
   .hero {
@@ -276,9 +283,6 @@
 @media only screen and (max-width: 1445px) {
   .hero {
     margin-top: 40px;
-  }
-  .tact-button-cont {
-    margin-left: 40em;
   }
 }
 /*# sourceMappingURL=hero.css.map */

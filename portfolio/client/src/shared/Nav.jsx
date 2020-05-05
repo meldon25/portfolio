@@ -3,17 +3,18 @@ import '../styles/nav.css'
 
 function Nav() {
     return (
+        <>
+            <p className="nav-name">M</p>
         <div className='nav'>
-        <h1 className="nav-name">M</h1>
             <ul className='nav-list'> 
                 <p>1.</p><li><a className="resume-tab" href="#About">About</a></li>
                 <p>2.</p><li><a className="resume-tab" href="#Work">Work</a></li>
                 <p>3.</p><li><a className="resume-tab" href="#Contact">Contact</a></li>
             </ul>
-            <div className="res-button-cont">
+            {/* <div className="res-button-cont"> */}
             <button className="resume-button"><a href="https://drive.google.com/open?id=11IHTQ5RSksXnq9gB0FXhuHxPdVgxU94F">Resume</a></button>
             </div>
-            </div>
+            </>
     )
 }
 export default Nav
