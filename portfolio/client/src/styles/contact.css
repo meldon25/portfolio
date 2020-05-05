@@ -8,7 +8,6 @@
 .contact-cont .contact-title {
   color: #DF1016;
   font-size: 30px;
-  font-weight: bold;
   margin-top: 90px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -25,29 +24,38 @@
   color: black;
   font-size: 34px;
   margin-bottom: 25px;
+  font-weight: 600;
 }
 
 .contact-desc {
   line-height: 34px;
+  width: 100%;
   font-size: 18px;
-  padding-right: 20px;
 }
 
 .contact-button {
   border-color: #DF1016;
-  border-width: 2px;
+  border-width: 1.5px;
   background-color: white;
   color: #DF1016;
   font-size: 18px;
   font-weight: bold;
-  height: 30px;
-  width: 75px;
-  margin-left: 62.3%;
+  height: 4vh;
+  width: 6vw;
+}
+
+.cont-button-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
 
 .line-3 {
   background-color: black;
-  width: 83%;
+  width: 80%;
   height: 3px;
   margin-left: 50px;
   margin-top: 23px;
@@ -68,11 +76,12 @@
   display: flex;
   height: 70vh;
   margin-top: 30px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
 }
 
 .cont-contain .contact-info {
-  margin-left: 160px;
-  margin-right: 200px;
+  max-width: 30%;
 }
 
 .cont-contain .contact-info .contact-email {
@@ -81,8 +90,7 @@
 }
 
 .cont-contain .contact-box {
-  padding-top: 90px;
-  width: 50%;
+  padding-top: 50px;
 }
 
 @media only screen and (max-width: 500px) {

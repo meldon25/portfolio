@@ -11,6 +11,7 @@ class Work extends Component {
   }
   render() {
     return (
+    
       <div id="Work">
       <div className="work-cont">
           <h1 className='work-tab'><p className="contnum">2.</p>Work<div className="line-1"></div></h1>
@@ -90,6 +91,7 @@ class Work extends Component {
           </div>
         </div>
         </div>
+      
         
     )
   }

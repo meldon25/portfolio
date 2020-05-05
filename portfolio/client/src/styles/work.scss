@@ -5,7 +5,7 @@
 
 .line-1 {
 	background-color: black;
-    width: 83%;
+    width: 80%;
     height: 3px;
     margin-left: 50px;
     margin-top: 23px;
@@ -13,14 +13,15 @@
 } 
 
 .work-cont {
-	width: 100%;
 	height: auto;
+	flex-wrap: wrap;
 	// position: relative;
 }
 .work-tab {
 	color: #DF1016;
 	margin-left: 80px;
 	margin-top: 160px;
+	font-size: 30px;
     display: flex;
 }
 
@@ -28,16 +29,16 @@
 	display: flex;
 	flex-direction: column;
 	height: auto;
-	margin-top: 100px;
+	margin-top: 60px;
 }
 
-.cont-cont .project-1 {
-	display: flex;
-	width: 90%;
-	height: auto;
-	margin-left: 80px;
-	margin-bottom: 120px;
-}
+// .cont-cont .project-1 {
+// 	display: flex;
+// 	width: 80%;
+// 	height: auto;
+// 	margin-left: 80px;
+// 	margin-bottom: 120px;
+// }
 
 .cont-cont .project-2 {
 	display: flex;
@@ -63,14 +64,16 @@
 }
 
 .cont-cont .project-2 .project-2-img img {
-	width: 800px;
-	height: 475px;
-	border: 2px solid black;
+	width: 725px;
+	height: 440px;
+	border: 1px solid black;
 }
 .cont-cont .project-3 .project-3-img img {
-	width: 800px;
-	height: 525px;
-	border: 2px solid black;
+	width: 725px;
+	height: 460px;
+	border: 1px solid black;
+	border-left: none;
+	border-top: none;
 }
 
 //desc
@@ -78,7 +81,7 @@
 	margin-left: 50px;
 }
 .cont-cont .project-2 .project-2-desc {
-	padding-right: 40px;
+	padding-right: 30px;
 }
 .cont-cont .project-3 .project-3-desc {
 	margin-left: 50px;
@@ -106,11 +109,13 @@
 	margin-block-end: 0;
 }
 .cont-cont .project-2 .project-2-desc .pinch-title {
-	margin-top: 80px;
+	margin-top: 50px;
 	margin-bottom: 30px;
+	font-size: 30px;
 }
 .cont-cont .project-3 .project-3-desc .etoile-title {
-	margin-top: 50px;
+	margin-top: 30px;
+	font-size: 30px;
 }
 
 //lang bar

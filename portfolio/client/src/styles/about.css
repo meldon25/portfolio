@@ -1,16 +1,16 @@
 .about-container {
   font-family: 'Open Sans', sans-serif;
-  margin-left: 80px;
-  margin-top: 80px;
+  margin-left: 60px;
+  margin-top: 40px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   scroll-behavior: smooth;
+  max-width: 100%;
 }
 
 .about-cont {
-  width: 100%;
-  margin-top: 185px;
+  max-width: 100%;
   position: relative;
 }
 
@@ -20,13 +20,18 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  font-size: 30px;
 }
 
 .about-container .about-desc {
   font-size: 18px;
   line-height: 30px;
-  width: 60%;
+  max-width: 70%;
+  height: auto;
   margin-top: 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .about-container .photo-box img {
@@ -65,7 +70,7 @@
 
 .line-2 {
   background-color: black;
-  width: 83%;
+  width: 80%;
   height: 3px;
   margin-left: 50px;
   margin-top: 23px;

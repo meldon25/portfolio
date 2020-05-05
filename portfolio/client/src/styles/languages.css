@@ -1,10 +1,11 @@
 .lang-cont {
-    margin-top: 35px;
+    margin-top: 20px;
+    max-width: 100%;
 }
 .skills {
     font-size: 18px;
     display: flex;
-    margin-top: 20px;
+    margin-top: 40px;
 }
 .skill-bar {
     font-size: 25px;
@@ -15,7 +16,7 @@
     flex-direction: column;
     list-style-type: none;
     padding-inline-start: 0;
-    margin-left: 300px;
+    margin-left: 132px;
     font-size: 18px;
     font-weight: bold;
     line-height: 35px;
