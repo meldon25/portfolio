@@ -12,7 +12,7 @@ function Nav() {
                 <p>3.</p><li><a className="resume-tab" href="#Contact">Contact</a></li>
             </ul>
             {/* <div className="res-button-cont"> */}
-            <button className="resume-button"><a href="https://drive.google.com/open?id=11IHTQ5RSksXnq9gB0FXhuHxPdVgxU94F">Resume</a></button>
+            <button className="resume-button"><a href="https://drive.google.com/open?id=1p0OqF3eqg5XbdPc7YMA51r9NV-CY1MDZ">Resume</a></button>
             </div>
             </>
     )
