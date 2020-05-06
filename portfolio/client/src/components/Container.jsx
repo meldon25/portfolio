@@ -31,8 +31,12 @@ class Container extends React.Component {
             <div className="languages">
             <Languages />
             </div>
+            <div className="work">
             <Work />
+            </div>
+            <div className="contact">
             <Contact />
+            </div>
             <Footer />
             </>
         )

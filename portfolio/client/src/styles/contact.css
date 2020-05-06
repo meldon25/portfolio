@@ -2,7 +2,6 @@
   scroll-behavior: smooth;
   margin-left: 80px;
   font-family: 'Open Sans', sans-serif;
-  margin-bottom: 20px;
 }
 
 .contact-cont .contact-title {
@@ -42,6 +41,7 @@
   font-weight: bold;
   height: 4vh;
   width: 6vw;
+  margin-top: 20px;
 }
 
 .cont-button-cont {
@@ -74,8 +74,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  height: 70vh;
-  margin-top: 30px;
+  margin-top: 80px;
   -ms-flex-pack: distribute;
       justify-content: space-around;
 }
