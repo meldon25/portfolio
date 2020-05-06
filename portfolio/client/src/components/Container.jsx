@@ -6,6 +6,7 @@ import About from '../shared/About'
 import Languages from '../shared/Languages'
 import Contact from '../shared/Contact'
 import Footer from '../shared/Footer'
+import "../styles/container.css"
 
 
 class Container extends React.Component {
@@ -21,9 +22,15 @@ class Container extends React.Component {
         return (
             <>
             <Nav />
+            <div className='hero'>
             <Hero />
+            </div>
+            <div className="about">
             <About />
+            </div>
+            <div className="languages">
             <Languages />
+            </div>
             <Work />
             <Contact />
             <Footer />

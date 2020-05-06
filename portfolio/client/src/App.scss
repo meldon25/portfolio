@@ -3,5 +3,8 @@
 .App {
     width: 100%;
     scroll-behavior: smooth;
+    display: flex;
+    flex-direction: column;
+    height: auto;
 }
 

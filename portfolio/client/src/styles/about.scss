@@ -1,14 +1,15 @@
 .about-container {
     font-family: 'Open Sans', sans-serif;
     margin-left: 60px;
-    margin-top: 40px;
+    // margin-top: 40px;
     display: flex;
     scroll-behavior: smooth;
     max-width: 100%;
+    height: auto;
 }
 .about-cont {
-    max-width: 100%;
-    position: relative;
+    // max-width: 100%;
+    // position: relative;
 }
 .about-tab {
     color: #DF1016;
