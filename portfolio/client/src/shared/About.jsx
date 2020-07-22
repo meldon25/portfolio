@@ -1,25 +1,37 @@
 import React from 'react'
-import '../styles/about.css'
+import '../styles/about.scss'
 
 function About() {
   return (
     <div id="About">
+      <h2 className="about-header">About Me</h2>
       <div className="about-cont">
-        <h1 className='about-tab'><p className="contnum">1.</p>About<div className="line-2"></div></h1>
-        <div className='about-container'>
-          <div className="left-side">
-            <p className='about-desc'><h2>What I Do</h2>I am a driven and creative problem-solver with an eye for design and a commitment to putting the client’s needs first. I grow best when I am constantly challenged to learn new things and I hold myself accountable to staying ahead of the curve. I take pride in building projects collaboratively through strong communication and through targeted goal setting.</p>
+        <div className="left-side">
+          <p className="about-pg">I am a designer and software engineer.
+          I am devoted to designing and developing cutting-edge
+          websites for companies so they can focus on growing
+            their business. </p>
+          <p className="about-pg">After a career in fashion retail, in which I dove head-first
+          into the business of styling and design and worked with
+          brands such as Aritzia and Michael Kors, I realized that
+          my lifelong passion for art and technology gave me a
+          unique perspective on how to bring brands to life
+          digitally. Ever since, I have specialized in bridging the
+          gap between a company’s ideas and the online
+          execution of their brand vision. </p>
+          <p className="about-pg">I hold a Bachelor’s degree in Art History and Studio Arts
+          from Hunter College. I believe that great design can
+          breathe life into a brand and bring businesses much
+          closer to their target audience and goal.</p>
 
-          </div>
-          <div className="right-side">
-            <div className='box'></div>
-            <div className="photo-box">
-              <img className="photo-box2" src="https://i.imgur.com/QVCDuvl.jpg" />
-            </div>
+        </div>
+        <div className="right-side">
+          <div className="photo-cont">
+            <img className="photo-box" src="https://i.imgur.com/Q8f17yb.jpg" />
           </div>
         </div>
       </div>
-    </div>
+      </div>
 
   )
 }

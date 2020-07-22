@@ -31,14 +31,14 @@
     line-height: 35px;
     display: inline-block;
 }
-.arrow {
+/* .arrow {
     transform: rotate(-45deg);
     border: solid #DF1016;
     border-width: 0 3px 3px 0;
     display: inline-block;
     padding: 3px;
     margin-right: 20px;
-}
+} */
 .lang-icon {
     margin-left: 8px;
 }
@@ -67,10 +67,10 @@
         margin-left: 15px;
         font-size: 16px;
     }
-    .arrow {
+    /* .arrow {
         padding: 3px;
         margin-right: 10px;
-    }
+    } */
     .lang-icon {
         margin-left: 5px;
     }

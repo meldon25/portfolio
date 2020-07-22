@@ -29,7 +29,7 @@ class Container extends React.Component {
             <About />
             </div>
             <div className="languages">
-            <Languages />
+            {/* <Languages /> */}
             </div>
             <div className="work">
             <Work />

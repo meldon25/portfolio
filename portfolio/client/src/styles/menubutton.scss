@@ -1,0 +1,10 @@
+#hamburgerButton {
+    position: absolute;
+    width: 45px;
+    height: auto;
+    display: flex;
+    margin-top: 30px;
+    right: 60px;
+    cursor: pointer;
+    transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+}
