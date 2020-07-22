@@ -6,7 +6,7 @@ import About from '../shared/About'
 import Languages from '../shared/Languages'
 import Contact from '../shared/Contact'
 import Footer from '../shared/Footer'
-import "../styles/container.css"
+import "../styles/container.scss"
 
 
 class Container extends React.Component {
@@ -29,7 +29,7 @@ class Container extends React.Component {
             <About />
             </div>
             <div className="languages">
-            {/* <Languages /> */}
+            <Languages />
             </div>
             <div className="work">
             <Work />
