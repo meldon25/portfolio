@@ -23,11 +23,7 @@ class Work extends Component {
             </div>
             <div className="project-desc">
               <h1 className="project-title">NoteBoard</h1>
-              <p>React, CSS/Sass, Ruby on Rails</p>
-              <div className="icon-cont">
-                <img src="https://i.imgur.com/WO07Gq3.png" />
-                <img src="https://i.imgur.com/a9y93DK.png" />
-              </div>
+              <p className="lang-con">React, CSS/Sass, Ruby on Rails</p>
               <div className="button-cont">
                 <form disabled action="https://inapinch.surge.sh">
                   <button className="link-button">Website</button>
@@ -44,11 +40,7 @@ class Work extends Component {
             </div>
             <div className="project-desc">
               <h1 className="project-title">Etoile</h1>
-              <p>React, CSS/Sass, Ruby on Rails</p>
-              <div className="icon-cont">
-                <p><img src="https://i.imgur.com/WO07Gq3.png" /></p>
-                <img className='css-icon' src="https://i.imgur.com/a9y93DK.png" />
-              </div>
+              <p className="lang-con">React, CSS/Sass, Ruby on Rails</p>
               <div className="button-cont">
                 <form action="https://etoile.surge.sh">
                   <button className="link-button" type="submit">Website</button>

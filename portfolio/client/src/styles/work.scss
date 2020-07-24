@@ -50,7 +50,7 @@
 
 .cont-cont .project-2 .project-img img {
 	width: 600px;
-	height: 440px;
+	height: 425px;
 	position: relative;
 }
 
@@ -59,10 +59,13 @@
 .project-desc {
 	position: absolute;
 	text-align: center;
+	flex-direction: column;
+	display: flex;
+	margin-left: 8%;
 }
 
 .project-title {
-	margin-top: 50px;
+	margin-top: 70px;
 	margin-bottom: 30px;
 	font-size: 40px;
 }
@@ -81,6 +84,11 @@
 // 	padding-bottom: 15px;
 // }
 
+.lang-con {
+	font-size: 20px;
+	font-weight: 800;
+}
+
 .icon-cont {
 	display: flex;
 }
@@ -97,6 +105,8 @@
 
 .button-cont {
 	display: flex;
+	justify-content: center;
+	margin-top: 60px;
 }
 .github-button {
 	border: 3px solid black;
@@ -117,10 +127,10 @@
 	color: black;
 	margin-right: 50px;
 }
-.bold-skills {
-	font-weight: 800;
-	display: inline-flex;
-}
+// .bold-skills {
+// 	font-weight: 800;
+// 	display: inline-flex;
+// }
 
 
 @media only screen and (max-width: 500px) {
@@ -136,6 +146,7 @@
 		flex-direction: column;
 		height: auto;
 		margin-left: 20px;
+		display: flex;
 	}
 	.cont-cont .project-2 {
 		position: relative;
@@ -143,16 +154,19 @@
 		height: auto;
 		margin-top: 60px;
 		margin-left: 20px;
+		display: flex;
 	}
 
 	//images
 	.cont-cont .project-1 .project-1-img img {
 		width: 330px;
 		height: 200px;
+		display: flex;
 	}
 	.cont-cont .project-2 .project-2-img img {
 		width: 330px;
 		height: 200px;
+		display: flex;
 	}
 
 	//desc 
