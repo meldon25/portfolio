@@ -7,11 +7,11 @@ class Languages extends Component {
         render() { 
             return (  
                 <div className="lang-cont">
-                    <div className="fullscreen-lang">
+                    {/* <div className="fullscreen-lang">
     <video loop muted autoPlay className="fullscreen-lang_video">
         <source autoPlay loop src="https://i.imgur.com/9BNK2wb.mp4" type="video/mp4" />
     </video>
-</div>
+</div> */}
              <p className="skill-bar">Languages & Frameworks</p> 
             <div className='skills'>
                <ul className='left-skills'>
