@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import '../styles/contactform.css'
+import '../styles/contactform.scss'
 
 
 

@@ -7,13 +7,16 @@ function Footer() {
             <div className="footer-cont">
                 <div className="icons">
                     <a href='#Contact'>
-                    <img src="https://i.imgur.com/r6fAgnG.png" />
+                    <img src="https://i.imgur.com/ebvgPUK.png" />
                     </a>
                     <a href="https://github.com/meldon25">
-                    <img src="https://i.imgur.com/FRFJoTu.png" />
+                    <img src="https://i.imgur.com/YmVXcfq.png" />
                     </a>
                     <a href="https://www.linkedin.com/in/mel-donegan/">
-                    <img src="https://i.imgur.com/n8IfiYt.png" />
+                    <img 
+                    src="https://i.imgur.com/OdQxAzg.png" 
+                    className="linkedin"
+                    />
                     </a>
 
                 </div>
