@@ -1,142 +1,92 @@
 * {
-	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	scroll-behavior: smooth;
 }
 
-.line-1 {
-	background-color: black;
-    width: 83%;
-    height: 3px;
-    margin-left: 50px;
-    margin-top: 23px;
-	display: flex;
-} 
+
+.project-header {
+    font-size: 55px;
+    margin-left: 150px;
+    padding-top: 150px;
+    color: black;
+}
 
 .work-cont {
 	height: auto;
 	flex-wrap: wrap;
 	// position: relative;
 }
-.work-tab {
-	color: #DF1016;
-	margin-left: 80px;
-	margin-top: 160px;
-	font-size: 30px;
-    display: flex;
-}
 
 .cont-cont {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	height: auto;
-	margin-top: 60px;
 }
 
-// .cont-cont .project-1 {
-// 	display: flex;
-// 	width: 80%;
-// 	height: auto;
-// 	margin-left: 80px;
-// 	margin-bottom: 120px;
-// }
-
-.cont-cont .project-2 {
+.cont-cont .project-1 {
 	display: flex;
-	width: 90%;
+	width: 50%;
 	height: auto;
-	margin-left: 130px;
+	margin-top: 150px;
+	margin-left: 150px;
 	margin-bottom: 120px;
 }
-.cont-cont .project-3 {
+
+.cont-cont .project-2 {
+	margin-top: 150px;
 	display: flex;
-	width: 90%;
+	width: 50%;
 	height: auto;
-	margin-left: 120px;
-	margin-bottom: 80px;	
+	margin-left: 40px;
+	margin-bottom: 120px;
 }
 
  //images
-.cont-cont .project-1 .project-1-img img {
-	width: 800px;
+.cont-cont .project-1 .project-img img {
+	width: 600px;
 	height: 425px;
-	display: flex;
-	border: 2px solid black;
+	position: relative;
 }
 
-.cont-cont .project-2 .project-2-img img {
-	width: 725px;
-	height: 440px;
-	border: 1px solid black;
+.cont-cont .project-2 .project-img img {
+	width: 600px;
+	height: 425px;
+	position: relative;
 }
-.cont-cont .project-3 .project-3-img img {
-	width: 725px;
-	height: 460px;
-	border: 1px solid black;
-	border-left: none;
-	border-top: none;
-}
+
 
 //desc
-.cont-cont .project-1 .project-1-desc {
-	margin-left: 50px;
+.project-desc {
+	position: absolute;
+	text-align: center;
+	flex-direction: column;
+	display: flex;
+	margin-left: 8%;
 }
-.cont-cont .project-2 .project-2-desc {
-	padding-right: 30px;
-}
-.cont-cont .project-3 .project-3-desc {
-	margin-left: 40px;
-}
-.cont-cont .project-1 .project-1-desc p {
-	margin-block-start: 0;
-	margin-block-end:0;
-	margin-top: 10px;
-	margin-bottom: 5px;
-}
-.cont-cont .project-2 .project-2-desc p {
-	margin-block-start: 0;
-	margin-block-end:0;
-	margin-top: 10px;
-	margin-bottom: 5px;
-}
-.cont-cont .project-3 .project-3-desc p {
-	margin-block-start: 0;
-	margin-block-end:0;
-	margin-top: 10px;
-	margin-bottom: 5px;
-}
-.cont-cont .project-1 .project-1-desc .rouge-title {
-	display: inline-flex;
-	margin-block-end: 0;
-}
-.cont-cont .project-2 .project-2-desc .pinch-title {
-	margin-top: 50px;
+
+.project-title {
+	margin-top: 70px;
 	margin-bottom: 30px;
-	font-size: 30px;
-}
-.cont-cont .project-3 .project-3-desc .etoile-title {
-	margin-top: 30px;
-	font-size: 30px;
+	font-size: 40px;
 }
 
 //lang bar
-.project-1-desc .languages-bar {
-	text-decoration: underline;
-	padding-top: 20px;
-	font-weight: 600;
-	padding-bottom: 15px;
-}
-.project-2-desc .languages-bar {
-	text-decoration: underline;
-	padding-top: 20px;
-	font-weight: 600;
-	padding-bottom: 15px;
-}
+// .project-1-desc .languages-bar {
+// 	text-decoration: underline;
+// 	padding-top: 20px;
+// 	font-weight: 600;
+// 	padding-bottom: 15px;
+// }
+// .project-2-desc .languages-bar {
+// 	text-decoration: underline;
+// 	padding-top: 20px;
+// 	font-weight: 600;
+// 	padding-bottom: 15px;
+// }
 
-.project-3-desc .languages-bar {
-	text-decoration: underline;
-	padding-top: 20px;
-	font-weight: 600;
-	padding-bottom: 15px;
+.lang-con {
+	font-size: 20px;
+	font-weight: 800;
 }
 
 .icon-cont {
@@ -155,46 +105,37 @@
 
 .button-cont {
 	display: flex;
+	justify-content: center;
+	margin-top: 60px;
 }
 .github-button {
-	border: 3px solid red;
+	border: 3px solid black;
 	background-color: transparent;
 	width: 100px;
 	height: 40px;
 	font-size: 16px;
 	font-weight: bold;
-	color: red;
+	color: black;
 }
 .link-button {
-	border: 3px solid red;
+	border: 3px solid black;
 	background-color: transparent;
 	width: 100px;
 	height: 40px;
 	font-size: 16px;
 	font-weight: bold;
-	color: red;
+	color: black;
 	margin-right: 50px;
 }
-.bold-skills {
-	font-weight: 700;
-	display: inline-flex;
-}
+// .bold-skills {
+// 	font-weight: 800;
+// 	display: inline-flex;
+// }
+
 
 @media only screen and (max-width: 500px) {
-	.line-1 {
-		width: 63%;
-		margin-top: 13px;
-		margin-left: 15px;
-	}
 	.work-cont {
 		width: 100%;
-	}
-	.work-tab {
-		margin-top: 0;
-		width: 100%;
-		font-size: 20px;
-		margin-top: 0;
-		margin-left: 20px;
 	}
 	.cont-cont {
 		height: auto;
@@ -205,6 +146,7 @@
 		flex-direction: column;
 		height: auto;
 		margin-left: 20px;
+		display: flex;
 	}
 	.cont-cont .project-2 {
 		position: relative;
@@ -212,28 +154,19 @@
 		height: auto;
 		margin-top: 60px;
 		margin-left: 20px;
+		display: flex;
 	}
-	.cont-cont .project-3 {
-		position: relative;
-		height: auto;
-		display: block;
-		margin-top: 60px;
-		margin-left: 20px;
-		flex-direction: column;
-	} 
 
 	//images
 	.cont-cont .project-1 .project-1-img img {
 		width: 330px;
 		height: 200px;
+		display: flex;
 	}
 	.cont-cont .project-2 .project-2-img img {
 		width: 330px;
 		height: 200px;
-	}
-	.cont-cont .project-3 .project-3-img img {
-		width: 330px;
-		height: 200px;
+		display: flex;
 	}
 
 	//desc 
@@ -246,20 +179,12 @@
 	.cont-cont .project-2 .project-2-desc {
 		padding-right: 0px;
 	}
-	.cont-cont .project-3 .project-3-desc {
-		margin-left: 0px;
-	}
 	.cont-cont .project-1 .project-1-desc p{
 		margin-top: 0px;
 		margin-bottom: 3px;
 		text-align: center;
 	}
 	.cont-cont .project-2 .project-2-desc p{
-		margin-top: 0px;
-		margin-bottom: 3px;
-		text-align: center;
-	}
-	.cont-cont .project-3 .project-3-desc p{
 		margin-top: 0px;
 		margin-bottom: 3px;
 		text-align: center;
@@ -275,11 +200,6 @@
 		display: flex;
 		justify-content: center;
 		margin-bottom: 25px;
-	}
-	.cont-cont .project-3 .project-3-desc .etoile-title {
-		margin-top: 25px;
-		justify-content: center;
-		display: flex;
 	}
 
 	.icon-cont {
@@ -307,20 +227,8 @@
 
 
 @media only screen and (max-width: 500px) {
-	.line-1 {
-		width: 63%;
-		margin-top: 13px;
-		margin-left: 15px;
-	}
 	.work-cont {
 		width: 100%;
-	}
-	.work-tab {
-		margin-top: 0;
-		width: 100%;
-		font-size: 20px;
-		margin-top: 0;
-		margin-left: 20px;
 	}
 	.cont-cont {
 		height: auto;
@@ -339,14 +247,6 @@
 		margin-top: 60px;
 		margin-left: 20px;
 	}
-	.cont-cont .project-3 {
-		position: relative;
-		height: auto;
-		display: block;
-		margin-top: 60px;
-		margin-left: 20px;
-		flex-direction: column;
-	} 
 
 	//images
 	.cont-cont .project-1 .project-1-img img {
@@ -354,10 +254,6 @@
 		height: 200px;
 	}
 	.cont-cont .project-2 .project-2-img img {
-		width: 330px;
-		height: 200px;
-	}
-	.cont-cont .project-3 .project-3-img img {
 		width: 330px;
 		height: 200px;
 	}
@@ -372,20 +268,12 @@
 	.cont-cont .project-2 .project-2-desc {
 		padding-right: 0px;
 	}
-	.cont-cont .project-3 .project-3-desc {
-		margin-left: 0px;
-	}
 	.cont-cont .project-1 .project-1-desc p{
 		margin-top: 0px;
 		margin-bottom: 3px;
 		text-align: center;
 	}
 	.cont-cont .project-2 .project-2-desc p{
-		margin-top: 0px;
-		margin-bottom: 3px;
-		text-align: center;
-	}
-	.cont-cont .project-3 .project-3-desc p{
 		margin-top: 0px;
 		margin-bottom: 3px;
 		text-align: center;
@@ -401,11 +289,6 @@
 		display: flex;
 		justify-content: center;
 		margin-bottom: 25px;
-	}
-	.cont-cont .project-3 .project-3-desc .etoile-title {
-		margin-top: 25px;
-		justify-content: center;
-		display: flex;
 	}
 
 	.icon-cont {
@@ -434,133 +317,13 @@
 
 
 
-// 	.line-1 {
-// 		width: 63%;
-// 		margin-top: 13px;
-// 		margin-left: 15px;
-// 	}
-// 	.work-cont {
-// 		width: 100%;
-// 	}
-// 	.work-tab {
-// 		margin-top: 0;
-// 		width: 100%;
-// 		font-size: 20px;
-// 		margin-top: 0;
-// 		margin-left: 20px;
-// 	}
-// 	.cont-cont {
-// 		height: auto;
-// 		display: table-cell;
-// 	}
-// 	.cont-cont .project-1 { 
-// 		position: relative;
-// 		flex-direction: column;
-// 		height: auto;
-// 		margin-left: 20px;
-// 	}
-// 	.cont-cont .project-2 {
-// 		position: relative;
-// 		flex-direction: column-reverse;
-// 		height: auto;
-// 		margin-top: 60px;
-// 		margin-left: 20px;
-// 	}
-// 	.cont-cont .project-3 {
-// 		position: relative;
-// 		height: auto;
-// 		display: block;
-// 		margin-top: 60px;
-// 		margin-left: 20px;
-// 		flex-direction: column;
-// 	} 
 
-// 	//images
-// 	.cont-cont .project-1 .project-1-img img {
-// 		width: 330px;
-// 		height: 200px;
-// 	}
-// 	.cont-cont .project-2 .project-2-img img {
-// 		width: 330px;
-// 		height: 200px;
-// 	}
-// 	.cont-cont .project-3 .project-3-img img {
-// 		width: 330px;
-// 		height: 200px;
-// 	}
 
-// 	//desc 
-// 	.cont-cont .project-1 .project-1-desc {
-// 		display: flex;
-// 		width: 90%;
-// 		flex-direction: column;
-// 		margin-left: 10px;
-// 		margin-right: 10px;
-// 	}
-// .cont-cont .project-2 .project-2-desc {
-// 	padding-right: 0px;
-// 	width: 90%;
-// 	margin-left: 10px;
-// }
-// .cont-cont .project-3 .project-3-desc {
-// 	margin-left: 0px;
-// 	width: 90%;
-// 	margin-left: 10px;
-// }
-// .cont-cont .project-1 .project-1-desc p{
-// 	margin-top: 0px;
-// 	margin-bottom: 3px;
-// 	text-align: center;
-// }
-// .cont-cont .project-2 .project-2-desc p{
-// 	margin-top: 0px;
-// 	margin-bottom: 3px;
-// 	text-align: center;
-// }
-// .cont-cont .project-3 .project-3-desc p{
-// 	margin-top: 0px;
-// 	margin-bottom: 3px;
-// 	text-align: center;
-// }
-// .cont-cont .project-1 .project-1-desc .rouge-title {
-// 	margin-top: 15px;
-// 	display: flex;
-// 	justify-content: center;
-// 	margin-bottom: 25px;
-// }
-// .cont-cont .project-2 .project-2-desc .pinch-title {
-// 	margin-top: 15px;
-// 	display: flex;
-// 	justify-content: center;
-// 	margin-bottom: 25px;
-// }
-// .cont-cont .project-3 .project-3-desc .etoile-title {
-// 	margin-top: 25px;
-// 	justify-content: center;
-// 	display: flex;
-// }
 
-// .icon-cont {
-// 	justify-content: center;
-// 	width: auto;
-// 	height: auto;
-// }
-	
-// .icon-cont .css-icon {
-// 	margin-top: 0px;
-// 	width: 32px;
-// 	height: 32px;
-// }
 
-// .icon-cont img {
-// 	width: 30px;
-// 	height: 32px;
-// 	margin-right: 15px;
-// 	margin-bottom: 28px;
-// }
-// .button-cont {
-// 	margin-left: 25px;
-// }
+
+
+
 
 
 

@@ -27,7 +27,7 @@ function About() {
         </div>
         <div className="right-side">
           <div className="photo-cont">
-            <img className="photo-box" src="https://i.imgur.com/Q8f17yb.jpg" />
+            <img className="photo-box" src="https://i.imgur.com/jKaDrJM.jpg" />
           </div>
         </div>
       </div>
