@@ -1,32 +1,45 @@
+
 .contact-cont {
     scroll-behavior: smooth;
     margin-left: 150px;
-   
+    position: absolute; 
+    font-family: 'Poppins', sans-serif;
 }
 
-.fullscreen-bg {
+.background {
+    background: linear-gradient(#00a1ff, #00ff8f);
+    background-size: cover;
     position: absolute;
-    width: 100%;
-    overflow: hidden;
-    z-index: -100;
-}
-.fullscreen-bg_video {
-    position: relative;
-    top: 0;
-    left: 0;
     width: 100%;
     height: 100%;
 }
 
+// .fullscreen-bg {
+//     position: absolute;
+//     width: 100%;
+//     overflow: hidden;
+//     z-index: -100;
+// }
+// .fullscreen-bg_video {
+//     position: relative;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+// }
+
 .contact-text {
-    position: relative;
     color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
 }
 
 .contact-cont .contact-title {
     color:white;
     font-size: 50px;
     padding-top: 50px;
+    display: flex;
 }
 .cont-contain .contact-info .contact-email {
     font-size: 30px;
@@ -39,27 +52,32 @@
 }
 .contact-desc {
     line-height: 34px;
-    width: 100%;
+    width: 40%;
     font-size: 20px;
+    display: flex;
+    color: white;
+    margin-left: 150px;
 }
-// .contact-button {
-//     border-color: #DF1016;
-//     border-width: 1.5px;
-//     background-color: white;
-//     color: #DF1016;
-//     font-size: 18px;
-//     font-weight: bold;
-//     height: 4vh;
-//     width: 6vw;
-//     margin-top: 20px;
-// }
+.contact-button {
+    border-color: white;
+    border-width: 3px;
+    background-color: transparent;
+    color: white;
+    font-size: 18px;
+    font-weight: 800;
+    height: 4vh;
+    width: 6vw;
+    margin-top: 20px;
+}
 
 .cont-contain {
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
+    margin-left: 150px;
+    padding-top: 130px;
 }
 .cont-contain .contact-info {
-    max-width: 50%;
+    max-width: 40%;
 }
 .cont-contain .contact-info .contact-email {
     font-size: 30px;
