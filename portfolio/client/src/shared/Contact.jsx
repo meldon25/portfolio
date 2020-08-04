@@ -8,10 +8,6 @@ class Contact extends Component {
         return (
             <div id="Contact">
                 <div className="background">
-    {/* <video loop muted autoPlay className="fullscreen-bg_video"> */}
-        {/* <source autoPlay loop src="https://i.imgur.com/ZlqeaEO.mp4" type="video/mp4" /> */}
-    {/* </video> */}
-
 <div className="contact-text">
             <div className="contact-cont">
                 <h2 className="contact-title">Contact</h2>
@@ -20,8 +16,7 @@ class Contact extends Component {
             <div className="contact-info">
                 <h1 className='contact-git'>Get In Touch</h1>
                 <p className='contact-email'>melissadonegan25@gmail.com</p>
-                </div>
-                
+                </div>    
             <div className="contact-box">
             <input type="hidden" name="form-name" value="contact" />
             <ContactForm />
