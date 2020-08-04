@@ -4,29 +4,36 @@
  }
 
 
+
 .message {
     display: flex;
     flex-direction: column;
+    font-size: 17px;
+    font-weight: 800;
+}
+
+.form-title {
+    font-size: 17px;
+    font-weight: 800;
 }
 
 
 input {
     display: flex;
-    width: 25vw;
-    height: 25px;
+    width: 26vw;
+    height: 3vh;
     margin-top: 10px;
     margin-bottom: 20px;
-    border: 1px solid black;
 }
 textarea {
-    width: 25vw;
-    height: 70px;
-    border: 1px solid black;
+    width: 26vw;
+    height: 8vh;
     margin-top: 10px;
 }
 
 textarea::placeholder {
     padding-left: 3px;
+    padding-top: 5px;
 }
 
 .placeholder::placeholder {

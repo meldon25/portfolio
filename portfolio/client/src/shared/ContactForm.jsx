@@ -43,12 +43,12 @@ class ContactForm extends Component {
                   onSubmit={this.handleSubmit}>
             <input type="hidden" name="form-name" value="contact" />
               <p>
-                <label>
+                <label className="form-title">
                   Your Name:<input className="placeholder" type="text" placeholder="Enter your name" name="name" value={name} onChange={this.handleChange} required/>
                 </label>
               </p>
               <p>
-                <label>
+                <label className="form-title">
                   Your Email: <input className="placeholder" type="email" placeholder="Enter your email" name="email" value={email} onChange={this.handleChange} required/>
                 </label>
               </p>

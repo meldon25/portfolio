@@ -29,10 +29,14 @@
 .bottom-cont {
     display: flex;
     justify-content: flex-end;
-    margin-right: 30px;
+    background-color: #00ff8f;
+    width: 100%;
 }
 .bottom-cont .copyright {
     display: flex;
+    background-color: #00ff8f;
+    padding-right: 2em;
+    padding-bottom: 1em;
 }
 
 @media only screen and (max-width: 500px) {
