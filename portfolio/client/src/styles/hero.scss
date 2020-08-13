@@ -110,15 +110,27 @@
   .container {
     width: 100%;
     transform: none;
-    margin-top: 200px;
+    margin-top: 180px;
   }
 
   .container .name-title {
-    font-size: 50px;
+    font-size: 60px;
   }
 
   .hero-cont .hero-desc {
-    font-size: 40px;
+    font-size: 30px;
+    padding-right: 10px;
+  }
+
+  .arrow {
+    width: 20px;
+    height: 20px;
+  }
+
+  .arrow:before {
+    width: 10px;
+    height: 10px;
+    margin: 0 -5px 0 -4px;
   }
 
 }
