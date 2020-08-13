@@ -7,3 +7,9 @@
     height: auto;
 }
 
+
+@media only screen and (max-width: 500px) {
+    .App {
+        width: 100%;
+    }
+}
