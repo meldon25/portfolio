@@ -24,6 +24,24 @@
     font-size: 40px;
 }
 
-// #flyoutMenu h2:hover {
-//     text-decoration: underline;
-// }
+@media only screen and (max-width: 500px) {
+    #flyoutMenu {
+        width: 100vw;
+        height: 100vh; 
+        top: 24px;
+    }
+
+    #flyoutMenu h2 .link {
+        font-size: 18px;
+    }
+
+    #flyoutMenu.hide {
+        transform: translate3d(-100vw, 0, 0);
+    }
+
+    #flyoutMenu.show {
+        transform: translate3d(-10vw, 0, 0);
+        overflow: hidden;
+    }
+    
+}
