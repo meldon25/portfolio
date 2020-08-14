@@ -15,17 +15,16 @@ class Languages extends Component {
              <p className="skill-bar">Languages & Frameworks</p> 
             <div className='skills'>
                <ul className='left-skills'>
-                   <li>HTML5<img className="lang-icon" src="https://i.imgur.com/ZkWndn3.png" /></li>
-                   <li>CSS/Sass
-                   <img className="lang-icon" src="https://i.imgur.com/I5jk1fB.png" /><img className="lang-icon" src="https://i.imgur.com/mCiOwWf.png" /></li> 
-                   <li>JavaScript<img className="lang-icon" src="https://i.imgur.com/IcwuflE.png" /></li>
-                   <li>React<img className="lang-icon" src="https://i.imgur.com/DJxJtVU.png" /></li>
+                   <li>HTML5</li>
+                   <li>CSS/Sass</li> 
+                   <li>JavaScript</li>
+                   <li>React</li>
                </ul>
                <ul className='center-skills'>
-               <li>Node.js<img className="lang-icon" src="https://i.imgur.com/UNRlnF1.png" /></li>
-               <li>PostgreSQL & SQL<img className="lang-icon" src="https://i.imgur.com/j83edk9.png" /></li>
-                   <li>Ruby</li>
-                   <li>Ruby on Rails<img className="lang-icon" src="https://i.imgur.com/Pm4LpOD.png" /></li>
+               <li>Node.js</li>
+               <li>PostgreSQL & SQL</li>
+                <li>Ruby</li>
+                <li>Ruby on Rails</li>
                </ul>
                <ul className='right-skills'>
                     <li>Express</li>
