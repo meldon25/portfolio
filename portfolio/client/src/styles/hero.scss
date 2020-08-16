@@ -38,6 +38,10 @@
   font-family: 'Poppins', sans-serif;
 }
 
+.hero-cont .mobile-photo {
+  display: none;
+}
+
 .container p {
   font-size: 40px;
   margin-top: 20px;
@@ -110,7 +114,18 @@
   .container {
     width: 100%;
     transform: none;
-    margin-top: 180px;
+    margin-top: 160px;
+  }
+
+  .fullscreen-bg {
+    display: none;
+  }
+
+  .hero-cont .mobile-photo {
+    display: flex;
+    width: 100%;
+    height: 70%;
+    position: absolute;
   }
 
   .container .name-title {

@@ -1,78 +1,44 @@
+* {
+    list-style-type: none;
+    font-family: 'Poppins', sans-serif;
+}
+
 .lang-cont {
     max-width: 100%;
     height: 100%;
     color: white;
-    font-family: 'Poppins', sans-serif;
     background-color:#fbb040;
 }
 
-// .lang-cont .fullscreen-lang {
-//     position: absolute;
-//     width: 100%;
-//     overflow: hidden;
-//     z-index: -100;
-// }
-// .lang-cont .fullscreen-lang_video {
-//     position: relative;
-//     top: 0;
-//     left: 0;
-//     width: 100%;
-//     height: 100%;
-// }
-.skill-bar .skills {
+.lang-cont .skills {
     display: flex;
-    position: absolute;
+    justify-content: center;
+    font-size: 25px;
+    line-height: 45px;
 }
 .skill-bar {
     font-size: 50px;
-    color: white;
     font-weight: bold;
     display: flex;
     justify-content: flex-end;
-    margin-right: 80px;
-    padding-top: 150px;
-    margin-bottom: 150px;
+    margin-right: 13%;
+    padding-top: 120px;
+    margin-bottom: 80px;
 }
 .skills .left-skills {
     flex-direction: column;
-    list-style-type: none;
-    padding-inline-start: 0;
-    margin-left: 150px;
-    font-size: 30px;
-    line-height: 35px;
     display: inline-block;
-}
-.skills .left-skills li {
-    margin-bottom: 10px;
-    font-weight: 400;
 }
 .skills .right-skills {
     flex-direction: column;
-    list-style-type: none;
-    margin-left: 320px;
-    font-size: 30px;
-    line-height: 35px;
+    padding-left: 160px;
     display: inline-block;
-}
-
-.skills .right-skills li {
-    margin-bottom: 10px;
-    font-weight: 400;
 }
 
 .skills .center-skills {
     flex-direction: column;
-    list-style-type: none;
-    padding-inline-start: 0;
-    font-size: 30px;
-    line-height: 35px;
     display: inline-block;
-    padding-left: 300px;
-}
-
-.skills .center-skills li {
-    margin-bottom: 10px;
-    font-weight: 400;
+    padding-left: 160px;
 }
 
 @media only screen and (max-width: 500px) {
@@ -123,12 +89,5 @@
    
 }
 
-@media only screen and (max-width: 500px) {
-    .skill-bar {
-        font-size: 40px;
-        margin-left: 15%;
-    }
-
-}
 
 
