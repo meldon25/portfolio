@@ -50,20 +50,6 @@
 
 }
 
-@media (min-aspect-ratio: 16/9) {
-  .hero-cont .fullscreen-bg {
-    height: auto;
-    width: 100%;
-  }
-}
-
-@media (max-aspect-ratio: 16/9) {
-  .hero-cont .fullscreen-bg_video {
-    width: auto;
-    height: 100%;
-  }
-}
-
 .arrow,
 .arrow:before {
   position: absolute;
@@ -124,16 +110,16 @@
   .hero-cont .mobile-photo {
     display: flex;
     width: 100%;
-    height: 70%;
+    height: 100%;
     position: absolute;
   }
 
   .container .name-title {
-    font-size: 60px;
+    font-size: 50px;
   }
 
   .hero-cont .hero-desc {
-    font-size: 30px;
+    font-size: 26px;
     padding-right: 10px;
   }
 
