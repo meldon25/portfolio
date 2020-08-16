@@ -100,33 +100,35 @@
         width: 100%;
     }
     .contact-cont .contact-title {
-        font-size: 20px;
-        margin-top: 80px;
+        font-size: 40px;
+        margin-top: 40px;
+        margin-left: 50px;
     }
-    .contact-git {
-        font-size: 22px;
-        margin-top: 30px;
-    }
-    .contact-desc {
-        line-height: 32px;
-        margin-top: 20px;
-        width: 100%;
-    }
+    
     .contact-button {
         height: 30px;
         width: 75px;
-        margin-left: 62.3%;
     }
     
     .cont-contain {
         display: flex;
         flex-direction: column;
-        height: 130vh;
+        margin-left: 6%;
     }
-    .cont-contain .contact-info {
-        margin-left: 30px;
-        margin-right: 10px;
-        text-align: center;
+    .cont-contain .contact-info .contact-email {
+        font-size: 20px;
+    }
+
+    .circle-anim {
+        display: none;
+    }
+
+    .circle-anim-right {
+        display: none;
+    }
+    .cont-button-cont {
+        flex-direction: column-reverse;
+        margin-left: 40px;
     }
     // .cont-contain .contact-box {
     //     padding-top: 60px;
