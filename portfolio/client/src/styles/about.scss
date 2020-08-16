@@ -7,6 +7,7 @@
     background: linear-gradient(#f9ed32,#fbb040);
     width: 100%;
     height: 80vh;
+    color: white;
 }
 
 
@@ -32,14 +33,12 @@
     font-size: 55px;
     margin-left: 100px;
     padding-top: 150px;
-    color: white;
 }
 
 .about-cont .left-side .about-pg {
    width: 50%;
    margin-bottom: 10px;
    font-size: 18px;
-   color: white;
 }
 
 
@@ -56,50 +55,44 @@
 @media only screen and (max-width: 500px) {
     #About {
         height: auto;
+        width: 100%;
     }
 
     .about-header {
         font-size: 40px;
         padding-top: 20px;
-        min-width: 70%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
     }
     .about-cont { 
-        margin-left: 50px;
         display: flex;
         flex-direction: column-reverse;
-        min-width: 80%;
         height: auto;
+        margin-left: 50px;
     }
 
     .about-cont .left-side {
-        width: 100%;
         padding-top: 30px;
     }
 
     .about-cont .left-side .about-pg {
-        width: 76%;
+        width: 85%;
         font-size: 16px;
         margin-top: 10px;
     }
 
-    .about-cont .right-side {
-        display: flex;
-    }
 
     .about-cont .right-side .photo-cont {
-        width: 100%;
         display: flex;
-        justify-content: center;
     }
+   
     .about-cont .photo-box {
-        height: auto;
-        width: 60vw;
-        position: relative;
         display: flex;
-        right: 12%;
+        right: 0;
+        height: auto;
+        width: 85%;
     }
-
-
     
 }
 
