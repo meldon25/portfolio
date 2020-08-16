@@ -41,17 +41,18 @@ textarea::placeholder {
 }
 
 
-// @media only screen and (max-width: 500px) {
-//     input {
-//         width: 100%;
-//         margin-left: 60px;
-//     }
-//     textarea {
-//         width: 100%;
-//         margin-left: 60px;
-//     }
-//     label {
-//         margin-left: 60px;
-//     }
-// }
+@media only screen and (max-width: 500px) {
+
+    input {
+        width: 160%;
+        margin-left: 40px;
+    }
+    textarea {
+        width: 220%;
+        margin-left: 0;
+    }
+    label {
+        margin-left: 40px;
+    }
+}
 
