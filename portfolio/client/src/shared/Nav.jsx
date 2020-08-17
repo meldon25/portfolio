@@ -1,8 +1,8 @@
-import React from 'react'
+import React, {Component} from 'react'
 import '../styles/nav.scss'
 import MenuContainer from './MenuContainer'
 
-class Nav extends React.Component {
+export default class Nav extends Component {
     constructor(props) {
         super(props);
 
@@ -14,12 +14,12 @@ class Nav extends React.Component {
 
     render() {
         return (
-            <div className="board_menu">
+                <div className="hamburger-menu">
             <MenuContainer userId={this.props.userId} />
           </div>
+      
         )
 
     }
 
 }
-export default Nav
