@@ -45,7 +45,10 @@
     }
     .icons {
         flex-direction: row;
-        margin-left: 95px;
+        // margin-left: 95px;
+        display: flex;
+        justify-content: center;
+        position: sticky;
     }
     .bottom-cont {
        display: none;
@@ -53,11 +56,16 @@
     .bottom-cont .copyright {
         display: none;
     }
-}
-@media only screen and (max-width: 1445px) {
-    .bottom-cont .copyright {
-        margin-left: 625px;
+    .footer-cont {
+        display: none;
     }
-    
+    .headroom {
+        bottom: 0;
+        left: 0;
+        right: 0;
+        z-index: 1;
+
+    }
 }
+
 

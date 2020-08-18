@@ -16,10 +16,9 @@ class Hero extends Component {
         <h1 className="name-title">Melissa Donegan</h1>
         <p className="hero-desc">Designer and Software Engineer</p>
       </div>
-      {/* <div className="tact-button-cont">
-      <button id="tact-button"><a className="button-text" href="#Contact">Get In Touch</a></button>
-    </div> */}
+      <div className="arrow-cont">
     <div className="arrow"></div>
+    </div>
     </div>
     
       
