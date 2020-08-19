@@ -49,28 +49,16 @@
 .contact-cont .contact-title {
     color:white;
     font-size: 50px;
-    padding-top: 80px;
+    padding-top: 40px;
     display: flex;
 }
-.cont-contain .contact-info .contact-email {
-    font-size: 30px;
-}
-
-// .contact-desc {
-//     line-height: 34px;
-//     width: 40%;
-//     font-size: 20px;
-//     display: flex;
-//     color: white;
-//     margin-left: 150px;
-// }
 
 .cont-button-cont {
     display: flex;
     flex-direction: row-reverse;
 }
 .contact-button {
-    border-color: orange;
+    border-color: darkorange;
     background-color: orange;
     color: white;
     font-size: 18px;
@@ -86,24 +74,21 @@
     margin-left: 150px;
     padding-top: 50px;
 }
-.cont-contain .contact-info {
-    max-width: 40%;
-}
-.cont-contain .contact-info .contact-email {
+
+.cont-contain .contact-email {
     font-size: 35px;
     font-weight: 800;
 }
 
 @media only screen and (max-width: 500px) {
     .contact-cont {
-        margin-left: 20px;
-        width: 90%;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
     }
     .contact-cont .contact-title {
         font-size: 40px;
-        margin-top: 40px;
-        margin-left: 50px;
-        width: 80%;
+        padding-top: 40px;
     }
     
     .contact-button {
@@ -114,12 +99,19 @@
     .cont-contain {
         display: flex;
         flex-direction: column;
-        margin-left: 6%;
+        margin-left: 0;
     }
-    .cont-contain .contact-info .contact-email {
+    .cont-contain .contact-email {
         font-size: 20px;
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
     }
-
+    .cont-contain {
+		display: flex;
+		
+	}
+	
     .circle-anim {
         display: none;
     }
@@ -131,12 +123,7 @@
         flex-direction: column-reverse;
         margin-left: 40px;
     }
-    // .cont-contain .contact-box {
-    //     padding-top: 60px;
-    //     display: flex;
-    //     flex-direction: row;
-    //     margin-left: 30px;
-    // }
+    
 }
 
 
