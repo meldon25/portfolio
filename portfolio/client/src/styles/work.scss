@@ -51,43 +51,37 @@
 
 .cont-cont .project-1 {
 	display: flex;
-	width: 50%;
 	height: auto;
-	margin-top: 100px;
-	margin-left: 150px;
+	margin-top: 80px;
+	margin-left: 180px;
 	margin-bottom: 120px;
+	justify-content: center;
+	color: white;
 }
 
 .cont-cont .project-2 {
-	margin-top: 100px;
+	margin-top: 80px;
 	display: flex;
-	width: 50%;
 	height: auto;
-	margin-left: 40px;
+	margin-left: 100px;
 	margin-bottom: 120px;
+	justify-content: center;
+	color: white;
 }
 
  //images
-.cont-cont .project-1 .project-img img {
+.cont-cont .project-img img {
 	width: 600px;
 	height: 425px;
 	position: relative;
 }
-
-.cont-cont .project-2 .project-img img {
-	width: 600px;
-	height: 425px;
-	position: relative;
-}
-
 
 //desc
-.project-desc {
+ .project-desc {
 	position: absolute;
 	text-align: center;
 	flex-direction: column;
 	display: flex;
-	margin-left: 8%;
 }
 
 .project-title {
@@ -107,22 +101,22 @@
 	margin-top: 60px;
 }
 .github-button {
-	border: 3px solid black;
+	border: 3px solid white;
+	color: white;
 	background-color: transparent;
 	width: 100px;
 	height: 40px;
 	font-size: 16px;
 	font-weight: bold;
-	color: black;
 }
 .link-button {
-	border: 3px solid black;
+	border: 3px solid white;
 	background-color: transparent;
 	width: 100px;
 	height: 40px;
 	font-size: 16px;
 	font-weight: bold;
-	color: black;
+	color: white;
 	margin-right: 45px;
 }
 
@@ -138,6 +132,9 @@
 		display: flex;
 		justify-content: center;
 	}
+	.project-desc {
+		justify-content: center;
+	}
 	.cont-cont {
 		height: auto;
 		width: auto;
@@ -148,18 +145,15 @@
 		font-size: 40px;
 		padding-top: 40px;
 		margin-left: 0;
-		color: orange;
 	}
 	.cont-cont .project-1 { 
 		margin-bottom: 0;
 		margin-left: 0;
-		padding-left: 11%;
 		margin-top: 20px;
 	}
 	.cont-cont .project-2 {
 		margin-top: 5px;
 		margin-left: 0;
-		padding-left: 11%;
 	}
 	.cont-cont .project-1 .project-img img {
 		width: 320px;
@@ -191,12 +185,16 @@
 	width: 90px;
 	height: 35px;
 	font-size: 15px;
+	border: 3px solid white;
+	color: white;
 }
 .link-button {
 	width: 90px;
 	height: 35px;
 	font-size: 15px;
 	margin-right: 20px;
+	border: 3px solid white;
+	color: white;
 }
 
 #Work {
