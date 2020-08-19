@@ -14,10 +14,7 @@ class Contact extends Component {
                 <h2 className="contact-title">Get In Touch</h2>
             </div>
             <div className="cont-contain">
-            <div className="contact-info">
-                {/* <h1 className='contact-git'></h1> */}
                 <p className='contact-email'>melissadonegan25@gmail.com</p>
-                </div>   
                 <div className="circle-anim"></div> 
             <div className="contact-box">
             <input type="hidden" name="form-name" value="contact" />
