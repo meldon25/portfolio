@@ -1,4 +1,5 @@
 import React from 'react'
+import Headroom from 'react-headroom'
 import '../styles/footer.scss'
 
 function Footer() {
@@ -17,8 +18,7 @@ function Footer() {
                     src="https://i.imgur.com/OdQxAzg.png" 
                     className="linkedin"
                     />
-                    </a>
-
+                  </a>
                 </div>
                 <div class="vl"></div>
             </div>
