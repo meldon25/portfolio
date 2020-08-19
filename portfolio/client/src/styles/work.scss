@@ -126,12 +126,15 @@
 	margin-right: 45px;
 }
 
+.work-mobile {
+	display: none;
+}
+
 
 @media only screen and (max-width: 500px) {
 	.work-cont {
-		width: 100%;
-		height: auto;
-		position: absolute;
+		width: auto;
+		height: 100%;
 		display: flex;
 		justify-content: center;
 	}
@@ -145,11 +148,13 @@
 		font-size: 40px;
 		padding-top: 40px;
 		margin-left: 0;
+		color: orange;
 	}
 	.cont-cont .project-1 { 
 		margin-bottom: 0;
 		margin-left: 0;
 		padding-left: 11%;
+		margin-top: 20px;
 	}
 	.cont-cont .project-2 {
 		margin-top: 5px;
@@ -192,6 +197,10 @@
 	height: 35px;
 	font-size: 15px;
 	margin-right: 20px;
+}
+
+#Work {
+	background-image: url("https://i.imgur.com/serztwh.jpg")
 }
 }
 

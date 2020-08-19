@@ -17,6 +17,7 @@ class Work extends Component {
     <video loop muted autoPlay className="fullscreen-lang_video">
         <source autoPlay loop src="https://i.imgur.com/9BNK2wb.mp4" type="video/mp4" />
     </video>
+    {/* <img src="https://i.imgur.com/PFSj4jN.jpg" className="work-mobile" /> */}
 </div>
       <div className="work-cont">
         <h2 className="project-header">Projects</h2>
