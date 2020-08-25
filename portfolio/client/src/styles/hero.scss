@@ -11,17 +11,15 @@
     position: absolute;
     top: 0;
     right: 0;
-    bottom: 0;
     left: 0;
+    bottom: 0;
     overflow: hidden;
     z-index: -100;
 }
 .hero-cont .fullscreen-bg_video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 100%;
+  position: relative;
+  width: 100%;
+  height: auto;
 }
 
 .container {
@@ -34,7 +32,6 @@
 
 .container h1 {
   font-size: 100px;
-  font-family: 'Poppins', sans-serif;
 }
 
 .hero-cont .mobile-photo {
@@ -44,9 +41,7 @@
 .container p {
   font-size: 40px;
   margin-top: 20px;
-  font-family: 'Poppins', sans-serif;
   font-weight: 400;
-
 }
 
 .arrow-cont {
@@ -57,14 +52,13 @@
 .arrow,
 .arrow:before {
   position: absolute;
-  // left: 50%;
 }
   
 
 .arrow {
   width: 30px;
   height: 30px;
-  bottom: 10%;
+  bottom: 18%;
   margin: -20px 0 0 -20px;
   border-left: none;
   border-top: none;
@@ -132,6 +126,16 @@
     display: none;
   }
 
+}
+
+@media only screen and (max-width: 1191px) {
+  .fullscreen-bg_video {
+    display: none;
+  }
+  .hero-cont .mobile-photo {
+    display: flex;
+    max-width: 100%;
+  }
 }
 
 
