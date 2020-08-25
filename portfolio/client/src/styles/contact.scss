@@ -1,15 +1,13 @@
 
 .contact-cont {
-    scroll-behavior: smooth;
     margin-left: 150px; 
-    font-family: 'Poppins', sans-serif;
 }
 
 .contact-box {
     display: flex;
     position: relative;
     flex-direction: row-reverse;
-    margin-right: 15em;
+    margin-right: 14em;
 }
 
 .circle-anim {
@@ -43,7 +41,6 @@
     color: white;
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
 }
 
 .contact-cont .contact-title {
