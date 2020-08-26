@@ -1,5 +1,5 @@
 .hero {
-    height: 90vh;
+    height: 97vh;
 }
 .about {
     height: auto;
@@ -7,12 +7,12 @@
 .languages {
     height: 75vh;
 }
-// .work {
-//     height: 100vh;
-// }
-// .contact {
-//     height: 60vh;
-// }
+.work {
+    height: auto;
+}
+.contact {
+    height: 60vh;
+}
 
 @media only screen and (max-width: 500px) {
     .hero {
@@ -21,9 +21,9 @@
     // .about {
     //     height: 155vh;
     // }
-    .work {
-        height: 103vh;
-    }
+    // .work {
+    //     height: 103vh;
+    // }
     .languages {
         height: 35vh;
     }

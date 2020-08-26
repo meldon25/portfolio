@@ -6,11 +6,7 @@ class Hero extends Component {
   render() {
     return (
       <div className="hero-cont">
-        <div className="fullscreen-bg embed-responsive embed-repsonsive-16by9">
-    {/* <video loop muted autoPlay className="fullscreen-bg_video">
-        <source autoPlay loop src="https://i.imgur.com/EuPkc7A.mp4" type="video/mp4" />
-        <source autoPlay loop src="https://i.imgur.com/oHux9Z2.mp4" type="video/mp4" />
-    </video> */}
+        <div className="fullscreen-bg">
     <video className="fullscreen-bg_video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
     <source src="https://i.imgur.com/oHux9Z2.mp4" type="video/mp4" />
   </video>
