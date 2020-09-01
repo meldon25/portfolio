@@ -14,14 +14,28 @@ class Work extends Component {
     
       <div id="Work">
         <div className="fullscreen-lang">
-    <video loop muted autoPlay className="fullscreen-lang_video">
-        <source autoPlay loop src="https://i.imgur.com/9BNK2wb.mp4" type="video/mp4" />
-    </video>
+    <video className="fullscreen-lang_video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+    <source src="https://i.imgur.com/9BNK2wb.mp4" type="video/mp4" />
+  </video>
 </div>
       <div className="work-cont">
         <h2 className="project-header">Projects</h2>
       </div>
         <div className="cont-cont">
+          <div className="first-project">
+            <div className="project-img">
+              <img src="https://i.imgur.com/1rUYH7N.png" />
+            </div>
+            <div className="project-desc">
+              <h1 className="project-title">nobinary</h1>
+              <p className="lang-con">Wordpress</p>
+            <div className="button-cont">
+            <form action="https://www.nobinary.co">
+              <button className="wp-button" type="submit">Website</button>
+              </form>
+            </div>
+            </div>
+          </div>
           <div className="project-1">
           <div className="project-img">
               <img src="https://i.imgur.com/nMKpCil.jpg" />

@@ -5,7 +5,7 @@
 
 #About {
     background: linear-gradient(#f9ed32,#fbb040);
-    width: 100%;
+    max-width: 100%;
     height: auto;
     color: white;
 }
@@ -94,6 +94,27 @@
         width: 85%;
     }
     
+}
+
+@media only screen and (max-width: 1361px) {
+    .about-header {
+        padding-top: 30px;
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+    .about-cont { 
+        display: flex;
+        flex-direction: column-reverse;
+        height: auto;
+    }
+    .about-cont .photo-box {
+        display: flex;
+        right: 0;
+        position: relative;
+        justify-content: center;
+    }
+
 }
 
 

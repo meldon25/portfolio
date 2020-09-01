@@ -19,6 +19,11 @@ function Footer() {
                     className="linkedin"
                     />
                   </a>
+                  <a href="https://medium.com/@melissadonegan25">
+                      <img src="https://i.imgur.com/if74gA3.png" 
+                      className="medium_icon"
+                      />
+                  </a>
                 </div>
                 <div class="vl"></div>
             </div>
