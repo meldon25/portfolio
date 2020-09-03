@@ -3,13 +3,17 @@
 	scroll-behavior: smooth;
 }
 
+#Work {
+	height: 98vh;
+}
+
 .fullscreen-lang {
 	position: absolute;
 	width: 100%;
 	height: 100%;
     overflow: hidden;
 	z-index: -100;
-	flex-flow: wrap;
+	// flex-flow: wrap;
 }
 
 .fullscreen-lang_video {
@@ -46,7 +50,7 @@
 	margin-left: 5em;
 	margin-right: 5em;
 	padding-top: 3em;
-	padding-bottom: 2em;
+	padding-bottom: 4em;
 	justify-content: space-evenly;
 }
 

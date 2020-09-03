@@ -1,13 +1,13 @@
 
 .contact-cont {
-    margin-left: 150px; 
+    display: flex;
+    justify-content: center; 
 }
 
 .contact-box {
     display: flex;
     position: relative;
-    flex-direction: row-reverse;
-    margin-right: 14em;
+    flex-direction: row;
 }
 
 .circle-anim {
@@ -46,7 +46,7 @@
 .contact-cont .contact-title {
     color:white;
     font-size: 50px;
-    padding-top: 40px;
+    padding-top: 1.5em;
     display: flex;
 }
 
