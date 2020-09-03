@@ -75,5 +75,16 @@
   
 }
 
+@media only screen and (max-width: 1361px) {
+    .skill-bar {
+        display: flex;
+        justify-content: center;
+    }
+    .skills {
+        justify-content: center;
+    }
+
+}
+
 
 
