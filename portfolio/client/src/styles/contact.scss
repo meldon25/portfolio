@@ -17,10 +17,10 @@
 .circle-anim {
     background: linear-gradient(#00ff8f, #00a1ff);
     border-radius: 50%;
-    width: 30vw;
-    height: 50vh;
+    width: 25vw;
+    height: 42vh;
     position: absolute;
-    margin-top: 100px;
+    margin-top: 175px;
 }
 
 .circle-anim-right {
@@ -77,7 +77,8 @@
 }
 
 .cont-contain .contact-email {
-    font-size: 32px;
+    font-size: 35px;
+    padding-top: 30px;
     position: absolute;
     font-weight: 800;
 }
