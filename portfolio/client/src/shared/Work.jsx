@@ -44,7 +44,7 @@ class Work extends Component {
               <h1 className="project-title">NoteBoard</h1>
               <p className="lang-con">React, CSS/Sass, Ruby on Rails</p>
               <div className="button-cont">
-                <form disabled action="https://.surge.sh">
+                <form disabled action="https://noteboard.surge.sh">
                   <button className="link-button">Website</button>
                 </form>
                 <form action="https://github.com/meldon25/noteboard">
