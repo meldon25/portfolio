@@ -10,8 +10,8 @@
     display: flex;
     position: relative;
     justify-content: flex-end;
-    padding-right: 16%;
-    padding-top: 62px;
+    padding-right: 16.5%;
+    padding-top: 32px;
 }
 
 .circle-anim {
@@ -77,18 +77,24 @@
     padding-top: 50px;
 }
 
-.cont-contain .contact-email {
-    font-size: 35px;
-    padding-top: 30px;
-    position: absolute;
+.contact-email {
+    font-size: 32px;
+    display: flex;
     font-weight: 800;
 }
 
 @media only screen and (max-width: 500px) {
     .contact-cont {
         display: flex;
-        justify-content: center;
         margin-left: 0;
+    }
+
+    .contact-box {
+        justify-content: center;
+        padding-right: 0;
+        width: 100%;
+        padding-top: 30px;
+        position: relative;
     }
     .background {
         background: linear-gradient(#34b7fe, #003bbb);
@@ -103,22 +109,20 @@
         height: 30px;
         width: 75px;
     }
-    
+
     .cont-contain {
-        display: flex;
-        flex-direction: column;
-        margin-left: 0;
-    }
-    .cont-contain .contact-email {
-        font-size: 20px;
         display: flex;
         justify-content: center;
-        padding-bottom: 30px;
+        padding-left: 0;
+        padding-top: 0;
+        width: 100%;
     }
-    .cont-contain {
-		display: flex;
-		
-	}
+    .contact-email {
+        font-size: 22px;
+        display: flex;
+        justify-content: center;
+        padding-top: 20px;
+    }
 	
     .circle-anim {
         display: none;
@@ -126,10 +130,6 @@
 
     .circle-anim-right {
         display: none;
-    }
-    .cont-button-cont {
-        flex-direction: column-reverse;
-        margin-left: 40px;
     }
     
 }
