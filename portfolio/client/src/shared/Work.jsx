@@ -13,11 +13,13 @@ class Work extends Component {
     return (
     
       <div id="Work">
-        <div className="fullscreen-lang">
-    <video className="fullscreen-lang_video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+        {/* <div className="fullscreen-lang"> */}
+    {/* <video className="fullscreen-lang_video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
+      <poster className="work_vid-poster" src="https://i.imgur.com/Cefz6oj.png"></poster>
     <source src="https://i.imgur.com/9BNK2wb.mp4" type="video/mp4" />
-  </video>
-</div>
+  </video> */}
+{/* </div> */}
+{/* <img className="work-background" src="https://i.imgur.com/VnseXjP.jpg" /> */}
       <div className="work-cont">
         <h2 className="project-header">Projects</h2>
       </div>

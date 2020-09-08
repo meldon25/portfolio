@@ -4,32 +4,34 @@
 }
 
 #Work {
-	height: 98vh;
-}
-
-.fullscreen-lang {
-	position: absolute;
-	width: 100%;
 	height: 100%;
-    overflow: hidden;
-	z-index: -100;
-	// flex-flow: wrap;
+	background-image: url('https://i.imgur.com/VnseXjP.jpg');
+	background-size: cover;
 }
 
-.fullscreen-lang_video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: 100%;
-  width: auto;
-  height: auto;
-  z-index: 0;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -moz-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
+// .fullscreen-lang {
+// 	position: absolute;
+// 	width: 100%;
+// 	height: 100%;
+//     overflow: hidden;
+// 	z-index: -100;
+// }
+
+// .fullscreen-lang_video {
+//   position: absolute;
+//   top: 50%;
+//   left: 50%;
+//   min-width: 100%;
+//   min-height: 100%;
+//   width: auto;
+//   height: auto;
+//   z-index: 0;
+//   -ms-transform: translateX(-50%) translateY(-50%);
+//   -moz-transform: translateX(-50%) translateY(-50%);
+//   -webkit-transform: translateX(-50%) translateY(-50%);
+//   transform: translateX(-50%) translateY(-50%);
+// }
+
 
 .project-header {
     font-size: 3em;
@@ -51,7 +53,7 @@
 	margin-right: 5em;
 	padding-top: 3em;
 	padding-bottom: 4em;
-	justify-content: space-evenly;
+	justify-content: space-around;
 }
 
 .cont-cont .project-1 {
@@ -79,10 +81,6 @@
 	box-shadow: 0px 1px 4px darkgrey;
 }
 
-
-// .cont-cont .first-project .project-img {
-
-// }
 
 //desc
  .project-desc {
@@ -228,11 +226,8 @@
 	color: white;
 }
 
-#Work {
-	background-image: url("https://i.imgur.com/zvyLXw1.jpg");
-	background-size: cover;
 }
-}
+
 
 	
 	
