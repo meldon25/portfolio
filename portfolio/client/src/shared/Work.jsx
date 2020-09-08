@@ -13,24 +13,18 @@ class Work extends Component {
     return (
     
       <div id="Work">
-        {/* <div className="fullscreen-lang"> */}
-    {/* <video className="fullscreen-lang_video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
-      <poster className="work_vid-poster" src="https://i.imgur.com/Cefz6oj.png"></poster>
-    <source src="https://i.imgur.com/9BNK2wb.mp4" type="video/mp4" />
-  </video> */}
-{/* </div> */}
-{/* <img className="work-background" src="https://i.imgur.com/VnseXjP.jpg" /> */}
       <div className="work-cont">
         <h2 className="project-header">Projects</h2>
       </div>
         <div className="cont-cont">
           <div className="first-project">
             <div className="project-img">
-              <img src="https://i.imgur.com/1rUYH7N.png" />
+              {/* <img src="https://i.imgur.com/1rUYH7N.png" /> */}
+              <img src="https://i.imgur.com/uVIiCPA.png" />
             </div>
             <div className="project-desc">
               <h1 className="project-title">nobinary</h1>
-              <p className="lang-con">Wordpress</p>
+              <p className="lang-con">WordPress</p>
             <div className="button-cont">
             <form action="https://www.nobinary.co">
               <button className="wp-button" type="submit">Website</button>
@@ -40,7 +34,8 @@ class Work extends Component {
           </div>
           <div className="project-1">
           <div className="project-img">
-              <img src="https://i.imgur.com/nMKpCil.jpg" />
+              {/* <img src="https://i.imgur.com/nMKpCil.jpg" /> */}
+              <img src="https://i.imgur.com/lrhWXCK.png" />
             </div>
             <div className="project-desc">
               <h1 className="project-title">NoteBoard</h1>
