@@ -55,8 +55,7 @@
 
 @media only screen and (max-width: 500px) {
     #About {
-        height: auto;
-        width: 100%;
+        // width: 100%;
     }
 
     .about-header {
@@ -71,11 +70,12 @@
         flex-direction: column-reverse;
         height: auto;
         margin-left: 50px;
+        justify-content: center;
     }
 
-    .about-cont .left-side {
-        padding-top: 30px;
-    }
+    // .about-cont .left-side {
+    //     padding-top: 10px;
+    // }
 
     .about-cont .left-side .about-pg {
         width: 85%;
@@ -89,10 +89,10 @@
     }
    
     .about-cont .photo-box {
-        display: flex;
         right: 0;
-        height: 24em;
-        width: 85%;
+        display: none;
+        height: auto;
+        // width: 15em;
     }
     
 }
