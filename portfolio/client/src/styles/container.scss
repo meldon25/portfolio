@@ -19,14 +19,15 @@
     .hero {
         height: 85vh;
     }
-    // .about {
-    //     height: 155vh;
-    // }
+    .about {
+        height: 100%;
+        position: relative;
+    }
     // .work {
     //     height: 103vh;
     // }
     .languages {
-        height: 35vh;
+        height: auto;
     }
     .contact {
         height: auto;
