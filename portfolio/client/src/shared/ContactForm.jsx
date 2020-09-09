@@ -35,6 +35,7 @@ class ContactForm extends Component {
           const { name, email, message } = this.state;
           return (
             <>
+            <div className="circle-contact">
             <form name="contact"
                   className="contact-form"
                   // method="POST"
@@ -61,6 +62,7 @@ class ContactForm extends Component {
                 <button className ="contact-button" type="submit">Send</button>
               </p>
             </form>
+            </div>
             </>
           )
         }

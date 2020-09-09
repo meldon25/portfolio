@@ -16,9 +16,10 @@ class Contact extends Component {
 
             <div className="contact-cont">
                 <h2 className="contact-title">Get In Touch</h2>
+                <p className='contact-email'>melissadonegan25@gmail.com</p>
             </div>
             <div className="cont-contain">
-                <p className='contact-email'>melissadonegan25@gmail.com</p>
+                
                 <Fade left>
                 <div className="circle-anim"></div>
                 </Fade>

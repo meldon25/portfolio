@@ -3,14 +3,13 @@
 }
 .contact-cont {
     display: flex;
+    flex-direction: column;
     justify-content: center; 
 }
 
 .contact-box {
     display: flex;
     position: relative;
-    justify-content: flex-end;
-    padding-right: 16.5%;
     padding-top: 20px;
 }
 
@@ -20,18 +19,8 @@
     width: 28vw;
     height: 45vh;
     position: absolute;
-    margin-top: 175px; 
-}
-
-
-.circle-anim-right {
-    background: linear-gradient(#00ff8f, #00a1ff);
-    border-radius: 50%;
-    width: 36.2vw;
-    height: 59vh;
-    position: absolute;
-    right: 10%;
-    top: 17%;
+    margin-top: 145px; 
+    margin-left: 150px;
 }
 
 .background {
@@ -52,6 +41,8 @@
     color:white;
     font-size: 50px;
     padding-top: 1.5em;
+    padding-bottom: 1em;
+    padding-left: 150px;
     display: flex;
 }
 
@@ -70,17 +61,12 @@
     margin-top: 20px;
 }
 
-.cont-contain {
-    display: flex;
-    flex-direction: column;
-    padding-top: 50px;
-    padding-left: 10%;
-}
 
-.contact-email {
-    font-size: 32px;
+.contact-cont .contact-email {
+    font-size: 33px;
     display: flex;
     font-weight: 800;
+    padding-left: 150px;
 }
 
 @media only screen and (max-width: 500px) {

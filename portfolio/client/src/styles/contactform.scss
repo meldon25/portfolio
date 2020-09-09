@@ -1,9 +1,21 @@
  .contact-form {
-     display: flex;
-     flex-direction: column;
-     font-family: 'Poppins',sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Poppins',sans-serif;
+    padding-left: 80px;
+    padding-top: 90px;
  }
 
+.circle-contact {
+     background: linear-gradient(#00ff8f, #00a1ff);
+    border-radius: 50%;
+    width: 36.2vw;
+    height: 59vh;
+    position: absolute;
+    display: flex;
+    right: 10%;
+    top: 10%;
+}
 
 .message {
     display: flex;
