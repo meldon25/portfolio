@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import '../styles/contactform.scss'
+import Fade from 'react-reveal/Fade'
 
 
 
@@ -35,6 +36,7 @@ class ContactForm extends Component {
           const { name, email, message } = this.state;
           return (
             <>
+            <Fade right>
             <div className="circle-contact">
             <form name="contact"
                   className="contact-form"
@@ -63,6 +65,7 @@ class ContactForm extends Component {
               </p>
             </form>
             </div>
+            </Fade>
             </>
           )
         }
