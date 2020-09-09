@@ -25,7 +25,7 @@ class Languages extends Component {
                <ul className='right-skills'>
                    <li>Node.js</li>
                     <li>Express</li>
-                    <li>Wordpress</li>
+                    <li>WordPress</li>
                     <li>Shopify</li>
                </ul>
             </div>

@@ -18,8 +18,7 @@ class Contact extends Component {
                 <h2 className="contact-title">Get In Touch</h2>
                 <p className='contact-email'>melissadonegan25@gmail.com</p>
             </div>
-            <div className="cont-contain">
-                
+            <div className="cont-contain">  
                 <Fade left>
                 <div className="circle-anim"></div>
                 </Fade>

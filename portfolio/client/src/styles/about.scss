@@ -12,12 +12,12 @@
 
 
 .about-cont { 
-    margin-left: 100px;
+    margin-left: 6%;
     margin-top: 40px;
     display: flex;
-    flex-direction: row;
+    // flex-direction: row;
     max-width: 100%;
-    height: auto;
+    max-height: 100%;
 }
 
 .about-cont .left-side {
@@ -27,16 +27,17 @@
 
 .about-cont .right-side {
     display: flex;
+    min-width: 40%;
 }
 
 .about-header {
     font-size: 55px;
-    margin-left: 100px;
+    margin-left: 6%;
     padding-top: 150px;
 }
 
 .about-cont .left-side .about-pg {
-   width: 50%;
+   max-width: 60%;
    margin-bottom: 10px;
    font-size: 18px;
    font-weight: 600;
@@ -47,9 +48,8 @@
 .about-cont .photo-box {
     height: 29em;
     width: 23em;
-    position: relative;
+    position: absolute;
     display: flex;
-    right: 55%;
 }
 
 
@@ -68,8 +68,9 @@
     .about-cont { 
         display: flex;
         flex-direction: column-reverse;
-        height: auto;
-        margin-left: 50px;
+        height: 100%;
+        width: 100%;
+        // margin-left: 10%;
         margin-top: 20px;
         justify-content: center;
     }
@@ -79,14 +80,16 @@
     // }
 
     .about-cont .left-side .about-pg {
-        width: 85%;
+        min-width: 85%;
         font-size: 16px;
         margin-top: 10px;
+        margin-left: 3%;
     }
 
 
     .about-cont .right-side .photo-cont {
-        display: flex;
+        display: none;
+        width: 0;
     }
    
     .about-cont .photo-box {
