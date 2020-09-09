@@ -3,29 +3,28 @@
     flex-direction: column;
     font-family: 'Poppins',sans-serif;
     padding-left: 80px;
-    padding-top: 90px;
+    padding-top: 110px;
  }
 
 .circle-contact {
-     background: linear-gradient(#00ff8f, #00a1ff);
+    background: linear-gradient(#00ff8f, #00a1ff);
     border-radius: 50%;
     width: 36.2vw;
     height: 59vh;
     position: absolute;
     display: flex;
     right: 10%;
-    top: 10%;
 }
 
 .message {
     display: flex;
     flex-direction: column;
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 800;
 }
 
 .form-title {
-    font-size: 17px;
+    font-size: 18px;
     font-weight: 800;
 }
 
@@ -68,5 +67,19 @@ textarea::placeholder {
     label {
         margin-left: 0px;
     }
+
+    .circle-contact {
+        background: none;
+        border-radius: 0;
+        position: absolute;
+        display: flex;
+    }
+
+    .contact-form {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        padding-top: 60px;
+     }
 }
 
