@@ -14,7 +14,7 @@ class Hero extends Component {
     <img className="mobile-photo" src="https://i.imgur.com/K7f6QLP.jpg"/>
       <div className="container">
         <h1 className="name-title">Melissa Donegan</h1>
-        <p className="hero-desc">Designer and Software Engineer</p>
+        <p className="hero-desc">Software Engineer + Designer</p>
       </div>
       <div className="arrow-cont">
     <div className="arrow"></div>
