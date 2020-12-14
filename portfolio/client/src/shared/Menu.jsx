@@ -45,6 +45,7 @@ export default class Menu extends Component {
           <Link className="link" to="#Contact">
               Contact
           </Link>
+          <a className="link" href="https://drive.google.com/file/d/1Bw1dOn66QGcj4dLepDiDYY0lmKoQsuc5/view?usp=sharing">Resume</a>
         </h2>
       </div>
       </div>
