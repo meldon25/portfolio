@@ -38,13 +38,13 @@ class Work extends Component {
               <img src="https://i.imgur.com/lrhWXCK.png" />
             </div>
             <div className="project-desc">
-              <h1 className="project-title">NoteBoard</h1>
-              <p className="lang-con">React, CSS/Sass, Ruby on Rails</p>
+              <h1 className="project-title">Van Gogh Timeline</h1>
+              <p className="lang-con">HTML, CSS, JavaScript</p>
               <div className="button-cont">
-                <form disabled action="https://noteboard.surge.sh">
+                <form disabled action="http://van-gogh.surge.sh">
                   <button className="link-button">Website</button>
                 </form>
-                <form action="https://github.com/meldon25/noteboard">
+                <form action="https://github.com/meldon25/vangogh">
                   <button className="github-button" type="submit">Github</button>
                 </form>
               </div>
