@@ -19,6 +19,7 @@ class MenuContainer extends React.Component {
 
         console.log('Clicked');
         e.stopPropagation();
+        
     }
 
     toggleMenu() {
