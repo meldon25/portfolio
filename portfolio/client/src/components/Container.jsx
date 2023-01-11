@@ -9,7 +9,7 @@ import Footer from '../shared/Footer'
 import "../styles/container.scss"
 
 
-class Container extends React.Component {
+export function Container(): JSX.Element {
     constructor() {
     super()
     }
