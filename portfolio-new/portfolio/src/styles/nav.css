@@ -1,0 +1,28 @@
+.c-hamburger-menu {
+	cursor: pointer;
+	display: flex;
+	margin-top: 20px;
+	z-index: 1;
+}
+
+.hamburger-button {
+	position: absolute;
+    cursor: pointer;
+    display: flex;
+    height: auto;
+    margin-top: 30px;
+    right: 60px;
+    transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+    width: 45px;
+}
+
+.mobile-hamburger-button {
+	position: absolute;
+    cursor: pointer;
+    display: flex;
+    height: auto;
+    margin-top: 30px;
+    right: 60px;
+    transition: all .2s cubic-bezier(0, 1.26, .8, 1.28);
+    width: 35px;
+}

@@ -18,7 +18,7 @@ export function Hero() {
                     <h1 className='c-name-title'>Melissa Donegan</h1>
                     <p className='c-hero-desc'>Software Engineer + Designer</p>
                 </div>
-                <div className='c-arrow-container'>
+                <div className={ isSmallerDevice ? 'c-mobile-arrow-container' : 'c-arrow-container'}>
                     <div className='c-arrow'></div>
                 </div>
             </div>

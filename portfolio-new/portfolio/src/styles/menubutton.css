@@ -1,0 +1,31 @@
+.bar1, .bar2, .bar3 {
+	background-color: #fff;
+	border-radius: 3px;
+	height: 6px;
+	margin: 6px 0;
+	transition: 0.2s;
+	width: 35px;
+}
+
+.container {
+	display: block;
+	width: 35px;
+	opacity: .8;
+	transition: 0.2s;
+  }
+  
+.container:hover {
+	opacity: 1;
+  }
+  
+.close .bar1 {
+	-webkit-transform: translate(0px, 12px) rotate(-45deg);
+	transform: translate(0px, 12px) rotate(-45deg);
+  }
+  
+.close .bar2 {opacity: 0;}
+  
+.close .bar3 {
+	-webkit-transform: translate(0, -12px) rotate(45deg); 
+	transform: translate(0, -12px) rotate(45deg);
+}

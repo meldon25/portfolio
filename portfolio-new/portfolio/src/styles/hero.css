@@ -33,7 +33,7 @@
 	flex-direction: column;
 	font-family: 'Poppins', sans-serif;
 	justify-content: center;
-	margin-top: 16em;
+	margin-top: 14em;
 }
 
 .c-mobile-text-container {
@@ -43,7 +43,7 @@
 	flex-direction: column;
 	font-family: 'Poppins', sans-serif;
 	justify-content: center;
-	margin-top: 13em;
+	margin-top: 10em;
 }
 
 .c-text-container .c-name-title {
@@ -59,11 +59,18 @@
 .c-arrow-container {
 	display: flex;
   	justify-content: center;
+	margin-top: 5em;
+}
+
+.c-mobile-arrow-container {
+	display: flex;
+  	justify-content: center;
+	margin-top: 10em;
 }
 
 .c-arrow,
 .c-arrow:before {	
-  position: absolute;
+	position: static;
 }
 
 .c-arrow {
@@ -90,6 +97,7 @@
 	content: '';
 	height: 20px;
 	margin: -10px 0 0 -10px;
+	position: absolute;
 	width: 20px;
 }
 
