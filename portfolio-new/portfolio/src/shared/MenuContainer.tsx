@@ -19,11 +19,13 @@ export function MenuContainer() {
                 <a href="#">About</a>
                 <a href="#">Projects</a>
                 <a href="#">Contact</a>
+                <a type="button" className="resume-button" href="https://drive.google.com/file/d/1Bw1dOn66QGcj4dLepDiDYY0lmKoQsuc5/view?usp=sharing">Resume</a>
             </div>
             <div className={open && isSmallerDevice ? 'open-mobile' : 'closed'}>
                 <a href="#">About</a>
                 <a href="#">Projects</a>
                 <a href="#">Contact</a>
+                <a type="button" className="resume-button" href="https://drive.google.com/file/d/1Bw1dOn66QGcj4dLepDiDYY0lmKoQsuc5/view?usp=sharing">Resume</a>
             </div>
         </div>
     )

@@ -67,9 +67,29 @@
     display: none;
 }
 
-.menubutton{
+.menubutton {
   position: absolute;
   top: 10px;
   right: 20px;
   z-index: 2;
+}
+
+.open .resume-button {
+  align-items: center;
+	background-color: transparent;
+  border: 3px solid white;
+	height: 1.2em;
+  display: flex;
+  margin: 8px 8px 8px 90px;
+  width: 5em;
+}
+
+.open-mobile .resume-button {
+  align-items: center;
+	background-color: transparent;
+  border: 3px solid white;
+	height: 1.2em;
+  display: flex;
+  margin: 8px 8px 8px 160px;
+  width: 5em;
 }
