@@ -5,11 +5,11 @@
 .c-hero-container .c-fullscreen-bg {
 	bottom: 0;
 	left: 0;
-	overflow: hidden;
 	position: absolute;
 	right: 0;
 	top: 0;
 	z-index: -100;
+	width: auto;
 }
 
 .c-hero-container .c-fullscreen-bg .c-fullscreen-bg_video {
@@ -33,7 +33,7 @@
 	flex-direction: column;
 	font-family: 'Poppins', sans-serif;
 	justify-content: center;
-	margin-top: 14em;
+	margin: 14em 0 12.5em 0;
 }
 
 .c-mobile-text-container {
@@ -43,7 +43,7 @@
 	flex-direction: column;
 	font-family: 'Poppins', sans-serif;
 	justify-content: center;
-	margin-top: 10em;
+	padding-top: 140px;
 }
 
 .c-text-container .c-name-title {
@@ -53,19 +53,18 @@
 .c-text-container .c-hero-desc {
 	font-size: 40px;
 	font-weight: 400;
-	margin-top: 20px;
+	margin-top: 16px;
 }
 
 .c-arrow-container {
 	display: flex;
   	justify-content: center;
-	margin-top: 5em;
 }
 
 .c-mobile-arrow-container {
 	display: flex;
   	justify-content: center;
-	margin-top: 10em;
+	margin-top: 8em;
 }
 
 .c-arrow,
@@ -75,10 +74,8 @@
 
 .c-arrow {
 	border-bottom: 3px white solid;
-	border-left: none;
 	border-right: 3px white solid;
 	border-top: none;
-	bottom: 18%;
 	height: 30px;
 	margin: -20px 0 0 -20px;
 	transform: rotate(45deg);

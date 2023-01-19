@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import '../styles/menubutton.css'
 
-export function MenuButton() {
+export function MenuButton(): JSX.Element {
 
     const [ open, setOpen ] = useState<boolean>(false)
 

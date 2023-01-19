@@ -1,0 +1,45 @@
+.main-about {
+    background: linear-gradient(#f9ed32,#fbb040);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+.about-cont { 
+    margin-left: 80px;
+    display: flex;
+    flex-direction: row;
+    max-width: 720px;
+    justify-content: space-between;
+}
+
+.about-cont .left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-cont .right-side {
+    display: flex;
+}
+
+.about-header {
+    font-size: 55px;
+    margin-left: 80px;
+    padding-top: 50px;
+}
+
+.about-cont .left-side .about-pg {
+    width: 550px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.about-cont .photo-box {
+    height: 29em;
+    width: 23em;
+    position: absolute;
+    display: flex;
+}

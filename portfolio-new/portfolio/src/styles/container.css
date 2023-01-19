@@ -1,3 +1,7 @@
 .hero {
-    height: 97vh;
+    max-height: 73vh;
+}
+
+.about {
+    height: 75vh;
 }
