@@ -1,32 +1,50 @@
 .main-about {
     background: linear-gradient(#f9ed32,#fbb040);
+    opacity: 0.9;
     color: white;
     font-family: 'Poppins', sans-serif;
-	left: 0;
 	position: absolute;
-	right: 0;
+    height: 85vh;
+    width: 100%;
 }
 
 .about-cont { 
-    margin-left: 80px;
     display: flex;
     flex-direction: row;
-    max-width: 720px;
     justify-content: space-between;
+    position: absolute;
 }
 
 .about-cont .left-side {
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
+}
+
+.about-cont .left-side-mobile {
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
 }
 
 .about-cont .right-side {
     display: flex;
+    background-color: #f00;
+}
+
+.about-cont .mobile-photo {
+    display: none;
 }
 
 .about-header {
     font-size: 55px;
     margin-left: 80px;
+    padding-top: 50px;
+}
+
+.about-header-mobile {
+    font-size: 35px;
+    margin-left: 60px;
     padding-top: 50px;
 }
 

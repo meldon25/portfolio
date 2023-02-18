@@ -1,11 +1,15 @@
+import { useWindowSize } from '../hooks/useWindowSize'
 import '../styles/about.css'
 
 export function About(): JSX.Element {
+
+    const { isSmallerDevice } = useWindowSize()
+
     return (
         <section className="main-about">
-        <h2 className="about-header">About Me</h2>
+        <h2 className={ isSmallerDevice ? 'about-header-mobile' : 'about-header'}>About Me</h2>
             <div className="about-cont">
-            <div className="left-side">
+            <div className={ isSmallerDevice ? 'left-side-mobile' : 'left-side'}>
                 <p className="about-pg">I'm a software engineer and designer who is
                 dedicated to designing and developing cutting-edge software for companies 
                 to use, so they can focus on growing their business.</p>
@@ -21,9 +25,9 @@ export function About(): JSX.Element {
                 execution of their brand vision. 
                 </p>
             </div>
-            <div className="right-side">
+            <div className={ isSmallerDevice ? 'mobile-photo' : 'right-side'}>
                 <div className="photo-cont">
-                    <img className="photo-box" src="https://i.imgur.com/jKaDrJM.jpg" />
+                    <img className="photo-box" src="https://i.imgur.com/jKaDrJM.jpg" alt='Mel' />
                 </div>
             </div>
         </div>
